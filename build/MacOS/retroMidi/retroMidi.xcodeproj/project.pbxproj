@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBBF05960F61CD3C004A6CF2 /* libretroBase.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBF05950F61CD3C004A6CF2 /* libretroBase.dylib */; };
+		BBBF05A00F61CD75004A6CF2 /* MIDIFileDoc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF05970F61CD75004A6CF2 /* MIDIFileDoc.cpp */; };
+		BBBF05A10F61CD75004A6CF2 /* MIDIFileDoc.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF05980F61CD75004A6CF2 /* MIDIFileDoc.h */; };
+		BBBF05A20F61CD75004A6CF2 /* MIDIProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF05990F61CD75004A6CF2 /* MIDIProperty.cpp */; };
+		BBBF05A30F61CD75004A6CF2 /* MIDIProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF059A0F61CD75004A6CF2 /* MIDIProperty.h */; };
+		BBBF05A40F61CD75004A6CF2 /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF059B0F61CD75004A6CF2 /* resource.h */; };
+		BBBF05A50F61CD75004A6CF2 /* retroMidi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF059C0F61CD75004A6CF2 /* retroMidi.cpp */; };
+		BBBF05A60F61CD75004A6CF2 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF059D0F61CD75004A6CF2 /* stdafx.cpp */; };
+		BBBF05A70F61CD75004A6CF2 /* stdafx.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF059E0F61CD75004A6CF2 /* stdafx.h */; };
+		BBBF05A80F61CD75004A6CF2 /* Version.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF059F0F61CD75004A6CF2 /* Version.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32BAE0B70371A74B00C91783 /* retroMidi_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = retroMidi_Prefix.pch; sourceTree = "<group>"; };
+		5073E0C609E734A800EC74B6 /* retroMidiProj.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = retroMidiProj.xcconfig; sourceTree = "<group>"; };
+		5073E0C709E734A800EC74B6 /* retroMidiTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = retroMidiTarget.xcconfig; sourceTree = "<group>"; };
+		50B2938909F016FC00694E55 /* retroMidiPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = retroMidiPriv.h; sourceTree = "<group>"; };
+		BBBF05950F61CD3C004A6CF2 /* libretroBase.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libretroBase.dylib; path = ../retroBase/build/Release/libretroBase.dylib; sourceTree = SOURCE_ROOT; };
+		BBBF05970F61CD75004A6CF2 /* MIDIFileDoc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIDIFileDoc.cpp; path = ../../../retroMidi/MIDIFileDoc.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF05980F61CD75004A6CF2 /* MIDIFileDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIDIFileDoc.h; path = ../../../retroMidi/MIDIFileDoc.h; sourceTree = SOURCE_ROOT; };
+		BBBF05990F61CD75004A6CF2 /* MIDIProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIDIProperty.cpp; path = ../../../retroMidi/MIDIProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF059A0F61CD75004A6CF2 /* MIDIProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIDIProperty.h; path = ../../../retroMidi/MIDIProperty.h; sourceTree = SOURCE_ROOT; };
+		BBBF059B0F61CD75004A6CF2 /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = resource.h; path = ../../../retroMidi/resource.h; sourceTree = SOURCE_ROOT; };
+		BBBF059C0F61CD75004A6CF2 /* retroMidi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = retroMidi.cpp; path = ../../../retroMidi/retroMidi.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF059D0F61CD75004A6CF2 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stdafx.cpp; path = ../../../retroMidi/stdafx.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF059E0F61CD75004A6CF2 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stdafx.h; path = ../../../retroMidi/stdafx.h; sourceTree = SOURCE_ROOT; };
+		BBBF059F0F61CD75004A6CF2 /* Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Version.h; path = ../../../retroMidi/Version.h; sourceTree = SOURCE_ROOT; };
+		D2AAC09D05546B4700DB518D /* libretroMidi.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libretroMidi.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC09B05546B4700DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBF05960F61CD3C004A6CF2 /* libretroBase.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DDFF38A45A11DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC09D05546B4700DB518D /* libretroMidi.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* retroMidi */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0CA09E734BC00EC74B6 /* Configuration Files */,
+				08FB77ACFE841707C02AAC07 /* Source */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DDFF38A45A11DB9C8B /* Products */,
+			);
+			name = retroMidi;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF05950F61CD3C004A6CF2 /* libretroBase.dylib */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77ACFE841707C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF05970F61CD75004A6CF2 /* MIDIFileDoc.cpp */,
+				BBBF05980F61CD75004A6CF2 /* MIDIFileDoc.h */,
+				BBBF05990F61CD75004A6CF2 /* MIDIProperty.cpp */,
+				BBBF059A0F61CD75004A6CF2 /* MIDIProperty.h */,
+				BBBF059B0F61CD75004A6CF2 /* resource.h */,
+				BBBF059C0F61CD75004A6CF2 /* retroMidi.cpp */,
+				BBBF059D0F61CD75004A6CF2 /* stdafx.cpp */,
+				BBBF059E0F61CD75004A6CF2 /* stdafx.h */,
+				BBBF059F0F61CD75004A6CF2 /* Version.h */,
+				32BAE0B70371A74B00C91783 /* retroMidi_Prefix.pch */,
+				50B2938909F016FC00694E55 /* retroMidiPriv.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		5073E0CA09E734BC00EC74B6 /* Configuration Files */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0C609E734A800EC74B6 /* retroMidiProj.xcconfig */,
+				5073E0C709E734A800EC74B6 /* retroMidiTarget.xcconfig */,
+			);
+			name = "Configuration Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC09905546B4700DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBF05A10F61CD75004A6CF2 /* MIDIFileDoc.h in Headers */,
+				BBBF05A30F61CD75004A6CF2 /* MIDIProperty.h in Headers */,
+				BBBF05A40F61CD75004A6CF2 /* resource.h in Headers */,
+				BBBF05A70F61CD75004A6CF2 /* stdafx.h in Headers */,
+				BBBF05A80F61CD75004A6CF2 /* Version.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC09C05546B4700DB518D /* retroMidi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "retroMidi" */;
+			buildPhases = (
+				D2AAC09905546B4700DB518D /* Headers */,
+				D2AAC09B05546B4700DB518D /* Frameworks */,
+				D2AAC09A05546B4700DB518D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = retroMidi;
+			productName = libretroMidi;
+			productReference = D2AAC09D05546B4700DB518D /* libretroMidi.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB916408733D950010E9CD /* Build configuration list for PBXProject "retroMidi" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* retroMidi */;
+			productRefGroup = 034768DDFF38A45A11DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC09C05546B4700DB518D /* retroMidi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC09A05546B4700DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBF05A00F61CD75004A6CF2 /* MIDIFileDoc.cpp in Sources */,
+				BBBF05A20F61CD75004A6CF2 /* MIDIProperty.cpp in Sources */,
+				BBBF05A50F61CD75004A6CF2 /* retroMidi.cpp in Sources */,
+				BBBF05A60F61CD75004A6CF2 /* stdafx.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB916108733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* retroMidiTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /tmp/code.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = retroMidi_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				INSTALL_PATH = /usr/local/libexec/Retro/validators;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../retroBase/build/Release\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		1DEB916208733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* retroMidiTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = retroMidi_Prefix.pch;
+				INSTALL_PATH = /usr/local/libexec/Retro/validators;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../retroBase/build/Release\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		1DEB916508733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* retroMidiProj.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB916608733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* retroMidiProj.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "retroMidi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916108733D950010E9CD /* Debug */,
+				1DEB916208733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB916408733D950010E9CD /* Build configuration list for PBXProject "retroMidi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916508733D950010E9CD /* Debug */,
+				1DEB916608733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

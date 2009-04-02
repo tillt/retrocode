@@ -1,0 +1,422 @@
+#                                               -*- Autoconf -*-
+# Process this file with autoconf to produce a configure script.
+# ----------------------------------------------------------------
+# RetroCode SDK Autoconf
+# $Revision: 1.7 $
+# 
+# Written 2007 by Vinicous Kursancew
+# Updated 2008 by Till Toenshoff
+# ----------------------------------------------------------------
+
+AC_PREREQ(2.52)
+AC_INIT(retrocode_sdk, 1.00, info@mmsguru.com)
+AC_REVISION([$Revision: 1.7 $])
+AM_INIT_AUTOMAKE(retrocode_sdk, 1.00)
+AC_CONFIG_SRCDIR([config.h.in])
+AC_CONFIG_HEADER([config.h])
+AC_CONFIG_MACRO_DIR([m4])
+AC_LIBTOOL_WIN32_DLL
+AC_PROG_LIBTOOL
+
+AC_ARG_ENABLE(mpeg,
+[  --disable-mpeg          disables the retroMpeg formats],
+[if test "x$enableval" = "xno"; then
+   has_mpeg=no
+ fi
+]
+)
+
+AC_ARG_ENABLE(wave,
+[  --disable-wave          disables the retroWave formats],
+[if test "x$enableval" = "xno"; then
+   has_wav=no
+ fi
+]
+)
+
+AC_ARG_ENABLE(apple,
+[  --disable-apple         disables the retroApple formats],
+[if test "x$enableval" = "xno"; then
+   has_aif=no
+ fi
+]
+)
+
+AC_ARG_ENABLE(g711,
+[  --disable-g711          disables the retroG711 formats],
+[if test "x$enableval" = "xno"; then
+   has_g711=no
+ fi
+]
+)
+
+AC_ARG_ENABLE(panasonic,
+[  --disable-panasonic     disables the retroPanasonic formats],
+[if test "x$enableval" = "xno"; then
+   has_panasonic=no
+ fi
+]
+)
+
+AC_ARG_ENABLE(qualcomm,
+[  --disable-qualcomm      disables the retroQualcomm formats],
+[if test "x$enableval" = "xno"; then
+   has_qualcomm=no
+ fi
+]
+)
+
+AC_ARG_ENABLE(beatnik,
+[  --disable-beatnik       disables the retroBeatnik formats],
+[if test "x$enableval" = "xno"; then
+   has_rmf=no
+ fi
+]
+)
+
+AC_ARG_ENABLE(yamaha,
+[  --disable-yamaha        disables the retroYamaha formats],
+[if test "x$enableval" = "xno"; then
+   has_mmf=no
+ fi
+]
+)
+
+AC_ARG_ENABLE(graphics,
+[  --disable-graphics      disables the retroGraphics formats],
+[if test "x$enableval" = "xno"; then
+   has_graphix=no
+ fi
+]
+)
+
+AC_ARG_ENABLE(mono,
+[  --disable-mono          disables the retroMono formats],
+[if test "x$enableval" = "xno"; then
+   has_mono=no
+ fi
+]
+)
+
+AC_ARG_ENABLE(midi,
+[  --disable-midi          disables the retroMidi formats],
+[if test "x$enableval" = "xno"; then
+   has_midi=no
+ fi
+]
+)
+
+AC_ARG_ENABLE(theme,
+[  --disable-theme         disables the retroTheme formats],
+[if test "x$enableval" = "xno"; then
+   has_theme=no
+ fi
+]
+)
+
+
+# Checks for programs.
+AC_PROG_CXX
+AC_PROG_CC
+
+# Checks for libraries.
+AC_CHECK_LIB(dl, dlsym, , has_libdl=no)
+
+# Checks for header files.
+AC_CHECK_HEADERS(zlib.h, [AC_CHECK_LIB(z,uncompress)], break)
+
+AC_CHECK_HEADERS(mpeg4ip_version.h, [], has_mpeg=no)
+
+AC_CHECK_HEADERS(ismacryplib.h, [], has_mpeg=no)
+
+AC_CHECK_HEADERS(lame/lame.h, [], has_mpeg=no)
+AC_CHECK_HEADERS(mad.h, [] , has_mpeg=no)
+AC_CHECK_HEADERS(id3.h, [] , has_mpeg=no)
+
+AC_CHECK_HEADERS(faac.h, [], has_mpeg=no)
+AC_CHECK_HEADERS(faad.h, [], has_mpeg=no)
+#AC_CHECK_HEADERS(mp4ff/mp4ff.h, [], has_mpeg=no)
+AC_CHECK_HEADERS(mp4ff.h, [], has_mpeg=no)
+
+AC_CHECK_HEADERS(amrwb/typedef.h, [], has_mpeg=no)
+AC_CHECK_HEADERS(amrnb/typedef.h, [], has_mpeg=no)
+
+AC_CHECK_HEADERS(ffmpeg/avutil.h, [], has_ffmpeg=no)
+if test x$has_ffmpeg != xno; then
+  AC_CHECK_HEADERS(ffmpeg/avcodec.h, [], has_mpeg=no) 
+  AC_CHECK_HEADERS(ffmpeg/avformat.h, [], has_mpeg=no)
+else
+  echo "you should upgrade to a more recent ffmpeg version (include files located at ../include/ffmpeg/...)";
+fi
+
+if test x$has_mpeg != xno; then
+  AC_CHECK_LIB(mp3lame, lame_init, ,has_mpeg=no)
+  AC_CHECK_LIB(mad,mad_decoder_init, ,has_mpeg=no)
+  AC_CHECK_LIB(id3, main, ,has_mpeg=no)
+  AC_CHECK_LIB(faac, faacEncOpen, ,has_mpeg=no)
+  AC_CHECK_LIB(faad, NeAACDecOpen, ,has_mpeg=no)
+  AC_CHECK_LIB(mp4ff, main, ,has_mpeg=no)
+  AC_CHECK_LIB(amrwb, main, ,has_mpeg=no)
+  AC_CHECK_LIB(amrnb, main, ,has_mpeg=no)
+  AC_CHECK_LIB(avutil, av_crc_init, ,has_mpeg=no)
+  AC_CHECK_LIB(avcodec, avcodec_init, ,has_mpeg=no)
+  AC_CHECK_LIB(avformat, av_open_input_stream, ,has_mpeg=no)
+fi
+
+AC_CHECK_HEADERS(gif_lib.h, [AC_CHECK_LIB(gif, DGifOpen)], has_graphix=no)
+AC_CHECK_HEADERS(png.h, [AC_CHECK_LIB(png, png_read_info)], has_graphix=no)
+
+AC_CHECK_HEADERS(jpeglib.h, , has_jpeg=no)
+AC_CHECK_HEADERS(jpeg-6b/jpeglib.h, has_jpeg=no)
+
+if test x$has_jpeg != xno; then
+  AC_CHECK_LIB(jpeg, jpeg_read_header, ,has_graphics=no)
+fi
+
+
+AC_CHECK_HEADERS(unzip/unzip.h, [AC_CHECK_LIB(minizip, unzOpen)], has_theme=no)
+
+AM_CONDITIONAL([FFSRC], [test x$has_mpeg != xno])
+AM_CONDITIONAL([MP3SRC], [test x$has_mpeg != xno])
+AM_CONDITIONAL([MP4SRC], [test x$has_mpeg != xno])
+AM_CONDITIONAL([AACSRC], [test x$has_mpeg != xno])
+AM_CONDITIONAL([AMRSRC], [test x$has_mpeg != xno])
+
+AC_HEADER_STDC
+AC_CHECK_HEADERS([float.h malloc.h netinet/in.h stdlib.h string.h sys/timeb.h])
+
+AC_LANG_PUSH(C++)
+AC_CHECK_HEADERS(qscl.h, [], has_qscl=no)
+AC_LANG_POP(C++)
+
+AC_CHECK_HEADERS(qcelp/celp.h, [AC_CHECK_LIB(qcelp, unpack_cb)], has_qcelpri=no)
+
+if test x$has_qscl != xno; then
+	echo "using QSCL for QCELP en/decoding"
+	has_qualcomm=1;
+	RETROQUALCOMM_CPPFLAGS="-dUSE_QUALCOMM_LIBRARY"
+else
+	if test x$has_qcelpri != xno; then
+		echo "using QCELP Reference Implementation (RetroPatched) for en/decoding"
+		has_qualcomm=1;
+		RETROQUALCOMM_CPPFLAGS=""
+	else
+		has_qualcomm=no;
+	fi
+fi 
+
+RETROMPEG=retroMpeg
+RETROQUALCOMM=retroQualcomm
+RETROBASE=retroBase
+RETROAPPLE=retroApple
+RETROG711=retroG711
+RETROWAVE=retroWave
+RETROBEATNIK=retroBeatnik
+RETROYAMAHA=retroYamaha
+RETROPANASONIC=retroPanasonic
+RETROGRAPHICS=retroGraphics
+RETROMONO=retroMono
+RETROMIDI=retroMidi
+RETROTHEME=retroTheme
+BUILDLIBS=""
+RETROLIBS=""
+
+CODEC_CAPS="Including the following CODEC/VALIDATOR libraries when building and installing....\n"
+
+if test x$has_mmf = xno; then
+  echo "disabling retroYamaha"
+  RETROYAMAHA=
+else
+  CODEC_CAPS="$CODEC_CAPS retroYamaha\n"
+  BUILDLIBS="$BUILDLIBS $(pwd)/retroYamaha/libretroyamaha.la"
+fi
+
+if test x$has_qualcomm = xno; then
+  echo "disabling retroQualcomm"
+  RETROQUALCOMM=
+else
+  CODEC_CAPS="$CODEC_CAPS retroQualcomm\n"
+  BUILDLIBS="$BUILDLIBS $(pwd)/retroQualcomm/libretroqualcomm.la"
+fi
+
+if test x$has_rmf = xno; then
+  echo "disabling retroBeatnik"
+  RETROBEATNIK=
+else
+  CODEC_CAPS="$CODEC_CAPS retroBeatnik\n"
+  BUILDLIBS="$BUILDLIBS $(pwd)/retroBeatnik/libretrobeatnik.la"
+fi
+
+if test x$has_panasonic = xno; then
+  echo "disabling retroPanasonic"
+  RETROPANASONIC=
+else
+  CODEC_CAPS="$CODEC_CAPS retroPanasonic\n"  
+  BUILDLIBS="$BUILDLIBS $(pwd)/retroPanasonic/libretropanasonic.la"
+fi
+
+if test x$has_mpeg = xno; then
+  echo "disabling retroMpeg"
+  RETROMPEG=
+else
+  CODEC_CAPS="$CODEC_CAPS retroMpeg\n"
+  BUILDLIBS="$BUILDLIBS $(pwd)/retroMpeg/libretrompeg.la"
+fi
+
+if test x$has_aif = xno; then
+  echo "disabling retroApple"
+  RETROAPPLE=
+else
+  CODEC_CAPS="$CODEC_CAPS retroApple\n"  
+  BUILDLIBS="$BUILDLIBS $(pwd)/retroApple/libretroapple.la"
+fi
+
+if test x$has_g711 = xno; then
+  echo "disabling retroG711"
+  RETROPANASONIC=
+else
+  CODEC_CAPS="$CODEC_CAPS retroG711\n"
+  BUILDLIBS="$BUILDLIBS $(pwd)/retroG711/libretrog711.la"
+fi
+
+if test x$has_graphix = xno; then
+  echo "disabling retroGraphics"
+  RETROGRAPHICS=
+else
+  CODEC_CAPS="$CODEC_CAPS retroGraphix\n"
+  BUILDLIBS="$BUILDLIBS $(pwd)/retroGraphix/libretrographics.la"
+fi
+
+if test x$has_theme = xno; then
+  echo "disabling retroTheme"
+  RETROTHEME=
+else
+  CODEC_CAPS="$CODEC_CAPS retroTheme\n"
+  BUILDLIBS="$BUILDLIBS $(pwd)/retroTheme/libretrotheme.la"
+fi
+
+if test x$has_mono = xno; then
+  echo "disabling retroMono"
+  RETROMONO=
+else
+  CODEC_CAPS="$CODEC_CAPS retroMono\n"
+  BUILDLIBS="$BUILDLIBS $(pwd)/retroMono/libretromono.la"
+fi
+
+if test x$has_midi = xno; then
+  echo "disabling retroMidi"
+  RETROMIDI=
+else
+  CODEC_CAPS="$CODEC_CAPS retroMidi\n"
+  BUILDLIBS="$BUILDLIBS $(pwd)/retroMidi/libretromidi.la"
+fi
+
+RETROLIBS="$RETROLIBS $(pwd)/retroBase/libretrobase.la"
+BUILDLIBS="$BUILDLIBS $RETROLIBS"
+WILLBUILD=BUILDLIBS
+
+# Checks for typedefs, structures, and compiler characteristics.
+AC_HEADER_STDBOOL
+AC_C_CONST
+AC_C_INLINE
+AC_HEADER_TIME
+
+# Checks for library functions.
+AC_FUNC_MALLOC
+AC_FUNC_MEMCMP
+AC_FUNC_REALLOC
+AC_FUNC_VPRINTF
+AC_CHECK_FUNCS([gettimeofday memmove memset pow sqrt strrchr])
+
+# Guess the dynamic library extension - maybe libtool.m4 should be used instead
+case $host in 
+*-*-darwin*)
+		echo "using MacOSX specifix."
+		RETROBASE_CPPFLAGS="-DDARWIN"
+		RETROLIBEXT="dylib"
+;;
+hpux9* | hpux10* | hpux11*)
+		echo "using HP-Unix specifix."
+		RETROBASE_CPPFLAGS=""
+		RETROLIBEXT="sl"
+;;
+os2*)
+		echo "using OS/2 specifix."
+		RETROBASE_CPPFLAGS=""
+		RETROLIBEXT="dll"
+;;
+cygwin* | mingw* | pw32*)
+		echo "using Windows specifix."
+		RETROBASE_CPPFLAGS="-DWIN32"
+		RETROLIBEXT="dll"
+;;
+*)
+		echo "using Unix specifix."
+		RETROBASE_CPPFLAGS=""
+		RETROLIBEXT="so"
+;;
+esac
+echo "dynamic library extension is .$RETROLIBEXT"
+echo "additional preprocessor flags are set to \"$RETROBASE_CPPFLAGS\""
+
+# Add libdl to the list of linked libraries if available
+if test x$has_libdl = xno; then
+  echo "could not find libdl - hopefully you are using FreeBSD"
+else
+  RETROLIBS="$RETROLIBS -ldl"
+fi
+
+# Render the installation folder for Retro Plugins
+RETROPLUGIN_INSTALL_PREFIX=$libexecdir
+if test $RETROPLUGIN_INSTALL_PREFIX = NONE ; then
+   RETROPLUGIN_INSTALL_PREFIX=`pwd`
+fi
+RETROPLUGIN_INSTALL_PATH=$RETROPLUGIN_INSTALL_PREFIX/Retro
+RETROCODEC_INSTALL_PATH=$RETROPLUGIN_INSTALL_PATH/codecs
+RETROVALIDATOR_INSTALL_PATH=$RETROPLUGIN_INSTALL_PATH/validators
+
+# 
+AC_SUBST(RETROMPEG)
+AC_SUBST(RETROQUALCOMM)
+AC_SUBST(RETROBASE)
+AC_SUBST(RETROAPPLE)
+AC_SUBST(RETROG711)
+AC_SUBST(RETROWAVE)
+AC_SUBST(RETROGRAPHICS)
+AC_SUBST(RETROTHEME)
+AC_SUBST(RETROMONO)
+AC_SUBST(RETROMIDI)
+AC_SUBST(RETROBEATNIK)
+AC_SUBST(RETROYAMAHA)
+AC_SUBST(RETROPANASONIC)
+AC_SUBST(CXXFLAGS)
+AC_SUBST(RETROLIBS)
+AC_SUBST(RETROLDFLAGS)
+AC_SUBST(RETROCODEC_INSTALL_PATH)
+AC_SUBST(RETROVALIDATOR_INSTALL_PATH)
+AC_SUBST(RETROLIBEXT)
+AC_SUBST(RETROBASE_CPPFLAGS)
+AC_SUBST(FFMPEG_INC)
+AC_SUBST(CODEC_CAPS)
+
+#
+AC_CONFIG_FILES([Makefile
+                 retroBase/Makefile
+                 retroWave/Makefile
+                 retroQualcomm/Makefile
+                 retroApple/Makefile
+                 retroG711/Makefile
+                 retroYamaha/Makefile
+                 retroPanasonic/Makefile
+                 retroBeatnik/Makefile
+                 retroMpeg/Makefile
+                 retroGraphics/Makefile
+                 retroTheme/Makefile
+                 retroMidi/Makefile
+                 retroMono/Makefile
+                 fid/Makefile
+                 code/Makefile])
+
+echo "Will build $BUILDLIBS"
+echo "$CODEC_CAPS"
+AC_OUTPUT

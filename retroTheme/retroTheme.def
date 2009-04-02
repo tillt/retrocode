@@ -1,0 +1,6 @@
+LIBRARY		"retroTheme.dll"
+
+EXPORTS
+            pCreateCodecInstance			@1
+			pQueryLibrary					@2
+

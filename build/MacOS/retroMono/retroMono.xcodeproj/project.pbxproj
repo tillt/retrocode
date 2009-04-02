@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBBF01560F61B055004A6CF2 /* EMSFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF013B0F61B055004A6CF2 /* EMSFile.cpp */; };
+		BBBF01570F61B055004A6CF2 /* EMSFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF013C0F61B055004A6CF2 /* EMSFile.h */; };
+		BBBF01580F61B055004A6CF2 /* EMSProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF013D0F61B055004A6CF2 /* EMSProperty.cpp */; };
+		BBBF01590F61B055004A6CF2 /* EMSProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF013E0F61B055004A6CF2 /* EMSProperty.h */; };
+		BBBF015A0F61B055004A6CF2 /* MonoFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF013F0F61B055004A6CF2 /* MonoFile.cpp */; };
+		BBBF015B0F61B055004A6CF2 /* MonoFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF01400F61B055004A6CF2 /* MonoFile.h */; };
+		BBBF015C0F61B055004A6CF2 /* MotorolaFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF01410F61B055004A6CF2 /* MotorolaFile.cpp */; };
+		BBBF015D0F61B055004A6CF2 /* MotorolaFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF01420F61B055004A6CF2 /* MotorolaFile.h */; };
+		BBBF015E0F61B055004A6CF2 /* MotorolaProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF01430F61B055004A6CF2 /* MotorolaProperty.cpp */; };
+		BBBF015F0F61B055004A6CF2 /* MotorolaProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF01440F61B055004A6CF2 /* MotorolaProperty.h */; };
+		BBBF01600F61B055004A6CF2 /* MSEQFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF01450F61B055004A6CF2 /* MSEQFile.cpp */; };
+		BBBF01610F61B055004A6CF2 /* MSEQFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF01460F61B055004A6CF2 /* MSEQFile.h */; };
+		BBBF01620F61B055004A6CF2 /* MSEQProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF01470F61B055004A6CF2 /* MSEQProperty.cpp */; };
+		BBBF01630F61B055004A6CF2 /* MSEQProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF01480F61B055004A6CF2 /* MSEQProperty.h */; };
+		BBBF01640F61B055004A6CF2 /* NokiaFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF01490F61B055004A6CF2 /* NokiaFile.cpp */; };
+		BBBF01650F61B055004A6CF2 /* NokiaFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF014A0F61B055004A6CF2 /* NokiaFile.h */; };
+		BBBF01660F61B055004A6CF2 /* NokiaProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF014B0F61B055004A6CF2 /* NokiaProperty.cpp */; };
+		BBBF01670F61B055004A6CF2 /* NokiaProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF014C0F61B055004A6CF2 /* NokiaProperty.h */; };
+		BBBF01680F61B055004A6CF2 /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF014D0F61B055004A6CF2 /* resource.h */; };
+		BBBF01690F61B055004A6CF2 /* retroMono.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF014E0F61B055004A6CF2 /* retroMono.cpp */; };
+		BBBF016A0F61B055004A6CF2 /* SagemFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF014F0F61B055004A6CF2 /* SagemFile.cpp */; };
+		BBBF016B0F61B055004A6CF2 /* SagemFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF01500F61B055004A6CF2 /* SagemFile.h */; };
+		BBBF016C0F61B055004A6CF2 /* SagemProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF01510F61B055004A6CF2 /* SagemProperty.cpp */; };
+		BBBF016D0F61B055004A6CF2 /* SagemProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF01520F61B055004A6CF2 /* SagemProperty.h */; };
+		BBBF016E0F61B055004A6CF2 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF01530F61B055004A6CF2 /* stdafx.cpp */; };
+		BBBF016F0F61B055004A6CF2 /* stdafx.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF01540F61B055004A6CF2 /* stdafx.h */; };
+		BBBF01700F61B055004A6CF2 /* Version.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF01550F61B055004A6CF2 /* Version.h */; };
+		BBBF021E0F61C33A004A6CF2 /* libretroBase.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBF01390F61B012004A6CF2 /* libretroBase.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32BAE0B70371A74B00C91783 /* retroMono_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = retroMono_Prefix.pch; sourceTree = "<group>"; };
+		5073E0C609E734A800EC74B6 /* retroMonoProj.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = retroMonoProj.xcconfig; sourceTree = "<group>"; };
+		5073E0C709E734A800EC74B6 /* retroMonoTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = retroMonoTarget.xcconfig; sourceTree = "<group>"; };
+		50B2938909F016FC00694E55 /* retroMonoPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = retroMonoPriv.h; sourceTree = "<group>"; };
+		BBBF01390F61B012004A6CF2 /* libretroBase.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; name = libretroBase.dylib; path = ../retroBase/build/Release/libretroBase.dylib; sourceTree = SOURCE_ROOT; };
+		BBBF013B0F61B055004A6CF2 /* EMSFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EMSFile.cpp; path = ../../../retroMono/EMSFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF013C0F61B055004A6CF2 /* EMSFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMSFile.h; path = ../../../retroMono/EMSFile.h; sourceTree = SOURCE_ROOT; };
+		BBBF013D0F61B055004A6CF2 /* EMSProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EMSProperty.cpp; path = ../../../retroMono/EMSProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF013E0F61B055004A6CF2 /* EMSProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMSProperty.h; path = ../../../retroMono/EMSProperty.h; sourceTree = SOURCE_ROOT; };
+		BBBF013F0F61B055004A6CF2 /* MonoFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MonoFile.cpp; path = ../../../retroMono/MonoFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF01400F61B055004A6CF2 /* MonoFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MonoFile.h; path = ../../../retroMono/MonoFile.h; sourceTree = SOURCE_ROOT; };
+		BBBF01410F61B055004A6CF2 /* MotorolaFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MotorolaFile.cpp; path = ../../../retroMono/MotorolaFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF01420F61B055004A6CF2 /* MotorolaFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MotorolaFile.h; path = ../../../retroMono/MotorolaFile.h; sourceTree = SOURCE_ROOT; };
+		BBBF01430F61B055004A6CF2 /* MotorolaProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MotorolaProperty.cpp; path = ../../../retroMono/MotorolaProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF01440F61B055004A6CF2 /* MotorolaProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MotorolaProperty.h; path = ../../../retroMono/MotorolaProperty.h; sourceTree = SOURCE_ROOT; };
+		BBBF01450F61B055004A6CF2 /* MSEQFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MSEQFile.cpp; path = ../../../retroMono/MSEQFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF01460F61B055004A6CF2 /* MSEQFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSEQFile.h; path = ../../../retroMono/MSEQFile.h; sourceTree = SOURCE_ROOT; };
+		BBBF01470F61B055004A6CF2 /* MSEQProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MSEQProperty.cpp; path = ../../../retroMono/MSEQProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF01480F61B055004A6CF2 /* MSEQProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSEQProperty.h; path = ../../../retroMono/MSEQProperty.h; sourceTree = SOURCE_ROOT; };
+		BBBF01490F61B055004A6CF2 /* NokiaFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NokiaFile.cpp; path = ../../../retroMono/NokiaFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF014A0F61B055004A6CF2 /* NokiaFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NokiaFile.h; path = ../../../retroMono/NokiaFile.h; sourceTree = SOURCE_ROOT; };
+		BBBF014B0F61B055004A6CF2 /* NokiaProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NokiaProperty.cpp; path = ../../../retroMono/NokiaProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF014C0F61B055004A6CF2 /* NokiaProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NokiaProperty.h; path = ../../../retroMono/NokiaProperty.h; sourceTree = SOURCE_ROOT; };
+		BBBF014D0F61B055004A6CF2 /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = resource.h; path = ../../../retroMono/resource.h; sourceTree = SOURCE_ROOT; };
+		BBBF014E0F61B055004A6CF2 /* retroMono.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = retroMono.cpp; path = ../../../retroMono/retroMono.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF014F0F61B055004A6CF2 /* SagemFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SagemFile.cpp; path = ../../../retroMono/SagemFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF01500F61B055004A6CF2 /* SagemFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SagemFile.h; path = ../../../retroMono/SagemFile.h; sourceTree = SOURCE_ROOT; };
+		BBBF01510F61B055004A6CF2 /* SagemProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SagemProperty.cpp; path = ../../../retroMono/SagemProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF01520F61B055004A6CF2 /* SagemProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SagemProperty.h; path = ../../../retroMono/SagemProperty.h; sourceTree = SOURCE_ROOT; };
+		BBBF01530F61B055004A6CF2 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stdafx.cpp; path = ../../../retroMono/stdafx.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF01540F61B055004A6CF2 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stdafx.h; path = ../../../retroMono/stdafx.h; sourceTree = SOURCE_ROOT; };
+		BBBF01550F61B055004A6CF2 /* Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Version.h; path = ../../../retroMono/Version.h; sourceTree = SOURCE_ROOT; };
+		D2AAC09D05546B4700DB518D /* libretroMono.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libretroMono.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC09B05546B4700DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBF021E0F61C33A004A6CF2 /* libretroBase.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DDFF38A45A11DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC09D05546B4700DB518D /* libretroMono.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* retroMono */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF01390F61B012004A6CF2 /* libretroBase.dylib */,
+				5073E0CA09E734BC00EC74B6 /* Configuration Files */,
+				08FB77ACFE841707C02AAC07 /* Source */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DDFF38A45A11DB9C8B /* Products */,
+			);
+			name = retroMono;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77ACFE841707C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF013B0F61B055004A6CF2 /* EMSFile.cpp */,
+				BBBF013C0F61B055004A6CF2 /* EMSFile.h */,
+				BBBF013D0F61B055004A6CF2 /* EMSProperty.cpp */,
+				BBBF013E0F61B055004A6CF2 /* EMSProperty.h */,
+				BBBF013F0F61B055004A6CF2 /* MonoFile.cpp */,
+				BBBF01400F61B055004A6CF2 /* MonoFile.h */,
+				BBBF01410F61B055004A6CF2 /* MotorolaFile.cpp */,
+				BBBF01420F61B055004A6CF2 /* MotorolaFile.h */,
+				BBBF01430F61B055004A6CF2 /* MotorolaProperty.cpp */,
+				BBBF01440F61B055004A6CF2 /* MotorolaProperty.h */,
+				BBBF01450F61B055004A6CF2 /* MSEQFile.cpp */,
+				BBBF01460F61B055004A6CF2 /* MSEQFile.h */,
+				BBBF01470F61B055004A6CF2 /* MSEQProperty.cpp */,
+				BBBF01480F61B055004A6CF2 /* MSEQProperty.h */,
+				BBBF01490F61B055004A6CF2 /* NokiaFile.cpp */,
+				BBBF014A0F61B055004A6CF2 /* NokiaFile.h */,
+				BBBF014B0F61B055004A6CF2 /* NokiaProperty.cpp */,
+				BBBF014C0F61B055004A6CF2 /* NokiaProperty.h */,
+				BBBF014D0F61B055004A6CF2 /* resource.h */,
+				BBBF014E0F61B055004A6CF2 /* retroMono.cpp */,
+				BBBF014F0F61B055004A6CF2 /* SagemFile.cpp */,
+				BBBF01500F61B055004A6CF2 /* SagemFile.h */,
+				BBBF01510F61B055004A6CF2 /* SagemProperty.cpp */,
+				BBBF01520F61B055004A6CF2 /* SagemProperty.h */,
+				BBBF01530F61B055004A6CF2 /* stdafx.cpp */,
+				BBBF01540F61B055004A6CF2 /* stdafx.h */,
+				BBBF01550F61B055004A6CF2 /* Version.h */,
+				32BAE0B70371A74B00C91783 /* retroMono_Prefix.pch */,
+				50B2938909F016FC00694E55 /* retroMonoPriv.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		5073E0CA09E734BC00EC74B6 /* Configuration Files */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0C609E734A800EC74B6 /* retroMonoProj.xcconfig */,
+				5073E0C709E734A800EC74B6 /* retroMonoTarget.xcconfig */,
+			);
+			name = "Configuration Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC09905546B4700DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBF01570F61B055004A6CF2 /* EMSFile.h in Headers */,
+				BBBF01590F61B055004A6CF2 /* EMSProperty.h in Headers */,
+				BBBF015B0F61B055004A6CF2 /* MonoFile.h in Headers */,
+				BBBF015D0F61B055004A6CF2 /* MotorolaFile.h in Headers */,
+				BBBF015F0F61B055004A6CF2 /* MotorolaProperty.h in Headers */,
+				BBBF01610F61B055004A6CF2 /* MSEQFile.h in Headers */,
+				BBBF01630F61B055004A6CF2 /* MSEQProperty.h in Headers */,
+				BBBF01650F61B055004A6CF2 /* NokiaFile.h in Headers */,
+				BBBF01670F61B055004A6CF2 /* NokiaProperty.h in Headers */,
+				BBBF01680F61B055004A6CF2 /* resource.h in Headers */,
+				BBBF016B0F61B055004A6CF2 /* SagemFile.h in Headers */,
+				BBBF016D0F61B055004A6CF2 /* SagemProperty.h in Headers */,
+				BBBF016F0F61B055004A6CF2 /* stdafx.h in Headers */,
+				BBBF01700F61B055004A6CF2 /* Version.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC09C05546B4700DB518D /* retroMono */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "retroMono" */;
+			buildPhases = (
+				D2AAC09905546B4700DB518D /* Headers */,
+				D2AAC09B05546B4700DB518D /* Frameworks */,
+				D2AAC09A05546B4700DB518D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = retroMono;
+			productName = libretroMono;
+			productReference = D2AAC09D05546B4700DB518D /* libretroMono.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB916408733D950010E9CD /* Build configuration list for PBXProject "retroMono" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* retroMono */;
+			productRefGroup = 034768DDFF38A45A11DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC09C05546B4700DB518D /* retroMono */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC09A05546B4700DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBF01560F61B055004A6CF2 /* EMSFile.cpp in Sources */,
+				BBBF01580F61B055004A6CF2 /* EMSProperty.cpp in Sources */,
+				BBBF015A0F61B055004A6CF2 /* MonoFile.cpp in Sources */,
+				BBBF015C0F61B055004A6CF2 /* MotorolaFile.cpp in Sources */,
+				BBBF015E0F61B055004A6CF2 /* MotorolaProperty.cpp in Sources */,
+				BBBF01600F61B055004A6CF2 /* MSEQFile.cpp in Sources */,
+				BBBF01620F61B055004A6CF2 /* MSEQProperty.cpp in Sources */,
+				BBBF01640F61B055004A6CF2 /* NokiaFile.cpp in Sources */,
+				BBBF01660F61B055004A6CF2 /* NokiaProperty.cpp in Sources */,
+				BBBF01690F61B055004A6CF2 /* retroMono.cpp in Sources */,
+				BBBF016A0F61B055004A6CF2 /* SagemFile.cpp in Sources */,
+				BBBF016C0F61B055004A6CF2 /* SagemProperty.cpp in Sources */,
+				BBBF016E0F61B055004A6CF2 /* stdafx.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB916108733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* retroMonoTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /tmp/code.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = retroMono_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				INSTALL_PATH = /usr/local/libexec/Retro/validators;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../retroBase/build/Release\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		1DEB916208733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* retroMonoTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = retroMono_Prefix.pch;
+				INSTALL_PATH = /usr/local/libexec/Retro/validators;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../retroBase/build/Release\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		1DEB916508733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* retroMonoProj.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB916608733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* retroMonoProj.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "retroMono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916108733D950010E9CD /* Debug */,
+				1DEB916208733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB916408733D950010E9CD /* Build configuration list for PBXProject "retroMono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916508733D950010E9CD /* Debug */,
+				1DEB916608733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

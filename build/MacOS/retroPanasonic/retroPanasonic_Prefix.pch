@@ -1,0 +1,6 @@
+//
+// Prefix header for all source files of the 'retroPanasonic' target in the 'retroPanasonic' project.
+//
+
+
+#include <iostream>

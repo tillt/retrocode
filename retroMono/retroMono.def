@@ -1,0 +1,6 @@
+LIBRARY		"retroMono.dll"
+
+EXPORTS
+            pCreateCodecInstance			@1
+			pQueryLibrary					@2
+

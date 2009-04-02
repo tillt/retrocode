@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBFE3E680F50D7660057C027 /* Version.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3E550F50D7660057C027 /* Version.h */; };
+		BBFE3E690F50D7660057C027 /* stdafx.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3E560F50D7660057C027 /* stdafx.h */; };
+		BBFE3E6A0F50D7660057C027 /* WaveFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3E570F50D7660057C027 /* WaveFile.h */; };
+		BBFE3E6B0F50D7660057C027 /* WaveFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3E580F50D7660057C027 /* WaveFile.cpp */; };
+		BBFE3E6C0F50D7660057C027 /* retroWave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3E590F50D7660057C027 /* retroWave.cpp */; };
+		BBFE3E6D0F50D7660057C027 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3E5A0F50D7660057C027 /* stdafx.cpp */; };
+		BBFE3E6E0F50D7660057C027 /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3E5B0F50D7660057C027 /* resource.h */; };
+		BBFE3E6F0F50D7660057C027 /* WaveProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3E5C0F50D7660057C027 /* WaveProperty.h */; };
+		BBFE3E700F50D7660057C027 /* WaveProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3E5D0F50D7660057C027 /* WaveProperty.cpp */; };
+		BBFE3E710F50D7660057C027 /* RAWProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3E5E0F50D7660057C027 /* RAWProperty.cpp */; };
+		BBFE3E720F50D7660057C027 /* RAWProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3E5F0F50D7660057C027 /* RAWProperty.h */; };
+		BBFE3E730F50D7660057C027 /* AVIProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3E600F50D7660057C027 /* AVIProperty.cpp */; };
+		BBFE3E740F50D7660057C027 /* RAWFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3E610F50D7660057C027 /* RAWFile.h */; };
+		BBFE3E750F50D7660057C027 /* RAWFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3E620F50D7660057C027 /* RAWFile.cpp */; };
+		BBFE3E760F50D7660057C027 /* MSCodec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3E630F50D7660057C027 /* MSCodec.cpp */; };
+		BBFE3E770F50D7660057C027 /* AVIProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3E640F50D7660057C027 /* AVIProperty.h */; };
+		BBFE3E790F50D7660057C027 /* AVIFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3E660F50D7660057C027 /* AVIFile.cpp */; };
+		BBFE3E7A0F50D7660057C027 /* AVIFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3E670F50D7660057C027 /* AVIFile.h */; };
+		BBFE3F3A0F50D7870057C027 /* libretroBase.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFE3F390F50D7870057C027 /* libretroBase.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32BAE0B70371A74B00C91783 /* retroWave_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = retroWave_Prefix.pch; sourceTree = "<group>"; };
+		5073E0C609E734A800EC74B6 /* retroWaveProj.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = retroWaveProj.xcconfig; sourceTree = "<group>"; };
+		5073E0C709E734A800EC74B6 /* retroWaveTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = retroWaveTarget.xcconfig; sourceTree = "<group>"; };
+		BBFE3E550F50D7660057C027 /* Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Version.h; path = ../../../retroWave/Version.h; sourceTree = SOURCE_ROOT; };
+		BBFE3E560F50D7660057C027 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stdafx.h; path = ../../../retroWave/stdafx.h; sourceTree = SOURCE_ROOT; };
+		BBFE3E570F50D7660057C027 /* WaveFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WaveFile.h; path = ../../../retroWave/WaveFile.h; sourceTree = SOURCE_ROOT; };
+		BBFE3E580F50D7660057C027 /* WaveFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WaveFile.cpp; path = ../../../retroWave/WaveFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3E590F50D7660057C027 /* retroWave.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = retroWave.cpp; path = ../../../retroWave/retroWave.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3E5A0F50D7660057C027 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stdafx.cpp; path = ../../../retroWave/stdafx.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3E5B0F50D7660057C027 /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = resource.h; path = ../../../retroWave/resource.h; sourceTree = SOURCE_ROOT; };
+		BBFE3E5C0F50D7660057C027 /* WaveProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WaveProperty.h; path = ../../../retroWave/WaveProperty.h; sourceTree = SOURCE_ROOT; };
+		BBFE3E5D0F50D7660057C027 /* WaveProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WaveProperty.cpp; path = ../../../retroWave/WaveProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3E5E0F50D7660057C027 /* RAWProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RAWProperty.cpp; path = ../../../retroWave/RAWProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3E5F0F50D7660057C027 /* RAWProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RAWProperty.h; path = ../../../retroWave/RAWProperty.h; sourceTree = SOURCE_ROOT; };
+		BBFE3E600F50D7660057C027 /* AVIProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AVIProperty.cpp; path = ../../../retroWave/AVIProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3E610F50D7660057C027 /* RAWFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RAWFile.h; path = ../../../retroWave/RAWFile.h; sourceTree = SOURCE_ROOT; };
+		BBFE3E620F50D7660057C027 /* RAWFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RAWFile.cpp; path = ../../../retroWave/RAWFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3E630F50D7660057C027 /* MSCodec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MSCodec.cpp; path = ../../../retroWave/MSCodec.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3E640F50D7660057C027 /* AVIProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVIProperty.h; path = ../../../retroWave/AVIProperty.h; sourceTree = SOURCE_ROOT; };
+		BBFE3E660F50D7660057C027 /* AVIFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AVIFile.cpp; path = ../../../retroWave/AVIFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3E670F50D7660057C027 /* AVIFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVIFile.h; path = ../../../retroWave/AVIFile.h; sourceTree = SOURCE_ROOT; };
+		BBFE3F390F50D7870057C027 /* libretroBase.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libretroBase.dylib; path = ../retroBase/build/Release/libretroBase.dylib; sourceTree = SOURCE_ROOT; };
+		D2AAC09D05546B4700DB518D /* libretroWave.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libretroWave.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC09B05546B4700DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFE3F3A0F50D7870057C027 /* libretroBase.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DDFF38A45A11DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC09D05546B4700DB518D /* libretroWave.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* retroWave */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0CA09E734BC00EC74B6 /* Configuration Files */,
+				08FB77ACFE841707C02AAC07 /* Source */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DDFF38A45A11DB9C8B /* Products */,
+			);
+			name = retroWave;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				BBFE3F390F50D7870057C027 /* libretroBase.dylib */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77ACFE841707C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BBFE3E550F50D7660057C027 /* Version.h */,
+				BBFE3E560F50D7660057C027 /* stdafx.h */,
+				BBFE3E570F50D7660057C027 /* WaveFile.h */,
+				BBFE3E580F50D7660057C027 /* WaveFile.cpp */,
+				BBFE3E590F50D7660057C027 /* retroWave.cpp */,
+				BBFE3E5A0F50D7660057C027 /* stdafx.cpp */,
+				BBFE3E5B0F50D7660057C027 /* resource.h */,
+				BBFE3E5C0F50D7660057C027 /* WaveProperty.h */,
+				BBFE3E5D0F50D7660057C027 /* WaveProperty.cpp */,
+				BBFE3E5E0F50D7660057C027 /* RAWProperty.cpp */,
+				BBFE3E5F0F50D7660057C027 /* RAWProperty.h */,
+				BBFE3E600F50D7660057C027 /* AVIProperty.cpp */,
+				BBFE3E610F50D7660057C027 /* RAWFile.h */,
+				BBFE3E620F50D7660057C027 /* RAWFile.cpp */,
+				BBFE3E630F50D7660057C027 /* MSCodec.cpp */,
+				BBFE3E640F50D7660057C027 /* AVIProperty.h */,
+				BBFE3E660F50D7660057C027 /* AVIFile.cpp */,
+				BBFE3E670F50D7660057C027 /* AVIFile.h */,
+				32BAE0B70371A74B00C91783 /* retroWave_Prefix.pch */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		5073E0CA09E734BC00EC74B6 /* Configuration Files */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0C609E734A800EC74B6 /* retroWaveProj.xcconfig */,
+				5073E0C709E734A800EC74B6 /* retroWaveTarget.xcconfig */,
+			);
+			name = "Configuration Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC09905546B4700DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFE3E680F50D7660057C027 /* Version.h in Headers */,
+				BBFE3E690F50D7660057C027 /* stdafx.h in Headers */,
+				BBFE3E6A0F50D7660057C027 /* WaveFile.h in Headers */,
+				BBFE3E6E0F50D7660057C027 /* resource.h in Headers */,
+				BBFE3E6F0F50D7660057C027 /* WaveProperty.h in Headers */,
+				BBFE3E720F50D7660057C027 /* RAWProperty.h in Headers */,
+				BBFE3E740F50D7660057C027 /* RAWFile.h in Headers */,
+				BBFE3E770F50D7660057C027 /* AVIProperty.h in Headers */,
+				BBFE3E7A0F50D7660057C027 /* AVIFile.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC09C05546B4700DB518D /* retroWave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "retroWave" */;
+			buildPhases = (
+				D2AAC09905546B4700DB518D /* Headers */,
+				D2AAC09B05546B4700DB518D /* Frameworks */,
+				D2AAC09A05546B4700DB518D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = retroWave;
+			productName = libretroWave;
+			productReference = D2AAC09D05546B4700DB518D /* libretroWave.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB916408733D950010E9CD /* Build configuration list for PBXProject "retroWave" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* retroWave */;
+			productRefGroup = 034768DDFF38A45A11DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC09C05546B4700DB518D /* retroWave */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC09A05546B4700DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFE3E6B0F50D7660057C027 /* WaveFile.cpp in Sources */,
+				BBFE3E6C0F50D7660057C027 /* retroWave.cpp in Sources */,
+				BBFE3E6D0F50D7660057C027 /* stdafx.cpp in Sources */,
+				BBFE3E700F50D7660057C027 /* WaveProperty.cpp in Sources */,
+				BBFE3E710F50D7660057C027 /* RAWProperty.cpp in Sources */,
+				BBFE3E730F50D7660057C027 /* AVIProperty.cpp in Sources */,
+				BBFE3E750F50D7660057C027 /* RAWFile.cpp in Sources */,
+				BBFE3E760F50D7660057C027 /* MSCodec.cpp in Sources */,
+				BBFE3E790F50D7660057C027 /* AVIFile.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB916108733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* retroWaveTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /tmp/code.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = retroWave_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				INSTALL_PATH = /usr/local/libexec/Retro/codecs;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../retroBase/build/Debug\"",
+				);
+			};
+			name = Debug;
+		};
+		1DEB916208733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* retroWaveTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = retroWave_Prefix.pch;
+				INSTALL_PATH = /usr/local/libexec/Retro/codecs;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../retroBase/build/Debug\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		1DEB916508733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* retroWaveProj.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB916608733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* retroWaveProj.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "retroWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916108733D950010E9CD /* Debug */,
+				1DEB916208733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB916408733D950010E9CD /* Build configuration list for PBXProject "retroWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916508733D950010E9CD /* Debug */,
+				1DEB916608733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

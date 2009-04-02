@@ -1,0 +1,9 @@
+#ifndef RETROGRAPHICS_MAJOR_VERSION
+#define RETROGRAPHICS_MAJOR_VERSION      1      /* Major version number */
+#define RETROGRAPHICS_MINOR_VERSION      0      /* Minor version number */
+#define RETROGRAPHICS_TYPE_VERSION       0      /* 0 alpha, 1 beta, 2 release */
+#define RETROGRAPHICS_PATCH_VERSION      0      /* Patch level */
+#define RETROGRAPHICS_ALPHA_VERSION     (RETROGRAPHICS_TYPE_VERSION==0)
+#define RETROGRAPHICS_BETA_VERSION      (RETROGRAPHICS_TYPE_VERSION==1)
+#define RETROGRAPHICS_RELEASE_VERSION   (RETROGRAPHICS_TYPE_VERSION==2)
+#endif

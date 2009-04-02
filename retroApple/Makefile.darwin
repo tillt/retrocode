@@ -1,0 +1,25 @@
+CFLAGS=-c -DLANG_ENGLISH -fPIC -export-symbols
+LFLAGS=-shared -dynamiclib -install_name libretroapple.1.dylib -o
+CC=g++
+BIN=../code/codecs/
+OUTFILE=libretroapple.1.dylib
+
+INC=-I/usr/local/include -I/usr/include -I../retroBase
+LIBS=-L/usr/local/lib -L/usr/lib -L../retroBase -lretrobase -lstdc++
+
+OBJFILES=AIFFile.o AIFProperty.o retroApple.o
+
+all:	$(OUTFILE)
+
+install:	all 
+	install $(OUTFILE) $(BIN)
+
+$(OUTFILE): $(OBJFILES)
+	$(CC) $(LFLAGS) $@ $(OBJFILES) $(LIBS)
+	
+.cpp.o:
+	$(CC) $(CFLAGS) $(INC) $<
+
+clean:
+	rm *.o -f
+	rm $(OUTFILE) -f

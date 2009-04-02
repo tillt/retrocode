@@ -1,0 +1,150 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeTarget = D2AAC09C05546B4700DB518D /* retroPanasonic */;
+		addToTargets = (
+			D2AAC09C05546B4700DB518D /* retroPanasonic */,
+		);
+		codeSenseManager = BBFE3E080F50D5C40057C027 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					231.20849609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 258069099;
+			PBXWorkspaceStateSaveDate = 258069099;
+		};
+		perUserProjectItems = {
+			BBBF06330F61D271004A6CF2 /* PBXTextBookmark */ = BBBF06330F61D271004A6CF2 /* PBXTextBookmark */;
+			BBBFFF950F61A3CE004A6CF2 /* PBXTextBookmark */ = BBBFFF950F61A3CE004A6CF2 /* PBXTextBookmark */;
+			BBFE3E390F50D6C10057C027 /* PBXTextBookmark */ = BBFE3E390F50D6C10057C027 /* PBXTextBookmark */;
+			BBFE3E3B0F50D6C10057C027 /* PBXTextBookmark */ = BBFE3E3B0F50D6C10057C027 /* PBXTextBookmark */;
+		};
+		sourceControlManager = BBFE3E070F50D5C40057C027 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	BBBF06330F61D271004A6CF2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBFE3E180F50D6210057C027 /* retroPanasonic.cpp */;
+		name = "retroPanasonic.cpp: 10";
+		rLen = 0;
+		rLoc = 339;
+		rType = 0;
+		vrLen = 528;
+		vrLoc = 0;
+	};
+	BBBFFF950F61A3CE004A6CF2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBFE3E180F50D6210057C027 /* retroPanasonic.cpp */;
+		name = "retroPanasonic.cpp: 10";
+		rLen = 0;
+		rLoc = 339;
+		rType = 0;
+		vrLen = 528;
+		vrLoc = 0;
+	};
+	BBFE3E070F50D5C40057C027 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	BBFE3E080F50D5C40057C027 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	BBFE3E0C0F50D6210057C027 /* VOXFile.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 2016}}";
+			sepNavSelRange = "{1107, 0}";
+			sepNavVisRange = "{592, 557}";
+		};
+	};
+	BBFE3E180F50D6210057C027 /* retroPanasonic.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 1134}}";
+			sepNavSelRange = "{339, 0}";
+			sepNavVisRange = "{0, 528}";
+		};
+	};
+	BBFE3E390F50D6C10057C027 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBFE3E0C0F50D6210057C027 /* VOXFile.cpp */;
+		name = "VOXFile.cpp: 31";
+		rLen = 0;
+		rLoc = 1107;
+		rType = 0;
+		vrLen = 557;
+		vrLoc = 592;
+	};
+	BBFE3E3B0F50D6C10057C027 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBFE3E0C0F50D6210057C027 /* VOXFile.cpp */;
+		name = "VOXFile.cpp: 31";
+		rLen = 0;
+		rLoc = 1107;
+		rType = 0;
+		vrLen = 557;
+		vrLoc = 592;
+	};
+	D2AAC09C05546B4700DB518D /* retroPanasonic */ = {
+		activeExec = 0;
+	};
+}

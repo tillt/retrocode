@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<itusignal country="usa">
+  <sinegain>-2.5</sinegain>
+  <indexoffset>0</indexoffset>
+  <combination mode="mix"/>
+  <tones>
+    <frequency>440</frequency>
+    <frequency>480</frequency>
+  </tones>
+  <activephases>
+    <duration>2000</duration>
+  </activephases>
+  <pausephases>
+    <duration>4000</duration>
+  </pausephases>
+</itusignal>
+<itusignal country="uk">
+  <sinegain>-6.0</sinegain>
+  <indexoffset>0</indexoffset>
+  <combination mode="mix"/>
+  <tones>
+    <frequency>400</frequency>
+    <frequency>450</frequency>
+  </tones>
+  <activephases>
+    <duration>400</duration>
+    <duration>400</duration>
+  </activephases>
+  <pausephases>
+    <duration>200</duration>
+    <duration>2000</duration>
+  </pausephases>
+</itusignal>
+<itusignal country="de">
+  <sinegain>-0.0</sinegain>
+  <indexoffset>1</indexoffset>
+  <combination mode="modulate"/>
+  <tones>
+    <frequency>425</frequency>
+  </tones>
+  <activephases>
+    <duration>250</duration>
+    <duration>1000</duration>
+  </activephases>
+  <pausephases>
+    <duration>4000</duration>
+    <duration>4000</duration>
+  </pausephases>
+</itusignal>
+<itusignal country="fr">
+  <sinegain>-0.0</sinegain>
+  <indexoffset>0</indexoffset>
+  <combination mode="modulate"/>
+  <tones>
+    <frequency>440</frequency>
+  </tones>
+  <activephases>
+    <duration>1500</duration>
+  </activephases>
+  <pausephases>
+    <duration>3500</duration>
+  </pausephases>
+</itusignal>
+<itusignal country="aus">
+  <sinegain>-0.0</sinegain>
+  <indexoffset>0</indexoffset>
+  <combination mode="modulate"/>
+  <tones>
+    <frequency>400</frequency>
+    <frequency>17</frequency>
+  </tones>
+  <activephases>
+    <duration>400</duration>
+    <duration>400</duration>
+  </activephases>
+  <pausephases>
+    <duration>200</duration>
+    <duration>2000</duration>
+  </pausephases>
+</itusignal>
+<itusignal country="fj">
+  <sinegain>-0.0</sinegain>
+  <indexoffset>0</indexoffset>
+  <combination mode="modulate"/>
+  <tones>
+    <frequency>133</frequency>
+    <frequency>16</frequency>
+  </tones>
+  <activephases>
+    <duration>400</duration>
+    <duration>400</duration>
+  </activephases>
+  <pausephases>
+    <duration>200</duration>
+    <duration>2000</duration>
+  </pausephases>
+</itusignal>

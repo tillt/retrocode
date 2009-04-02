@@ -1,0 +1,137 @@
+2009-03-12  Till Toenshoff  <me@mmsguru.com>
+	* updated build environment to increase universal use
+	
+	* fixed retroThemes embedded theme media parsing
+	
+	* updated retroMpegs ffmpeg usage to reflect API changes
+	
+	* updated documentation
+	
+	* enhanced mp3 encoding parameters 
+	
+	* increased default mp3 encoding quality
+	
+	* fixed some minor issues
+
+2009-02-12  Till Toenshoff  <me@mmsguru.com>
+	* streamlined (debugging) output a bit
+
+	* SMAF: warns but doesnt abort anymore on unknown content
+	
+2008-09-23  Till Toenshoff  <me@mmsguru.com>
+	* QCELP: now using the ANSI qcelp codec
+
+
+2008-08-28  Till Toenshoff  <me@mmsguru.com>
+	* ChangeLog: initial revision, very incomplete, missing filenames
+	for entries before today
+
+	* updated entire build environment
+
+2008-08-27  Till Toenshoff  <me@mmsguru.com>
+	* added optional fact-chunk for wave files
+	
+2008-08-26  Till Toenshoff  <me@mmsguru.com>
+	* updated mp3-reader to properly process ID3V2.2 tags
+
+2007-12-01  Vinicius Kursancew  <viniciusalexandre@gmail.com>
+	* added autotools build environment
+	
+	* added endian awareness
+  
+2006-12-31  Till Toenshoff  <me@mmsguru.com>
+	* added more comments, beautified sources a bit
+	
+2006-06-20  Till Toenshoff  <me@mmsguru.com>
+	* added pro5-tag
+ 
+2006-06-19  Till Toenshoff  <me@mmsguru.com>
+	* added AX-checksum calculation
+
+2006-04-17  Till Toenshoff  <me@mmsguru.com>
+	* added WMA en/decoding
+	
+	* added RA en/decoding
+	
+	* added OGG en/decoding
+
+2005-11-28  Till Toenshoff  <me@mmsguru.com>
+	* added 2nd normalize
+
+	* fixed unencrypted RMF parsing
+
+	* added SMAF MA7 encoding
+	
+	* added true MA3 and MA5 encoding
+ 
+2005-11-09  Till Toenshoff  <me@mmsguru.com>
+	* added sample looping and fading
+
+2005-11-06  Till Toenshoff  <me@mmsguru.com>
+ 	* added crop-filter
+ 
+2005-10-31  Till Toenshoff  <me@mmsguru.com>
+ 	* added MFM support
+ 
+2005-10-25  Till Toenshoff  <me@mmsguru.com>
+ 	* cleaned console output a bit
+  
+2005-10-20  Till Toenshoff  <me@mmsguru.com>
+ 	* MP4 and 3GP encoding seems to work now
+
+ 	* fixed ID3 writing for MP3
+ 
+2005-10-18  Till Toenshoff  <me@mmsguru.com>
+ 	* initial linux version running
+ 
+2005-10-15  Till Toenshoff  <me@mmsguru.com>
+ 	* updated date check
+ 
+2005-07-11  Till Toenshoff  <me@mmsguru.com>
+ 	* added AAC decoding
+ 	
+ 	* improved help system
+
+	* improved status display
+   
+2005-03-31  Till Toenshoff  <me@mmsguru.com>
+ 	* outsourced SMAF and RMF conversion to shared libraries
+ 
+ 	* added MP3 encoding
+ 
+2005-03-29  Till Toenshoff  <me@mmsguru.com>
+ 	* added QCELP transcoding
+
+2005-03-28  Till Toenshoff  <me@mmsguru.com>
+ 	* added WAV metadata encoding
+ 
+	* added RMF backconverting
+
+	* added SMAF backconverting
+  
+	* fixed wave headers for output
+
+	* added peak-limiting
+
+	* added rate adjusting
+
+2005-03-21  Till Toenshoff  <me@mmsguru.com>
+	* added AMR NB+WB encoding
+	
+2005-03-19  Till Toenshoff  <me@mmsguru.com>
+	* fixed RMF CACH data
+
+2005-03-18  Till Toenshoff  <me@mmsguru.com>
+	* RMF working (at the first glance)
+	
+2005-01-13  Till Toenshoff  <me@mmsguru.com>
+	* added MP4, AAC, 3GP - fixed SMAF parser
+
+2004-06-04  Till Toenshoff  <me@mmsguru.com>
+	* added SMAF max sample duration attribute
+
+2004-05-06  Till Toenshoff  <me@mmsguru.com>
+	* fixed comma-bug in CNTI-subtag info
+
+2004-04-07  Till Toenshoff  <me@mmsguru.com>
+	* initial revision

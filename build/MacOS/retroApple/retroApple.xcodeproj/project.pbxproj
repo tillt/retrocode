@@ -1,0 +1,274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBBF06050F61D144004A6CF2 /* libretroBase.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBF06040F61D144004A6CF2 /* libretroBase.dylib */; };
+		BBFE3CAA0F50D2880057C027 /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3CA10F50D2880057C027 /* resource.h */; };
+		BBFE3CAB0F50D2880057C027 /* retroApple.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3CA20F50D2880057C027 /* retroApple.cpp */; };
+		BBFE3CAC0F50D2880057C027 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3CA30F50D2880057C027 /* stdafx.cpp */; };
+		BBFE3CAD0F50D2880057C027 /* Version.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3CA40F50D2880057C027 /* Version.h */; };
+		BBFE3CAE0F50D2880057C027 /* AIFProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3CA50F50D2880057C027 /* AIFProperty.h */; };
+		BBFE3CAF0F50D2880057C027 /* AIFFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3CA60F50D2880057C027 /* AIFFile.h */; };
+		BBFE3CB00F50D2880057C027 /* AIFFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3CA70F50D2880057C027 /* AIFFile.cpp */; };
+		BBFE3CB10F50D2880057C027 /* stdafx.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3CA80F50D2880057C027 /* stdafx.h */; };
+		BBFE3CB20F50D2880057C027 /* AIFProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3CA90F50D2880057C027 /* AIFProperty.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32BAE0B70371A74B00C91783 /* retroApple_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = retroApple_Prefix.pch; sourceTree = "<group>"; };
+		5073E0C609E734A800EC74B6 /* retroAppleProj.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = retroAppleProj.xcconfig; sourceTree = "<group>"; };
+		5073E0C709E734A800EC74B6 /* retroAppleTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = retroAppleTarget.xcconfig; sourceTree = "<group>"; };
+		BBBF06040F61D144004A6CF2 /* libretroBase.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libretroBase.dylib; path = usr/local/lib/libretroBase.dylib; sourceTree = SDKROOT; };
+		BBFE3CA10F50D2880057C027 /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = resource.h; path = ../../../retroApple/resource.h; sourceTree = SOURCE_ROOT; };
+		BBFE3CA20F50D2880057C027 /* retroApple.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = retroApple.cpp; path = ../../../retroApple/retroApple.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3CA30F50D2880057C027 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stdafx.cpp; path = ../../../retroApple/stdafx.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3CA40F50D2880057C027 /* Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Version.h; path = ../../../retroApple/Version.h; sourceTree = SOURCE_ROOT; };
+		BBFE3CA50F50D2880057C027 /* AIFProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AIFProperty.h; path = ../../../retroApple/AIFProperty.h; sourceTree = SOURCE_ROOT; };
+		BBFE3CA60F50D2880057C027 /* AIFFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AIFFile.h; path = ../../../retroApple/AIFFile.h; sourceTree = SOURCE_ROOT; };
+		BBFE3CA70F50D2880057C027 /* AIFFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AIFFile.cpp; path = ../../../retroApple/AIFFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3CA80F50D2880057C027 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stdafx.h; path = ../../../retroApple/stdafx.h; sourceTree = SOURCE_ROOT; };
+		BBFE3CA90F50D2880057C027 /* AIFProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AIFProperty.cpp; path = ../../../retroApple/AIFProperty.cpp; sourceTree = SOURCE_ROOT; };
+		D2AAC09D05546B4700DB518D /* libretroApple.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libretroApple.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC09B05546B4700DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBF06050F61D144004A6CF2 /* libretroBase.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DDFF38A45A11DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC09D05546B4700DB518D /* libretroApple.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* retroApple */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0CA09E734BC00EC74B6 /* Configuration Files */,
+				08FB77ACFE841707C02AAC07 /* Source */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DDFF38A45A11DB9C8B /* Products */,
+				BBBF06040F61D144004A6CF2 /* libretroBase.dylib */,
+			);
+			name = retroApple;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77ACFE841707C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BBFE3CA10F50D2880057C027 /* resource.h */,
+				BBFE3CA20F50D2880057C027 /* retroApple.cpp */,
+				BBFE3CA30F50D2880057C027 /* stdafx.cpp */,
+				BBFE3CA40F50D2880057C027 /* Version.h */,
+				BBFE3CA50F50D2880057C027 /* AIFProperty.h */,
+				BBFE3CA60F50D2880057C027 /* AIFFile.h */,
+				BBFE3CA70F50D2880057C027 /* AIFFile.cpp */,
+				BBFE3CA80F50D2880057C027 /* stdafx.h */,
+				BBFE3CA90F50D2880057C027 /* AIFProperty.cpp */,
+				32BAE0B70371A74B00C91783 /* retroApple_Prefix.pch */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		5073E0CA09E734BC00EC74B6 /* Configuration Files */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0C609E734A800EC74B6 /* retroAppleProj.xcconfig */,
+				5073E0C709E734A800EC74B6 /* retroAppleTarget.xcconfig */,
+			);
+			name = "Configuration Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC09905546B4700DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFE3CAA0F50D2880057C027 /* resource.h in Headers */,
+				BBFE3CAD0F50D2880057C027 /* Version.h in Headers */,
+				BBFE3CAE0F50D2880057C027 /* AIFProperty.h in Headers */,
+				BBFE3CAF0F50D2880057C027 /* AIFFile.h in Headers */,
+				BBFE3CB10F50D2880057C027 /* stdafx.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC09C05546B4700DB518D /* retroApple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "retroApple" */;
+			buildPhases = (
+				D2AAC09905546B4700DB518D /* Headers */,
+				D2AAC09B05546B4700DB518D /* Frameworks */,
+				D2AAC09A05546B4700DB518D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = retroApple;
+			productName = libretroApple;
+			productReference = D2AAC09D05546B4700DB518D /* libretroApple.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB916408733D950010E9CD /* Build configuration list for PBXProject "retroApple" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* retroApple */;
+			productRefGroup = 034768DDFF38A45A11DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC09C05546B4700DB518D /* retroApple */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC09A05546B4700DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFE3CAB0F50D2880057C027 /* retroApple.cpp in Sources */,
+				BBFE3CAC0F50D2880057C027 /* stdafx.cpp in Sources */,
+				BBFE3CB00F50D2880057C027 /* AIFFile.cpp in Sources */,
+				BBFE3CB20F50D2880057C027 /* AIFProperty.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB916108733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* retroAppleTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /tmp/code.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = retroApple_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				INSTALL_PATH = /usr/local/libexec/Retro/codecs;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../retroBase/build/Debug\"",
+				);
+			};
+			name = Debug;
+		};
+		1DEB916208733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* retroAppleTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = retroApple_Prefix.pch;
+				INSTALL_PATH = /usr/local/libexec/Retro/codecs;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../retroBase/build/Debug\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		1DEB916508733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* retroAppleProj.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB916608733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* retroAppleProj.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "retroApple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916108733D950010E9CD /* Debug */,
+				1DEB916208733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB916408733D950010E9CD /* Build configuration list for PBXProject "retroApple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916508733D950010E9CD /* Debug */,
+				1DEB916608733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

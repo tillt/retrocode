@@ -1,0 +1,444 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_FIRSTCOLUMN         "Attribut"
+    IDS_SECONDCOLUMN        "Wert"
+    IDS_NO                  "Nein"
+    IDS_YES                 "Ja"
+    IDS_TRANSFERABLE        "Kopierbar"
+    IDS_SAVEABLE            "Speicherbar"
+    IDS_EDITABLE            "Editierbar"
+    IDS_FORMAT              "Format"
+    IDS_FORMATNAME_MA1      "Yamaha MA1 kompatibel"
+    IDS_FORMATNAME_MA2      "Yamaha MA2 kompatibel"
+    IDS_FORMATNAME_MA3      "Yamaha MA3 kompatibel"
+    IDS_FORMATNAME_MA5      "Yamaha MA5 kompatibel"
+    IDS_FORMATNAME_MA6      "Yamaha MA7 kompatibel"
+    IDS_ERROR               "Fehler"
+    IDS_UNKNOWN             "Unbekannt"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SMAFINFO_TITLE      "Titel"
+    IDS_SMAFINFO_ARTIST     "Künstler Name"
+    IDS_SMAFINFO_COMPOSER   "Komponist"
+    IDS_SMAFINFO_WORDS      "Texte von"
+    IDS_SMAFINFO_ARRANGED   "Arrangiert von"
+    IDS_SMAFINFO_CATEGORY   "Kategorie"
+    IDS_SMAFINFO_COPYRIGHT  "Copyright"
+    IDS_SMAFINFO_COPYMANAGED "Copyr.managed von"
+    IDS_SMAFINFO_MANAGEMENTINFO "Management Info"
+    IDS_SMAFINFO_CARRIER    "Carrier Name"
+    IDS_SMAFINFO_VENDOR     "Vendor Name"
+    IDS_SMAFINFO_DATECREATED "Erstellt am"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SMAFINFO_DATEREVISED "Geändert am"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SMAFEXCEPTION_OK    "OK"
+    IDS_SMAFEXCEPTION_UNKNOWN "Unbekanntes Problem"
+    IDS_SMAFEXCEPTION_UNKNOWNCHUNK "Unbekannter Chunk"
+    IDS_SMAFEXCEPTION_TRUNCATED "Datei ist abgeschnitten"
+    IDS_SMAFEXCEPTION_INVALID "Dateiinhalt ist ungültig"
+    IDS_SMAFEXCEPTION_INVALIDCHUNKSIZE "Ungültige Chunk größe"
+    IDS_SMAFEXCEPTION_CRC   "CRC Fehler"
+    IDS_SMAFEXCEPTION_UNKNOWNSUBCHUNK "Unbekannter SubChunk"
+    IDS_SMAFEXCEPTION_UNKNOWNTRACKFORMAT "Unknown Track Format"
+    IDS_SMAFEXCEPTION_UNKNOWNTRACKSEQUENCE "Unknown Sequence Format"
+    IDS_SMAFEXCEPTION_INCOMPATIBLESAMPLEFORMAT "Incompatible Sample Format"
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704b0"
+        BEGIN
+            VALUE "CompanyName", "MMSGURU"
+            VALUE "FileDescription", "MMSGURU's Mobile Content Property Extension"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "fid"
+            VALUE "LegalCopyright", "(c) 2003-2004, MMSGURU.  All rights reserved."
+            VALUE "OriginalFilename", "fid"
+            VALUE "ProductName", "Mobile Content Property Extension"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "MMSGURU"
+            VALUE "FileDescription", "MMSGURU's Mobile Content Property Extension"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "fid"
+            VALUE "LegalCopyright", "(c) 2003, MMSGURU.  All rights reserved."
+            VALUE "OriginalFilename", "fid"
+            VALUE "ProductName", "Mobile Content Property Extension"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+        BLOCK "040c04b0"
+        BEGIN
+            VALUE "CompanyName", "MMSGURU"
+            VALUE "FileDescription", "MMSGURU's Mobile Content Property Extension"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "fid"
+            VALUE "LegalCopyright", "(c) 2003, MMSGURU.  All rights reserved."
+            VALUE "OriginalFilename", "fid"
+            VALUE "ProductName", "Mobile Content Property Extension"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+        BLOCK "041004b0"
+        BEGIN
+            VALUE "CompanyName", "MMSGURU"
+            VALUE "FileDescription", "MMSGURU's Mobile Content Property Extension"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "fid"
+            VALUE "LegalCopyright", "(c) 2003, MMSGURU.  All rights reserved."
+            VALUE "OriginalFilename", "fid"
+            VALUE "ProductName", "Mobile Content Property Extension"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200, 0x409, 1200, 0x40c, 1200, 0x410, 
+        1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_FIRSTCOLUMN         "Property"
+    IDS_SECONDCOLUMN        "Value"
+    IDS_NO                  "No"
+    IDS_YES                 "Yes"
+    IDS_TRANSFERABLE        "Transferable"
+    IDS_SAVEABLE            "Saveable"
+    IDS_EDITABLE            "Editable"
+    IDS_FORMAT              "Format"
+    IDS_FORMATNAME_MA1      "Yamaha MA1 compatible"
+    IDS_FORMATNAME_MA2      "Yamaha MA2 compatible"
+    IDS_FORMATNAME_MA3      "Yamaha MA3 compatible"
+    IDS_FORMATNAME_MA5      "Yamaha MA5 compatible"
+    IDS_FORMATNAME_MA7      "Yamaha MA7 compatible"
+    IDS_ERROR               "Error"
+    IDS_UNKNOWN             "Unknown"
+    IDS_ENCODING            "Encoding"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SMAFINFO_TITLE      "Title"
+    IDS_SMAFINFO_ARTIST     "Artist Name"
+    IDS_SMAFINFO_COMPOSER   "Composer"
+    IDS_SMAFINFO_WORDS      "Lyrics by"
+    IDS_SMAFINFO_ARRANGED   "Arranged by"
+    IDS_SMAFINFO_CATEGORY   "Category"
+    IDS_SMAFINFO_COPYRIGHT  "Copyright"
+    IDS_SMAFINFO_COPYMANAGED "Copyr.Managed by"
+    IDS_SMAFINFO_MANAGEMENTINFO "Management Info"
+    IDS_SMAFINFO_CARRIER    "Carrier Name"
+    IDS_SMAFINFO_VENDOR     "Vendor Name"
+    IDS_SMAFINFO_DATECREATED "Date Created"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SMAFINFO_DATEREVISED "Date Revised"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SMAFEXCEPTION_OK    "OK"
+    IDS_SMAFEXCEPTION_UNKNOWN "Unknown Problem"
+    IDS_SMAFEXCEPTION_UNKNOWNCHUNK "Unknown Chunk"
+    IDS_SMAFEXCEPTION_TRUNCATED "File is truncated"
+    IDS_SMAFEXCEPTION_INVALID "File is invalid"
+    IDS_SMAFEXCEPTION_INVALIDCHUNKSIZE "Invalid Chunk size"
+    IDS_SMAFEXCEPTION_CRC   "CRC Mismatch"
+    IDS_SMAFEXCEPTION_UNKNOWNSUBCHUNK "Uknown Sub Chunk"
+    IDS_SMAFEXCEPTION_UNKNOWNTRACKFORMAT "Unknown Track Format"
+    IDS_SMAFEXCEPTION_UNKNOWNTRACKSEQUENCE "Unknown Sequence Format"
+    IDS_SMAFEXCEPTION_INCOMPATIBLESAMPLEFORMAT "Incompatible Sample Format"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ENCODING_SHIFTJIS   "Japanese (Shift-JIS)"
+    IDS_ENCODING_LATIN1     "Western European (Latin1)"
+    IDS_ENCODING_EUCKR      "Korean (EUC-KR)"
+    IDS_ENCODING_HZGB       "Chinese Simplified (HZ-GB-2312)"
+    IDS_ENCODING_BIG5       "Chinese Traditional (Big5)"
+    IDS_ENCODING_KOI8       "Cyrillic (KOI8-R)"
+    IDS_ENCODING_TCVN       "Vietnamese (TCVN-5773-1993)"
+    IDS_ENCODING_UTF8       "Unicode (UTF-8)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ENCODING_UNKNOWN    "Unknown Encoding"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_USESSAMPLES         "Sample Audio"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_FORMATNAME_MPEG     "MPEG Audio"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_FIRSTCOLUMN         "Rubrique"
+    IDS_SECONDCOLUMN        "Valeur"
+    IDS_NO                  "Non"
+    IDS_YES                 "Oui"
+    IDS_TRANSFERABLE        "Transferable"
+    IDS_SAVEABLE            "Peut sauver"
+    IDS_EDITABLE            "Peut éditer"
+    IDS_FORMAT              "Format"
+    IDS_FORMATNAME_MA1      "Yamaha MA1 compatible"
+    IDS_FORMATNAME_MA2      "Yamaha MA2 compatible"
+    IDS_FORMATNAME_MA3      "Yamaha MA3 compatible"
+    IDS_FORMATNAME_MA5      "Yamaha MA5 compatible"
+    IDS_FORMATNAME_MA6      "Yamaha MA7 compatible"
+    IDS_ERROR               "Erreur"
+    IDS_UNKNOWN             "Inconnu"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SMAFINFO_TITLE      "Titre"
+    IDS_SMAFINFO_ARTIST     "Nom d'Artiste"
+    IDS_SMAFINFO_COMPOSER   "Composer"
+    IDS_SMAFINFO_WORDS      "Mots de"
+    IDS_SMAFINFO_ARRANGED   "Arrangement de"
+    IDS_SMAFINFO_CATEGORY   "Catégorie"
+    IDS_SMAFINFO_COPYRIGHT  "Copyright"
+    IDS_SMAFINFO_COPYMANAGED "Copyr.Managed by"
+    IDS_SMAFINFO_MANAGEMENTINFO "Management Info"
+    IDS_SMAFINFO_CARRIER    "Carrier Name"
+    IDS_SMAFINFO_VENDOR     "Vendor Name"
+    IDS_SMAFINFO_DATECREATED "Date créer"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SMAFINFO_DATEREVISED "Date révisé"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SMAFEXCEPTION_OK    "OK"
+    IDS_SMAFEXCEPTION_UNKNOWN "Problème inconnu"
+    IDS_SMAFEXCEPTION_UNKNOWNCHUNK "Unknown Chunk"
+    IDS_SMAFEXCEPTION_TRUNCATED "File is truncated"
+    IDS_SMAFEXCEPTION_INVALID "File is invalid"
+    IDS_SMAFEXCEPTION_INVALIDCHUNKSIZE "Invalid Chunk size"
+    IDS_SMAFEXCEPTION_CRC   "CRC Mismatch"
+    IDS_SMAFEXCEPTION_UNKNOWNSUBCHUNK "Unknown Sub Chunk"
+    IDS_SMAFEXCEPTION_UNKNOWNTRACKFORMAT "Unknown Track Format"
+    IDS_SMAFEXCEPTION_UNKNOWNTRACKSEQUENCE "Unknown Sequence Format"
+    IDS_SMAFEXCEPTION_INCOMPATIBLESAMPLEFORMAT "Incompatible Sample Format"
+END
+
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Italian (Italy) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ITA)
+#ifdef _WIN32
+LANGUAGE LANG_ITALIAN, SUBLANG_ITALIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_FIRSTCOLUMN         "Fattoria"
+    IDS_SECONDCOLUMN        "Valore"
+    IDS_NO                  "Non"
+    IDS_YES                 "Si"
+    IDS_TRANSFERABLE        "Permettere copiare"
+    IDS_SAVEABLE            "Permettere salvare"
+    IDS_EDITABLE            "Editable"
+    IDS_FORMAT              "Disposizione"
+    IDS_FORMATNAME_MA1      "Yamaha MA1 compatibile"
+    IDS_FORMATNAME_MA2      "Yamaha MA2 compatibile"
+    IDS_FORMATNAME_MA3      "Yamaha MA3 compatibile"
+    IDS_FORMATNAME_MA5      "Yamaha MA5 compatibile"
+    IDS_FORMATNAME_MA6      "Yamaha MA7 compatibile"
+    IDS_ERROR               "Errore"
+    IDS_UNKNOWN             "Sconosciuto"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SMAFINFO_TITLE      "Titolo"
+    IDS_SMAFINFO_ARTIST     "Nome Dell'Artista"
+    IDS_SMAFINFO_COMPOSER   "Compositore"
+    IDS_SMAFINFO_WORDS      "Lyrics vicino"
+    IDS_SMAFINFO_ARRANGED   "Organizzato vicino"
+    IDS_SMAFINFO_CATEGORY   "Categoria"
+    IDS_SMAFINFO_COPYRIGHT  "Copyright"
+    IDS_SMAFINFO_COPYMANAGED "Copyr.controllato vicino"
+    IDS_SMAFINFO_MANAGEMENTINFO "Amministrazione Info"
+    IDS_SMAFINFO_CARRIER    "Carrier Name"
+    IDS_SMAFINFO_VENDOR     "Vendor Name"
+    IDS_SMAFINFO_DATECREATED "Date Created"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SMAFINFO_DATEREVISED "Date Revised"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SMAFEXCEPTION_OK    "OK"
+    IDS_SMAFEXCEPTION_UNKNOWN "Problema Sconosciuto"
+    IDS_SMAFEXCEPTION_UNKNOWNCHUNK "Unknown Chunk"
+    IDS_SMAFEXCEPTION_TRUNCATED "La lima è troncata"
+    IDS_SMAFEXCEPTION_INVALID "La lima è non valida"
+    IDS_SMAFEXCEPTION_INVALIDCHUNKSIZE "Invalid Chunk size"
+    IDS_SMAFEXCEPTION_CRC   "CRC Mismatch"
+    IDS_SMAFEXCEPTION_UNKNOWNSUBCHUNK "Unknown Sub Chunk"
+    IDS_SMAFEXCEPTION_UNKNOWNTRACKFORMAT "Unknown Track Format"
+    IDS_SMAFEXCEPTION_UNKNOWNTRACKSEQUENCE "Unknown Sequence Format"
+    IDS_SMAFEXCEPTION_INCOMPATIBLESAMPLEFORMAT "Incompatible Sample Format"
+END
+
+#endif    // Italian (Italy) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

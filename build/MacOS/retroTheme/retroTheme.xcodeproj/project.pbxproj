@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBBF02730F61C65E004A6CF2 /* JADFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF02440F61C65E004A6CF2 /* JADFile.cpp */; };
+		BBBF02740F61C65E004A6CF2 /* JADFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF02450F61C65E004A6CF2 /* JADFile.h */; };
+		BBBF02750F61C65E004A6CF2 /* JADProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF02460F61C65E004A6CF2 /* JADProperty.cpp */; };
+		BBBF02760F61C65E004A6CF2 /* JADProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF02470F61C65E004A6CF2 /* JADProperty.h */; };
+		BBBF02770F61C65E004A6CF2 /* JARFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF02480F61C65E004A6CF2 /* JARFile.cpp */; };
+		BBBF02780F61C65E004A6CF2 /* JARFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF02490F61C65E004A6CF2 /* JARFile.h */; };
+		BBBF02790F61C65E004A6CF2 /* JARProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF024A0F61C65E004A6CF2 /* JARProperty.cpp */; };
+		BBBF027A0F61C65E004A6CF2 /* JARProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF024B0F61C65E004A6CF2 /* JARProperty.h */; };
+		BBBF027B0F61C65E004A6CF2 /* MTFFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF024C0F61C65E004A6CF2 /* MTFFile.cpp */; };
+		BBBF027C0F61C65E004A6CF2 /* MTFFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF024D0F61C65E004A6CF2 /* MTFFile.h */; };
+		BBBF027D0F61C65E004A6CF2 /* MTFProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF024E0F61C65E004A6CF2 /* MTFProperty.cpp */; };
+		BBBF027E0F61C65E004A6CF2 /* MTFProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF024F0F61C65E004A6CF2 /* MTFProperty.h */; };
+		BBBF027F0F61C65E004A6CF2 /* NTHFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF02500F61C65E004A6CF2 /* NTHFile.cpp */; };
+		BBBF02800F61C65E004A6CF2 /* NTHFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF02510F61C65E004A6CF2 /* NTHFile.h */; };
+		BBBF02810F61C65E004A6CF2 /* NTHProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF02520F61C65E004A6CF2 /* NTHProperty.cpp */; };
+		BBBF02820F61C65E004A6CF2 /* NTHProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF02530F61C65E004A6CF2 /* NTHProperty.h */; };
+		BBBF02830F61C65E004A6CF2 /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF02540F61C65E004A6CF2 /* resource.h */; };
+		BBBF02840F61C65E004A6CF2 /* retroTheme.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF02550F61C65E004A6CF2 /* retroTheme.cpp */; };
+		BBBF02850F61C65E004A6CF2 /* SDFFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF02560F61C65E004A6CF2 /* SDFFile.cpp */; };
+		BBBF02860F61C65E004A6CF2 /* SDFFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF02570F61C65E004A6CF2 /* SDFFile.h */; };
+		BBBF02870F61C65E004A6CF2 /* SDFProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF02580F61C65E004A6CF2 /* SDFProperty.cpp */; };
+		BBBF02880F61C65E004A6CF2 /* SDFProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF02590F61C65E004A6CF2 /* SDFProperty.h */; };
+		BBBF02890F61C65E004A6CF2 /* SISFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF025A0F61C65E004A6CF2 /* SISFile.cpp */; };
+		BBBF028A0F61C65E004A6CF2 /* SISFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF025B0F61C65E004A6CF2 /* SISFile.h */; };
+		BBBF028B0F61C65E004A6CF2 /* SISProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF025C0F61C65E004A6CF2 /* SISProperty.cpp */; };
+		BBBF028C0F61C65E004A6CF2 /* SISProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF025D0F61C65E004A6CF2 /* SISProperty.h */; };
+		BBBF028D0F61C65E004A6CF2 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF025E0F61C65E004A6CF2 /* stdafx.cpp */; };
+		BBBF028E0F61C65E004A6CF2 /* stdafx.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF025F0F61C65E004A6CF2 /* stdafx.h */; };
+		BBBF028F0F61C65E004A6CF2 /* TARArchive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF02600F61C65E004A6CF2 /* TARArchive.cpp */; };
+		BBBF02900F61C65E004A6CF2 /* TARArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF02610F61C65E004A6CF2 /* TARArchive.h */; };
+		BBBF02910F61C65E004A6CF2 /* ThemeBaseContent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF02620F61C65E004A6CF2 /* ThemeBaseContent.cpp */; };
+		BBBF02920F61C65E004A6CF2 /* ThemeBaseContent.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF02630F61C65E004A6CF2 /* ThemeBaseContent.h */; };
+		BBBF02930F61C65E004A6CF2 /* THMFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF02640F61C65E004A6CF2 /* THMFile.cpp */; };
+		BBBF02940F61C65E004A6CF2 /* THMFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF02650F61C65E004A6CF2 /* THMFile.h */; };
+		BBBF02950F61C65E004A6CF2 /* THMProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF02660F61C65E004A6CF2 /* THMProperty.cpp */; };
+		BBBF02960F61C65E004A6CF2 /* THMProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF02670F61C65E004A6CF2 /* THMProperty.h */; };
+		BBBF02970F61C65E004A6CF2 /* THMSamsungFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF02680F61C65E004A6CF2 /* THMSamsungFile.cpp */; };
+		BBBF02980F61C65E004A6CF2 /* THMSamsungFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF02690F61C65E004A6CF2 /* THMSamsungFile.h */; };
+		BBBF02990F61C65E004A6CF2 /* THMSamsungProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF026A0F61C65E004A6CF2 /* THMSamsungProperty.cpp */; };
+		BBBF029A0F61C65E004A6CF2 /* THMSamsungProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF026B0F61C65E004A6CF2 /* THMSamsungProperty.h */; };
+		BBBF029B0F61C65E004A6CF2 /* UTZFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF026C0F61C65E004A6CF2 /* UTZFile.cpp */; };
+		BBBF029C0F61C65E004A6CF2 /* UTZFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF026D0F61C65E004A6CF2 /* UTZFile.h */; };
+		BBBF029D0F61C65E004A6CF2 /* UTZProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF026E0F61C65E004A6CF2 /* UTZProperty.cpp */; };
+		BBBF029E0F61C65E004A6CF2 /* UTZProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF026F0F61C65E004A6CF2 /* UTZProperty.h */; };
+		BBBF029F0F61C65E004A6CF2 /* Version.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF02700F61C65E004A6CF2 /* Version.h */; };
+		BBBF02A00F61C65E004A6CF2 /* ZIPArchive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF02710F61C65E004A6CF2 /* ZIPArchive.cpp */; };
+		BBBF02A10F61C65E004A6CF2 /* ZIPArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF02720F61C65E004A6CF2 /* ZIPArchive.h */; };
+		BBBF03610F61C687004A6CF2 /* libretroBase.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBF03600F61C687004A6CF2 /* libretroBase.dylib */; };
+		BBBF03740F61C7E3004A6CF2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBF03730F61C7E3004A6CF2 /* libz.dylib */; };
+		BBBF03780F61C831004A6CF2 /* libminizip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBF03770F61C831004A6CF2 /* libminizip.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32BAE0B70371A74B00C91783 /* retroTheme_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = retroTheme_Prefix.pch; sourceTree = "<group>"; };
+		5073E0C609E734A800EC74B6 /* retroThemeProj.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = retroThemeProj.xcconfig; sourceTree = "<group>"; };
+		5073E0C709E734A800EC74B6 /* retroThemeTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = retroThemeTarget.xcconfig; sourceTree = "<group>"; };
+		50B2938909F016FC00694E55 /* retroThemePriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = retroThemePriv.h; sourceTree = "<group>"; };
+		BBBF02440F61C65E004A6CF2 /* JADFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JADFile.cpp; path = ../../../retroTheme/JADFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF02450F61C65E004A6CF2 /* JADFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JADFile.h; path = ../../../retroTheme/JADFile.h; sourceTree = SOURCE_ROOT; };
+		BBBF02460F61C65E004A6CF2 /* JADProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JADProperty.cpp; path = ../../../retroTheme/JADProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF02470F61C65E004A6CF2 /* JADProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JADProperty.h; path = ../../../retroTheme/JADProperty.h; sourceTree = SOURCE_ROOT; };
+		BBBF02480F61C65E004A6CF2 /* JARFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JARFile.cpp; path = ../../../retroTheme/JARFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF02490F61C65E004A6CF2 /* JARFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JARFile.h; path = ../../../retroTheme/JARFile.h; sourceTree = SOURCE_ROOT; };
+		BBBF024A0F61C65E004A6CF2 /* JARProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JARProperty.cpp; path = ../../../retroTheme/JARProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF024B0F61C65E004A6CF2 /* JARProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JARProperty.h; path = ../../../retroTheme/JARProperty.h; sourceTree = SOURCE_ROOT; };
+		BBBF024C0F61C65E004A6CF2 /* MTFFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MTFFile.cpp; path = ../../../retroTheme/MTFFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF024D0F61C65E004A6CF2 /* MTFFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTFFile.h; path = ../../../retroTheme/MTFFile.h; sourceTree = SOURCE_ROOT; };
+		BBBF024E0F61C65E004A6CF2 /* MTFProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MTFProperty.cpp; path = ../../../retroTheme/MTFProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF024F0F61C65E004A6CF2 /* MTFProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTFProperty.h; path = ../../../retroTheme/MTFProperty.h; sourceTree = SOURCE_ROOT; };
+		BBBF02500F61C65E004A6CF2 /* NTHFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NTHFile.cpp; path = ../../../retroTheme/NTHFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF02510F61C65E004A6CF2 /* NTHFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTHFile.h; path = ../../../retroTheme/NTHFile.h; sourceTree = SOURCE_ROOT; };
+		BBBF02520F61C65E004A6CF2 /* NTHProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NTHProperty.cpp; path = ../../../retroTheme/NTHProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF02530F61C65E004A6CF2 /* NTHProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTHProperty.h; path = ../../../retroTheme/NTHProperty.h; sourceTree = SOURCE_ROOT; };
+		BBBF02540F61C65E004A6CF2 /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = resource.h; path = ../../../retroTheme/resource.h; sourceTree = SOURCE_ROOT; };
+		BBBF02550F61C65E004A6CF2 /* retroTheme.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = retroTheme.cpp; path = ../../../retroTheme/retroTheme.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF02560F61C65E004A6CF2 /* SDFFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SDFFile.cpp; path = ../../../retroTheme/SDFFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF02570F61C65E004A6CF2 /* SDFFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDFFile.h; path = ../../../retroTheme/SDFFile.h; sourceTree = SOURCE_ROOT; };
+		BBBF02580F61C65E004A6CF2 /* SDFProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SDFProperty.cpp; path = ../../../retroTheme/SDFProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF02590F61C65E004A6CF2 /* SDFProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDFProperty.h; path = ../../../retroTheme/SDFProperty.h; sourceTree = SOURCE_ROOT; };
+		BBBF025A0F61C65E004A6CF2 /* SISFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SISFile.cpp; path = ../../../retroTheme/SISFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF025B0F61C65E004A6CF2 /* SISFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SISFile.h; path = ../../../retroTheme/SISFile.h; sourceTree = SOURCE_ROOT; };
+		BBBF025C0F61C65E004A6CF2 /* SISProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SISProperty.cpp; path = ../../../retroTheme/SISProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF025D0F61C65E004A6CF2 /* SISProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SISProperty.h; path = ../../../retroTheme/SISProperty.h; sourceTree = SOURCE_ROOT; };
+		BBBF025E0F61C65E004A6CF2 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stdafx.cpp; path = ../../../retroTheme/stdafx.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF025F0F61C65E004A6CF2 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stdafx.h; path = ../../../retroTheme/stdafx.h; sourceTree = SOURCE_ROOT; };
+		BBBF02600F61C65E004A6CF2 /* TARArchive.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TARArchive.cpp; path = ../../../retroTheme/TARArchive.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF02610F61C65E004A6CF2 /* TARArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TARArchive.h; path = ../../../retroTheme/TARArchive.h; sourceTree = SOURCE_ROOT; };
+		BBBF02620F61C65E004A6CF2 /* ThemeBaseContent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ThemeBaseContent.cpp; path = ../../../retroTheme/ThemeBaseContent.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF02630F61C65E004A6CF2 /* ThemeBaseContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThemeBaseContent.h; path = ../../../retroTheme/ThemeBaseContent.h; sourceTree = SOURCE_ROOT; };
+		BBBF02640F61C65E004A6CF2 /* THMFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = THMFile.cpp; path = ../../../retroTheme/THMFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF02650F61C65E004A6CF2 /* THMFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = THMFile.h; path = ../../../retroTheme/THMFile.h; sourceTree = SOURCE_ROOT; };
+		BBBF02660F61C65E004A6CF2 /* THMProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = THMProperty.cpp; path = ../../../retroTheme/THMProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF02670F61C65E004A6CF2 /* THMProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = THMProperty.h; path = ../../../retroTheme/THMProperty.h; sourceTree = SOURCE_ROOT; };
+		BBBF02680F61C65E004A6CF2 /* THMSamsungFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = THMSamsungFile.cpp; path = ../../../retroTheme/THMSamsungFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF02690F61C65E004A6CF2 /* THMSamsungFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = THMSamsungFile.h; path = ../../../retroTheme/THMSamsungFile.h; sourceTree = SOURCE_ROOT; };
+		BBBF026A0F61C65E004A6CF2 /* THMSamsungProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = THMSamsungProperty.cpp; path = ../../../retroTheme/THMSamsungProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF026B0F61C65E004A6CF2 /* THMSamsungProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = THMSamsungProperty.h; path = ../../../retroTheme/THMSamsungProperty.h; sourceTree = SOURCE_ROOT; };
+		BBBF026C0F61C65E004A6CF2 /* UTZFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UTZFile.cpp; path = ../../../retroTheme/UTZFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF026D0F61C65E004A6CF2 /* UTZFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UTZFile.h; path = ../../../retroTheme/UTZFile.h; sourceTree = SOURCE_ROOT; };
+		BBBF026E0F61C65E004A6CF2 /* UTZProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UTZProperty.cpp; path = ../../../retroTheme/UTZProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF026F0F61C65E004A6CF2 /* UTZProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UTZProperty.h; path = ../../../retroTheme/UTZProperty.h; sourceTree = SOURCE_ROOT; };
+		BBBF02700F61C65E004A6CF2 /* Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Version.h; path = ../../../retroTheme/Version.h; sourceTree = SOURCE_ROOT; };
+		BBBF02710F61C65E004A6CF2 /* ZIPArchive.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ZIPArchive.cpp; path = ../../../retroTheme/ZIPArchive.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF02720F61C65E004A6CF2 /* ZIPArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZIPArchive.h; path = ../../../retroTheme/ZIPArchive.h; sourceTree = SOURCE_ROOT; };
+		BBBF03600F61C687004A6CF2 /* libretroBase.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libretroBase.dylib; path = ../retroBase/build/Release/libretroBase.dylib; sourceTree = SOURCE_ROOT; };
+		BBBF03730F61C7E3004A6CF2 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = /opt/local/lib/libz.dylib; sourceTree = "<absolute>"; };
+		BBBF03770F61C831004A6CF2 /* libminizip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libminizip.a; path = /usr/local/lib/libminizip.a; sourceTree = "<absolute>"; };
+		D2AAC09D05546B4700DB518D /* libretroTheme.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libretroTheme.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC09B05546B4700DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBF03610F61C687004A6CF2 /* libretroBase.dylib in Frameworks */,
+				BBBF03740F61C7E3004A6CF2 /* libz.dylib in Frameworks */,
+				BBBF03780F61C831004A6CF2 /* libminizip.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DDFF38A45A11DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC09D05546B4700DB518D /* libretroTheme.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* retroTheme */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0CA09E734BC00EC74B6 /* Configuration Files */,
+				08FB77ACFE841707C02AAC07 /* Source */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DDFF38A45A11DB9C8B /* Products */,
+			);
+			name = retroTheme;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF03770F61C831004A6CF2 /* libminizip.a */,
+				BBBF03730F61C7E3004A6CF2 /* libz.dylib */,
+				BBBF03600F61C687004A6CF2 /* libretroBase.dylib */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77ACFE841707C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF02440F61C65E004A6CF2 /* JADFile.cpp */,
+				BBBF02450F61C65E004A6CF2 /* JADFile.h */,
+				BBBF02460F61C65E004A6CF2 /* JADProperty.cpp */,
+				BBBF02470F61C65E004A6CF2 /* JADProperty.h */,
+				BBBF02480F61C65E004A6CF2 /* JARFile.cpp */,
+				BBBF02490F61C65E004A6CF2 /* JARFile.h */,
+				BBBF024A0F61C65E004A6CF2 /* JARProperty.cpp */,
+				BBBF024B0F61C65E004A6CF2 /* JARProperty.h */,
+				BBBF024C0F61C65E004A6CF2 /* MTFFile.cpp */,
+				BBBF024D0F61C65E004A6CF2 /* MTFFile.h */,
+				BBBF024E0F61C65E004A6CF2 /* MTFProperty.cpp */,
+				BBBF024F0F61C65E004A6CF2 /* MTFProperty.h */,
+				BBBF02500F61C65E004A6CF2 /* NTHFile.cpp */,
+				BBBF02510F61C65E004A6CF2 /* NTHFile.h */,
+				BBBF02520F61C65E004A6CF2 /* NTHProperty.cpp */,
+				BBBF02530F61C65E004A6CF2 /* NTHProperty.h */,
+				BBBF02540F61C65E004A6CF2 /* resource.h */,
+				BBBF02550F61C65E004A6CF2 /* retroTheme.cpp */,
+				BBBF02560F61C65E004A6CF2 /* SDFFile.cpp */,
+				BBBF02570F61C65E004A6CF2 /* SDFFile.h */,
+				BBBF02580F61C65E004A6CF2 /* SDFProperty.cpp */,
+				BBBF02590F61C65E004A6CF2 /* SDFProperty.h */,
+				BBBF025A0F61C65E004A6CF2 /* SISFile.cpp */,
+				BBBF025B0F61C65E004A6CF2 /* SISFile.h */,
+				BBBF025C0F61C65E004A6CF2 /* SISProperty.cpp */,
+				BBBF025D0F61C65E004A6CF2 /* SISProperty.h */,
+				BBBF025E0F61C65E004A6CF2 /* stdafx.cpp */,
+				BBBF025F0F61C65E004A6CF2 /* stdafx.h */,
+				BBBF02600F61C65E004A6CF2 /* TARArchive.cpp */,
+				BBBF02610F61C65E004A6CF2 /* TARArchive.h */,
+				BBBF02620F61C65E004A6CF2 /* ThemeBaseContent.cpp */,
+				BBBF02630F61C65E004A6CF2 /* ThemeBaseContent.h */,
+				BBBF02640F61C65E004A6CF2 /* THMFile.cpp */,
+				BBBF02650F61C65E004A6CF2 /* THMFile.h */,
+				BBBF02660F61C65E004A6CF2 /* THMProperty.cpp */,
+				BBBF02670F61C65E004A6CF2 /* THMProperty.h */,
+				BBBF02680F61C65E004A6CF2 /* THMSamsungFile.cpp */,
+				BBBF02690F61C65E004A6CF2 /* THMSamsungFile.h */,
+				BBBF026A0F61C65E004A6CF2 /* THMSamsungProperty.cpp */,
+				BBBF026B0F61C65E004A6CF2 /* THMSamsungProperty.h */,
+				BBBF026C0F61C65E004A6CF2 /* UTZFile.cpp */,
+				BBBF026D0F61C65E004A6CF2 /* UTZFile.h */,
+				BBBF026E0F61C65E004A6CF2 /* UTZProperty.cpp */,
+				BBBF026F0F61C65E004A6CF2 /* UTZProperty.h */,
+				BBBF02700F61C65E004A6CF2 /* Version.h */,
+				BBBF02710F61C65E004A6CF2 /* ZIPArchive.cpp */,
+				BBBF02720F61C65E004A6CF2 /* ZIPArchive.h */,
+				32BAE0B70371A74B00C91783 /* retroTheme_Prefix.pch */,
+				50B2938909F016FC00694E55 /* retroThemePriv.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		5073E0CA09E734BC00EC74B6 /* Configuration Files */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0C609E734A800EC74B6 /* retroThemeProj.xcconfig */,
+				5073E0C709E734A800EC74B6 /* retroThemeTarget.xcconfig */,
+			);
+			name = "Configuration Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC09905546B4700DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBF02740F61C65E004A6CF2 /* JADFile.h in Headers */,
+				BBBF02760F61C65E004A6CF2 /* JADProperty.h in Headers */,
+				BBBF02780F61C65E004A6CF2 /* JARFile.h in Headers */,
+				BBBF027A0F61C65E004A6CF2 /* JARProperty.h in Headers */,
+				BBBF027C0F61C65E004A6CF2 /* MTFFile.h in Headers */,
+				BBBF027E0F61C65E004A6CF2 /* MTFProperty.h in Headers */,
+				BBBF02800F61C65E004A6CF2 /* NTHFile.h in Headers */,
+				BBBF02820F61C65E004A6CF2 /* NTHProperty.h in Headers */,
+				BBBF02830F61C65E004A6CF2 /* resource.h in Headers */,
+				BBBF02860F61C65E004A6CF2 /* SDFFile.h in Headers */,
+				BBBF02880F61C65E004A6CF2 /* SDFProperty.h in Headers */,
+				BBBF028A0F61C65E004A6CF2 /* SISFile.h in Headers */,
+				BBBF028C0F61C65E004A6CF2 /* SISProperty.h in Headers */,
+				BBBF028E0F61C65E004A6CF2 /* stdafx.h in Headers */,
+				BBBF02900F61C65E004A6CF2 /* TARArchive.h in Headers */,
+				BBBF02920F61C65E004A6CF2 /* ThemeBaseContent.h in Headers */,
+				BBBF02940F61C65E004A6CF2 /* THMFile.h in Headers */,
+				BBBF02960F61C65E004A6CF2 /* THMProperty.h in Headers */,
+				BBBF02980F61C65E004A6CF2 /* THMSamsungFile.h in Headers */,
+				BBBF029A0F61C65E004A6CF2 /* THMSamsungProperty.h in Headers */,
+				BBBF029C0F61C65E004A6CF2 /* UTZFile.h in Headers */,
+				BBBF029E0F61C65E004A6CF2 /* UTZProperty.h in Headers */,
+				BBBF029F0F61C65E004A6CF2 /* Version.h in Headers */,
+				BBBF02A10F61C65E004A6CF2 /* ZIPArchive.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC09C05546B4700DB518D /* retroTheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "retroTheme" */;
+			buildPhases = (
+				D2AAC09905546B4700DB518D /* Headers */,
+				D2AAC09B05546B4700DB518D /* Frameworks */,
+				D2AAC09A05546B4700DB518D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = retroTheme;
+			productName = libretroTheme;
+			productReference = D2AAC09D05546B4700DB518D /* libretroTheme.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB916408733D950010E9CD /* Build configuration list for PBXProject "retroTheme" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* retroTheme */;
+			productRefGroup = 034768DDFF38A45A11DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC09C05546B4700DB518D /* retroTheme */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC09A05546B4700DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBF02730F61C65E004A6CF2 /* JADFile.cpp in Sources */,
+				BBBF02750F61C65E004A6CF2 /* JADProperty.cpp in Sources */,
+				BBBF02770F61C65E004A6CF2 /* JARFile.cpp in Sources */,
+				BBBF02790F61C65E004A6CF2 /* JARProperty.cpp in Sources */,
+				BBBF027B0F61C65E004A6CF2 /* MTFFile.cpp in Sources */,
+				BBBF027D0F61C65E004A6CF2 /* MTFProperty.cpp in Sources */,
+				BBBF027F0F61C65E004A6CF2 /* NTHFile.cpp in Sources */,
+				BBBF02810F61C65E004A6CF2 /* NTHProperty.cpp in Sources */,
+				BBBF02840F61C65E004A6CF2 /* retroTheme.cpp in Sources */,
+				BBBF02850F61C65E004A6CF2 /* SDFFile.cpp in Sources */,
+				BBBF02870F61C65E004A6CF2 /* SDFProperty.cpp in Sources */,
+				BBBF02890F61C65E004A6CF2 /* SISFile.cpp in Sources */,
+				BBBF028B0F61C65E004A6CF2 /* SISProperty.cpp in Sources */,
+				BBBF028D0F61C65E004A6CF2 /* stdafx.cpp in Sources */,
+				BBBF028F0F61C65E004A6CF2 /* TARArchive.cpp in Sources */,
+				BBBF02910F61C65E004A6CF2 /* ThemeBaseContent.cpp in Sources */,
+				BBBF02930F61C65E004A6CF2 /* THMFile.cpp in Sources */,
+				BBBF02950F61C65E004A6CF2 /* THMProperty.cpp in Sources */,
+				BBBF02970F61C65E004A6CF2 /* THMSamsungFile.cpp in Sources */,
+				BBBF02990F61C65E004A6CF2 /* THMSamsungProperty.cpp in Sources */,
+				BBBF029B0F61C65E004A6CF2 /* UTZFile.cpp in Sources */,
+				BBBF029D0F61C65E004A6CF2 /* UTZProperty.cpp in Sources */,
+				BBBF02A00F61C65E004A6CF2 /* ZIPArchive.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB916108733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* retroThemeTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /tmp/code.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = retroTheme_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INSTALL_PATH = /usr/local/libexec/Retro/validators;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../retroBase/build/Release\"",
+					/opt/local/lib,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		1DEB916208733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* retroThemeTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = retroTheme_Prefix.pch;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INSTALL_PATH = /usr/local/libexec/Retro/validators;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../retroBase/build/Release\"",
+					/opt/local/lib,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		1DEB916508733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* retroThemeProj.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB916608733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* retroThemeProj.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "retroTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916108733D950010E9CD /* Debug */,
+				1DEB916208733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB916408733D950010E9CD /* Build configuration list for PBXProject "retroTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916508733D950010E9CD /* Debug */,
+				1DEB916608733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

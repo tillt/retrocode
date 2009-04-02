@@ -1,0 +1,66 @@
+RetroCode SDK
+Copyright (C) 2004-2005 Retro Ringtones LLC, 
+Copyright (C) 2006-2008 MMSGURU
+----------------------------------------------------------------------
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Please note that the use of this software may require the payment of
+patent royalties. You need to consider this issue before you start
+building derivative works. We are not warranting or indemnifying you 
+in any way for patent royalities! YOU ARE SOLELY RESPONSIBLE FOR YOUR 
+OWN ACTIONS!
+
+
+Documentation
+----------------------------------------------------------------------
+Read the documentation in the code/Documentation and the 
+fid/Documentation directory.
+
+
+Directory Structure
+----------------------------------------------------------------------
+retrosdk - top level directory.
+
+	code - RetroCode commandline executable.
+		
+		Documentation - 
+		
+		Installer - 
+		
+		Tests - 
+
+	fid - RetroFID commandline executable.
+      
+	include - generally used include files.
+
+	retroBase - generally used library.
+
+	retroApple - AIFF de/encoder library.
+
+	retroBeatnik - RMF de/encoder library.
+	
+	retroG711 - uLaw and aLaw de/encoder library.
+	
+	retroMpeg - AAC, 3GP, MP4, MP3, AMR, OGG, RA, SWF de/encoder 
+	library.
+	
+	retroPanasonic - MFM and VOX de/encoder library.
+	
+	retroQualcomm - CMX and QCELP de/encoder library.
+	
+	retroWave - WAV and AVI de/encoder library.
+	
+	retroYamaha - SMAF de/encoder library.
+ 
+Till Toenshoff

@@ -1,0 +1,46 @@
+RetroCode(tm)
+Quickstart
+Version 0.01 (GPL)
+
+RetroCode is a commandline tool. For detailed instructions on all of 
+its parameters please see the chapters on Syntax in 
+RetroCode_Documentation.rtf.
+
+File Format Changes (aka simple converting)
+-------------------------------------------
+Run RetroCode with the input-file-path and the output-file-path, if you 
+want to change the format of a sample based ringtone. 
+
+The target format is determined by the given file-extension. That is,
+if you plan to create a SMAF ringtone, you will need to supply an 
+output-filename with the file-extension MMF (not case sensitive). 
+
+Your commandline should look something like this:
+code.exe intput.wav output.mmf
+
+Below are all currently supported encoding file formats and their 
+file-extensions.
+
+mmf		Yamaha Synthetic Music Application Format (SMAF/MMF)
+swf		MacroMedia Flash (SWF)
+rmf		Beatnik Rich Music Format (RMF)
+wav		Microsoft Wave
+mfm		Panasonic MxxFxxMxx (MFM)
+amr		AMR NB
+awb		AMR WB
+pmd		Qualcomm Compact Multimedia Format (CMF/PMD)
+mp4		MP4
+mp3		MP3
+aac		Advanced Audio Coding (AAC)
+3gp		3GPP
+qcp		Qualcomm PureVoice (QCELP/QCP)
+aiff	AIFF
+ra		ReaLAudio
+ogg		OGG Vorbis
+wma 	Windows Media
+ulaw	uLaw
+alaw 	aLaw
+
+For details on codec parameters, meta data as well as many sound 
+transformations (fade, normalize,...) please consult the full 
+documentation as mentioned above.

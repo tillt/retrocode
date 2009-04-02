@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBFE3FB20F50DACE0057C027 /* retroQualcomm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3FA00F50DACE0057C027 /* retroQualcomm.cpp */; };
+		BBFE3FB30F50DACE0057C027 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3FA10F50DACE0057C027 /* stdafx.cpp */; };
+		BBFE3FB40F50DACE0057C027 /* CMXSample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3FA20F50DACE0057C027 /* CMXSample.cpp */; };
+		BBFE3FB50F50DACE0057C027 /* Version.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3FA30F50DACE0057C027 /* Version.h */; };
+		BBFE3FB60F50DACE0057C027 /* retroQualcomm.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3FA40F50DACE0057C027 /* retroQualcomm.h */; };
+		BBFE3FB70F50DACE0057C027 /* CMXFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3FA50F50DACE0057C027 /* CMXFile.cpp */; };
+		BBFE3FB80F50DACE0057C027 /* QCELPProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3FA60F50DACE0057C027 /* QCELPProperty.h */; };
+		BBFE3FB90F50DACE0057C027 /* CMXProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3FA70F50DACE0057C027 /* CMXProperty.cpp */; };
+		BBFE3FBA0F50DACE0057C027 /* CMXProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3FA80F50DACE0057C027 /* CMXProperty.h */; };
+		BBFE3FBB0F50DACE0057C027 /* QCELPFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3FA90F50DACE0057C027 /* QCELPFile.cpp */; };
+		BBFE3FBC0F50DACE0057C027 /* stdafx.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3FAA0F50DACE0057C027 /* stdafx.h */; };
+		BBFE3FBD0F50DACE0057C027 /* QCELPFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3FAB0F50DACE0057C027 /* QCELPFile.h */; };
+		BBFE3FBE0F50DACE0057C027 /* CMXFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3FAC0F50DACE0057C027 /* CMXFile.h */; };
+		BBFE3FBF0F50DACE0057C027 /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3FAD0F50DACE0057C027 /* resource.h */; };
+		BBFE3FC00F50DACE0057C027 /* ANSI733Codec.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3FAE0F50DACE0057C027 /* ANSI733Codec.h */; };
+		BBFE3FC10F50DACE0057C027 /* CMXSample.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3FAF0F50DACE0057C027 /* CMXSample.h */; };
+		BBFE3FC20F50DACE0057C027 /* ANSI733Codec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3FB00F50DACE0057C027 /* ANSI733Codec.cpp */; };
+		BBFE3FC30F50DACE0057C027 /* QCELPProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3FB10F50DACE0057C027 /* QCELPProperty.cpp */; };
+		BBFE3FC60F50DB1D0057C027 /* libretroBase.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFE3FC50F50DB1D0057C027 /* libretroBase.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32BAE0B70371A74B00C91783 /* retroQualcomm_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = retroQualcomm_Prefix.pch; sourceTree = "<group>"; };
+		5073E0C609E734A800EC74B6 /* retroQualcommProj.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = retroQualcommProj.xcconfig; sourceTree = "<group>"; };
+		5073E0C709E734A800EC74B6 /* retroQualcommTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = retroQualcommTarget.xcconfig; sourceTree = "<group>"; };
+		BBFE3FA00F50DACE0057C027 /* retroQualcomm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = retroQualcomm.cpp; path = ../../../retroQualcomm/retroQualcomm.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3FA10F50DACE0057C027 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stdafx.cpp; path = ../../../retroQualcomm/stdafx.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3FA20F50DACE0057C027 /* CMXSample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CMXSample.cpp; path = ../../../retroQualcomm/CMXSample.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3FA30F50DACE0057C027 /* Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Version.h; path = ../../../retroQualcomm/Version.h; sourceTree = SOURCE_ROOT; };
+		BBFE3FA40F50DACE0057C027 /* retroQualcomm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = retroQualcomm.h; path = ../../../retroQualcomm/retroQualcomm.h; sourceTree = SOURCE_ROOT; };
+		BBFE3FA50F50DACE0057C027 /* CMXFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CMXFile.cpp; path = ../../../retroQualcomm/CMXFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3FA60F50DACE0057C027 /* QCELPProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QCELPProperty.h; path = ../../../retroQualcomm/QCELPProperty.h; sourceTree = SOURCE_ROOT; };
+		BBFE3FA70F50DACE0057C027 /* CMXProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CMXProperty.cpp; path = ../../../retroQualcomm/CMXProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3FA80F50DACE0057C027 /* CMXProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMXProperty.h; path = ../../../retroQualcomm/CMXProperty.h; sourceTree = SOURCE_ROOT; };
+		BBFE3FA90F50DACE0057C027 /* QCELPFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = QCELPFile.cpp; path = ../../../retroQualcomm/QCELPFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3FAA0F50DACE0057C027 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stdafx.h; path = ../../../retroQualcomm/stdafx.h; sourceTree = SOURCE_ROOT; };
+		BBFE3FAB0F50DACE0057C027 /* QCELPFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QCELPFile.h; path = ../../../retroQualcomm/QCELPFile.h; sourceTree = SOURCE_ROOT; };
+		BBFE3FAC0F50DACE0057C027 /* CMXFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMXFile.h; path = ../../../retroQualcomm/CMXFile.h; sourceTree = SOURCE_ROOT; };
+		BBFE3FAD0F50DACE0057C027 /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = resource.h; path = ../../../retroQualcomm/resource.h; sourceTree = SOURCE_ROOT; };
+		BBFE3FAE0F50DACE0057C027 /* ANSI733Codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ANSI733Codec.h; path = ../../../retroQualcomm/ANSI733Codec.h; sourceTree = SOURCE_ROOT; };
+		BBFE3FAF0F50DACE0057C027 /* CMXSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMXSample.h; path = ../../../retroQualcomm/CMXSample.h; sourceTree = SOURCE_ROOT; };
+		BBFE3FB00F50DACE0057C027 /* ANSI733Codec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ANSI733Codec.cpp; path = ../../../retroQualcomm/ANSI733Codec.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3FB10F50DACE0057C027 /* QCELPProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = QCELPProperty.cpp; path = ../../../retroQualcomm/QCELPProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3FC50F50DB1D0057C027 /* libretroBase.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libretroBase.dylib; path = ../retroBase/build/Release/libretroBase.dylib; sourceTree = SOURCE_ROOT; };
+		D2AAC09D05546B4700DB518D /* libretroQualcomm.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libretroQualcomm.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC09B05546B4700DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFE3FC60F50DB1D0057C027 /* libretroBase.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DDFF38A45A11DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC09D05546B4700DB518D /* libretroQualcomm.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* retroQualcomm */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0CA09E734BC00EC74B6 /* Configuration Files */,
+				08FB77ACFE841707C02AAC07 /* Source */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DDFF38A45A11DB9C8B /* Products */,
+			);
+			name = retroQualcomm;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				BBFE3FC50F50DB1D0057C027 /* libretroBase.dylib */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77ACFE841707C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BBFE3FA00F50DACE0057C027 /* retroQualcomm.cpp */,
+				BBFE3FA10F50DACE0057C027 /* stdafx.cpp */,
+				BBFE3FA20F50DACE0057C027 /* CMXSample.cpp */,
+				BBFE3FA30F50DACE0057C027 /* Version.h */,
+				BBFE3FA40F50DACE0057C027 /* retroQualcomm.h */,
+				BBFE3FA50F50DACE0057C027 /* CMXFile.cpp */,
+				BBFE3FA60F50DACE0057C027 /* QCELPProperty.h */,
+				BBFE3FA70F50DACE0057C027 /* CMXProperty.cpp */,
+				BBFE3FA80F50DACE0057C027 /* CMXProperty.h */,
+				BBFE3FA90F50DACE0057C027 /* QCELPFile.cpp */,
+				BBFE3FAA0F50DACE0057C027 /* stdafx.h */,
+				BBFE3FAB0F50DACE0057C027 /* QCELPFile.h */,
+				BBFE3FAC0F50DACE0057C027 /* CMXFile.h */,
+				BBFE3FAD0F50DACE0057C027 /* resource.h */,
+				BBFE3FAE0F50DACE0057C027 /* ANSI733Codec.h */,
+				BBFE3FAF0F50DACE0057C027 /* CMXSample.h */,
+				BBFE3FB00F50DACE0057C027 /* ANSI733Codec.cpp */,
+				BBFE3FB10F50DACE0057C027 /* QCELPProperty.cpp */,
+				32BAE0B70371A74B00C91783 /* retroQualcomm_Prefix.pch */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		5073E0CA09E734BC00EC74B6 /* Configuration Files */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0C609E734A800EC74B6 /* retroQualcommProj.xcconfig */,
+				5073E0C709E734A800EC74B6 /* retroQualcommTarget.xcconfig */,
+			);
+			name = "Configuration Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC09905546B4700DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFE3FB50F50DACE0057C027 /* Version.h in Headers */,
+				BBFE3FB60F50DACE0057C027 /* retroQualcomm.h in Headers */,
+				BBFE3FB80F50DACE0057C027 /* QCELPProperty.h in Headers */,
+				BBFE3FBA0F50DACE0057C027 /* CMXProperty.h in Headers */,
+				BBFE3FBC0F50DACE0057C027 /* stdafx.h in Headers */,
+				BBFE3FBD0F50DACE0057C027 /* QCELPFile.h in Headers */,
+				BBFE3FBE0F50DACE0057C027 /* CMXFile.h in Headers */,
+				BBFE3FBF0F50DACE0057C027 /* resource.h in Headers */,
+				BBFE3FC00F50DACE0057C027 /* ANSI733Codec.h in Headers */,
+				BBFE3FC10F50DACE0057C027 /* CMXSample.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC09C05546B4700DB518D /* retroQualcomm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "retroQualcomm" */;
+			buildPhases = (
+				D2AAC09905546B4700DB518D /* Headers */,
+				D2AAC09B05546B4700DB518D /* Frameworks */,
+				D2AAC09A05546B4700DB518D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = retroQualcomm;
+			productName = libretroQualcomm;
+			productReference = D2AAC09D05546B4700DB518D /* libretroQualcomm.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB916408733D950010E9CD /* Build configuration list for PBXProject "retroQualcomm" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* retroQualcomm */;
+			productRefGroup = 034768DDFF38A45A11DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC09C05546B4700DB518D /* retroQualcomm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC09A05546B4700DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFE3FB20F50DACE0057C027 /* retroQualcomm.cpp in Sources */,
+				BBFE3FB30F50DACE0057C027 /* stdafx.cpp in Sources */,
+				BBFE3FB40F50DACE0057C027 /* CMXSample.cpp in Sources */,
+				BBFE3FB70F50DACE0057C027 /* CMXFile.cpp in Sources */,
+				BBFE3FB90F50DACE0057C027 /* CMXProperty.cpp in Sources */,
+				BBFE3FBB0F50DACE0057C027 /* QCELPFile.cpp in Sources */,
+				BBFE3FC20F50DACE0057C027 /* ANSI733Codec.cpp in Sources */,
+				BBFE3FC30F50DACE0057C027 /* QCELPProperty.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB916108733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* retroQualcommTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /tmp/code.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = retroQualcomm_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INSTALL_PATH = /usr/local/libexec/Retro/codecs;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../retroBase/build/Debug\"",
+				);
+				OTHER_LDFLAGS = (
+					"-L/usr/local/lib",
+					"-lqcelp",
+					"-ltty",
+					"-ldsp40",
+					"-lops",
+					"-all_load",
+				);
+			};
+			name = Debug;
+		};
+		1DEB916208733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* retroQualcommTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = retroQualcomm_Prefix.pch;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INSTALL_PATH = /usr/local/libexec/Retro/codecs;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../retroBase/build/Debug\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-L/usr/local/lib",
+					"-lqcelp",
+					"-ltty",
+					"-ldsp40",
+					"-lops",
+					"-all_load",
+				);
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		1DEB916508733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* retroQualcommProj.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB916608733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* retroQualcommProj.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "retroQualcomm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916108733D950010E9CD /* Debug */,
+				1DEB916208733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB916408733D950010E9CD /* Build configuration list for PBXProject "retroQualcomm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916508733D950010E9CD /* Debug */,
+				1DEB916608733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

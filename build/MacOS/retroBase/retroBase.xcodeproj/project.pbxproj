@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBA0C2550F4FD5A600184CE2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA0C2540F4FD5A600184CE2 /* libz.dylib */; };
+		BBCA60320F4FD428006824DE /* Modules.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCA60050F4FD428006824DE /* Modules.h */; };
+		BBCA60330F4FD428006824DE /* Basics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA60060F4FD428006824DE /* Basics.cpp */; };
+		BBCA60340F4FD428006824DE /* Packer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA60070F4FD428006824DE /* Packer.cpp */; };
+		BBCA60350F4FD428006824DE /* MIDIFileWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA60080F4FD428006824DE /* MIDIFileWriter.cpp */; };
+		BBCA60360F4FD428006824DE /* MemoryBitmap.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCA60090F4FD428006824DE /* MemoryBitmap.h */; };
+		BBCA60370F4FD428006824DE /* CommonAccess.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCA600A0F4FD428006824DE /* CommonAccess.h */; };
+		BBCA60380F4FD428006824DE /* wruntime_error.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCA600B0F4FD428006824DE /* wruntime_error.h */; };
+		BBCA60390F4FD428006824DE /* wruntime_error.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA600C0F4FD428006824DE /* wruntime_error.cpp */; };
+		BBCA603A0F4FD428006824DE /* Version.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCA600D0F4FD428006824DE /* Version.h */; };
+		BBCA603B0F4FD428006824DE /* stdafx.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCA600E0F4FD428006824DE /* stdafx.h */; };
+		BBCA603C0F4FD428006824DE /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA600F0F4FD428006824DE /* stdafx.cpp */; };
+		BBCA603F0F4FD428006824DE /* ResourceVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCA60120F4FD428006824DE /* ResourceVersion.h */; };
+		BBCA60400F4FD428006824DE /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCA60130F4FD428006824DE /* resource.h */; };
+		BBCA60410F4FD428006824DE /* PacketCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCA60140F4FD428006824DE /* PacketCollection.h */; };
+		BBCA60420F4FD428006824DE /* PacketCollection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA60150F4FD428006824DE /* PacketCollection.cpp */; };
+		BBCA60430F4FD428006824DE /* Packer.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCA60160F4FD428006824DE /* Packer.h */; };
+		BBCA60440F4FD428006824DE /* MyString.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCA60170F4FD428006824DE /* MyString.h */; };
+		BBCA60450F4FD428006824DE /* MyString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA60180F4FD428006824DE /* MyString.cpp */; };
+		BBCA60460F4FD428006824DE /* MyLanguage.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCA60190F4FD428006824DE /* MyLanguage.h */; };
+		BBCA60470F4FD428006824DE /* Midispec.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCA601A0F4FD428006824DE /* Midispec.h */; };
+		BBCA60480F4FD428006824DE /* MIDIPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCA601B0F4FD428006824DE /* MIDIPlayer.h */; };
+		BBCA60490F4FD428006824DE /* MIDIFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCA601C0F4FD428006824DE /* MIDIFile.h */; };
+		BBCA604A0F4FD428006824DE /* MemoryBitmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA601D0F4FD428006824DE /* MemoryBitmap.cpp */; };
+		BBCA604B0F4FD428006824DE /* BitStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA601E0F4FD428006824DE /* BitStream.cpp */; };
+		BBCA604C0F4FD428006824DE /* FIDProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA601F0F4FD428006824DE /* FIDProperty.cpp */; };
+		BBCA604D0F4FD428006824DE /* Endian.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCA60200F4FD428006824DE /* Endian.h */; };
+		BBCA604E0F4FD428006824DE /* Endian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA60210F4FD428006824DE /* Endian.cpp */; };
+		BBCA604F0F4FD428006824DE /* CommonAccess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA60220F4FD428006824DE /* CommonAccess.cpp */; };
+		BBCA60500F4FD428006824DE /* Adpcm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA60230F4FD428006824DE /* Adpcm.cpp */; };
+		BBCA60510F4FD428006824DE /* BitStream.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCA60240F4FD428006824DE /* BitStream.h */; };
+		BBCA60520F4FD429006824DE /* Basics.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCA60250F4FD428006824DE /* Basics.h */; };
+		BBCA60530F4FD429006824DE /* Integer.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCA60260F4FD428006824DE /* Integer.h */; };
+		BBCA60540F4FD429006824DE /* FIDProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCA60270F4FD428006824DE /* FIDProperty.h */; };
+		BBCA60550F4FD429006824DE /* CompressedIO.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCA60280F4FD428006824DE /* CompressedIO.h */; };
+		BBCA60560F4FD429006824DE /* MIDIFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA60290F4FD428006824DE /* MIDIFile.cpp */; };
+		BBCA60570F4FD429006824DE /* Modules.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA602A0F4FD428006824DE /* Modules.cpp */; };
+		BBCA60580F4FD429006824DE /* MobileContent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA602B0F4FD428006824DE /* MobileContent.cpp */; };
+		BBCA60590F4FD429006824DE /* MIDIFileWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCA602C0F4FD428006824DE /* MIDIFileWriter.h */; };
+		BBCA605A0F4FD429006824DE /* MobileContent.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCA602D0F4FD428006824DE /* MobileContent.h */; };
+		BBCA605B0F4FD429006824DE /* CompressedIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA602E0F4FD428006824DE /* CompressedIO.cpp */; };
+		BBCA605C0F4FD429006824DE /* MobileProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA602F0F4FD428006824DE /* MobileProperty.cpp */; };
+		BBCA605D0F4FD429006824DE /* Adpcm.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCA60300F4FD428006824DE /* Adpcm.h */; };
+		BBCA605E0F4FD429006824DE /* Platform.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCA60310F4FD428006824DE /* Platform.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32BAE0B70371A74B00C91783 /* retroBase_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = retroBase_Prefix.pch; sourceTree = "<group>"; };
+		5073E0C609E734A800EC74B6 /* retroBaseProj.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = retroBaseProj.xcconfig; sourceTree = "<group>"; };
+		5073E0C709E734A800EC74B6 /* retroBaseTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = retroBaseTarget.xcconfig; sourceTree = "<group>"; };
+		BBA0C2540F4FD5A600184CE2 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		BBCA60050F4FD428006824DE /* Modules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Modules.h; path = ../../../retroBase/Modules.h; sourceTree = SOURCE_ROOT; };
+		BBCA60060F4FD428006824DE /* Basics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Basics.cpp; path = ../../../retroBase/Basics.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA60070F4FD428006824DE /* Packer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Packer.cpp; path = ../../../retroBase/Packer.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA60080F4FD428006824DE /* MIDIFileWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIDIFileWriter.cpp; path = ../../../retroBase/MIDIFileWriter.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA60090F4FD428006824DE /* MemoryBitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MemoryBitmap.h; path = ../../../retroBase/MemoryBitmap.h; sourceTree = SOURCE_ROOT; };
+		BBCA600A0F4FD428006824DE /* CommonAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonAccess.h; path = ../../../retroBase/CommonAccess.h; sourceTree = SOURCE_ROOT; };
+		BBCA600B0F4FD428006824DE /* wruntime_error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wruntime_error.h; path = ../../../retroBase/wruntime_error.h; sourceTree = SOURCE_ROOT; };
+		BBCA600C0F4FD428006824DE /* wruntime_error.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wruntime_error.cpp; path = ../../../retroBase/wruntime_error.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA600D0F4FD428006824DE /* Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Version.h; path = ../../../retroBase/Version.h; sourceTree = SOURCE_ROOT; };
+		BBCA600E0F4FD428006824DE /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stdafx.h; path = ../../../retroBase/stdafx.h; sourceTree = SOURCE_ROOT; };
+		BBCA600F0F4FD428006824DE /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stdafx.cpp; path = ../../../retroBase/stdafx.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA60120F4FD428006824DE /* ResourceVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResourceVersion.h; path = ../../../retroBase/ResourceVersion.h; sourceTree = SOURCE_ROOT; };
+		BBCA60130F4FD428006824DE /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = resource.h; path = ../../../retroBase/resource.h; sourceTree = SOURCE_ROOT; };
+		BBCA60140F4FD428006824DE /* PacketCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PacketCollection.h; path = ../../../retroBase/PacketCollection.h; sourceTree = SOURCE_ROOT; };
+		BBCA60150F4FD428006824DE /* PacketCollection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PacketCollection.cpp; path = ../../../retroBase/PacketCollection.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA60160F4FD428006824DE /* Packer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Packer.h; path = ../../../retroBase/Packer.h; sourceTree = SOURCE_ROOT; };
+		BBCA60170F4FD428006824DE /* MyString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyString.h; path = ../../../retroBase/MyString.h; sourceTree = SOURCE_ROOT; };
+		BBCA60180F4FD428006824DE /* MyString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MyString.cpp; path = ../../../retroBase/MyString.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA60190F4FD428006824DE /* MyLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyLanguage.h; path = ../../../retroBase/MyLanguage.h; sourceTree = SOURCE_ROOT; };
+		BBCA601A0F4FD428006824DE /* Midispec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Midispec.h; path = ../../../retroBase/Midispec.h; sourceTree = SOURCE_ROOT; };
+		BBCA601B0F4FD428006824DE /* MIDIPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIDIPlayer.h; path = ../../../retroBase/MIDIPlayer.h; sourceTree = SOURCE_ROOT; };
+		BBCA601C0F4FD428006824DE /* MIDIFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIDIFile.h; path = ../../../retroBase/MIDIFile.h; sourceTree = SOURCE_ROOT; };
+		BBCA601D0F4FD428006824DE /* MemoryBitmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MemoryBitmap.cpp; path = ../../../retroBase/MemoryBitmap.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA601E0F4FD428006824DE /* BitStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BitStream.cpp; path = ../../../retroBase/BitStream.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA601F0F4FD428006824DE /* FIDProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FIDProperty.cpp; path = ../../../retroBase/FIDProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA60200F4FD428006824DE /* Endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Endian.h; path = ../../../retroBase/Endian.h; sourceTree = SOURCE_ROOT; };
+		BBCA60210F4FD428006824DE /* Endian.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Endian.cpp; path = ../../../retroBase/Endian.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA60220F4FD428006824DE /* CommonAccess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CommonAccess.cpp; path = ../../../retroBase/CommonAccess.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA60230F4FD428006824DE /* Adpcm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Adpcm.cpp; path = ../../../retroBase/Adpcm.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA60240F4FD428006824DE /* BitStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BitStream.h; path = ../../../retroBase/BitStream.h; sourceTree = SOURCE_ROOT; };
+		BBCA60250F4FD428006824DE /* Basics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Basics.h; path = ../../../retroBase/Basics.h; sourceTree = SOURCE_ROOT; };
+		BBCA60260F4FD428006824DE /* Integer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Integer.h; path = ../../../retroBase/Integer.h; sourceTree = SOURCE_ROOT; };
+		BBCA60270F4FD428006824DE /* FIDProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FIDProperty.h; path = ../../../retroBase/FIDProperty.h; sourceTree = SOURCE_ROOT; };
+		BBCA60280F4FD428006824DE /* CompressedIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompressedIO.h; path = ../../../retroBase/CompressedIO.h; sourceTree = SOURCE_ROOT; };
+		BBCA60290F4FD428006824DE /* MIDIFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIDIFile.cpp; path = ../../../retroBase/MIDIFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA602A0F4FD428006824DE /* Modules.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Modules.cpp; path = ../../../retroBase/Modules.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA602B0F4FD428006824DE /* MobileContent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MobileContent.cpp; path = ../../../retroBase/MobileContent.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA602C0F4FD428006824DE /* MIDIFileWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIDIFileWriter.h; path = ../../../retroBase/MIDIFileWriter.h; sourceTree = SOURCE_ROOT; };
+		BBCA602D0F4FD428006824DE /* MobileContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MobileContent.h; path = ../../../retroBase/MobileContent.h; sourceTree = SOURCE_ROOT; };
+		BBCA602E0F4FD428006824DE /* CompressedIO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CompressedIO.cpp; path = ../../../retroBase/CompressedIO.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA602F0F4FD428006824DE /* MobileProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MobileProperty.cpp; path = ../../../retroBase/MobileProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA60300F4FD428006824DE /* Adpcm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Adpcm.h; path = ../../../retroBase/Adpcm.h; sourceTree = SOURCE_ROOT; };
+		BBCA60310F4FD428006824DE /* Platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Platform.h; path = ../../../retroBase/Platform.h; sourceTree = SOURCE_ROOT; };
+		D2AAC09D05546B4700DB518D /* libretroBase.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libretroBase.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC09B05546B4700DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA0C2550F4FD5A600184CE2 /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DDFF38A45A11DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC09D05546B4700DB518D /* libretroBase.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* retroBase */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0CA09E734BC00EC74B6 /* Configuration Files */,
+				08FB77ACFE841707C02AAC07 /* Source */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DDFF38A45A11DB9C8B /* Products */,
+			);
+			name = retroBase;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				BBA0C2540F4FD5A600184CE2 /* libz.dylib */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77ACFE841707C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				32BAE0B70371A74B00C91783 /* retroBase_Prefix.pch */,
+				BBCA60050F4FD428006824DE /* Modules.h */,
+				BBCA60060F4FD428006824DE /* Basics.cpp */,
+				BBCA60070F4FD428006824DE /* Packer.cpp */,
+				BBCA60080F4FD428006824DE /* MIDIFileWriter.cpp */,
+				BBCA60090F4FD428006824DE /* MemoryBitmap.h */,
+				BBCA600A0F4FD428006824DE /* CommonAccess.h */,
+				BBCA600B0F4FD428006824DE /* wruntime_error.h */,
+				BBCA600C0F4FD428006824DE /* wruntime_error.cpp */,
+				BBCA600D0F4FD428006824DE /* Version.h */,
+				BBCA600E0F4FD428006824DE /* stdafx.h */,
+				BBCA600F0F4FD428006824DE /* stdafx.cpp */,
+				BBCA60120F4FD428006824DE /* ResourceVersion.h */,
+				BBCA60130F4FD428006824DE /* resource.h */,
+				BBCA60140F4FD428006824DE /* PacketCollection.h */,
+				BBCA60150F4FD428006824DE /* PacketCollection.cpp */,
+				BBCA60160F4FD428006824DE /* Packer.h */,
+				BBCA60170F4FD428006824DE /* MyString.h */,
+				BBCA60180F4FD428006824DE /* MyString.cpp */,
+				BBCA60190F4FD428006824DE /* MyLanguage.h */,
+				BBCA601A0F4FD428006824DE /* Midispec.h */,
+				BBCA601B0F4FD428006824DE /* MIDIPlayer.h */,
+				BBCA601C0F4FD428006824DE /* MIDIFile.h */,
+				BBCA601D0F4FD428006824DE /* MemoryBitmap.cpp */,
+				BBCA601E0F4FD428006824DE /* BitStream.cpp */,
+				BBCA601F0F4FD428006824DE /* FIDProperty.cpp */,
+				BBCA60200F4FD428006824DE /* Endian.h */,
+				BBCA60210F4FD428006824DE /* Endian.cpp */,
+				BBCA60220F4FD428006824DE /* CommonAccess.cpp */,
+				BBCA60230F4FD428006824DE /* Adpcm.cpp */,
+				BBCA60240F4FD428006824DE /* BitStream.h */,
+				BBCA60250F4FD428006824DE /* Basics.h */,
+				BBCA60260F4FD428006824DE /* Integer.h */,
+				BBCA60270F4FD428006824DE /* FIDProperty.h */,
+				BBCA60280F4FD428006824DE /* CompressedIO.h */,
+				BBCA60290F4FD428006824DE /* MIDIFile.cpp */,
+				BBCA602A0F4FD428006824DE /* Modules.cpp */,
+				BBCA602B0F4FD428006824DE /* MobileContent.cpp */,
+				BBCA602C0F4FD428006824DE /* MIDIFileWriter.h */,
+				BBCA602D0F4FD428006824DE /* MobileContent.h */,
+				BBCA602E0F4FD428006824DE /* CompressedIO.cpp */,
+				BBCA602F0F4FD428006824DE /* MobileProperty.cpp */,
+				BBCA60300F4FD428006824DE /* Adpcm.h */,
+				BBCA60310F4FD428006824DE /* Platform.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		5073E0CA09E734BC00EC74B6 /* Configuration Files */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0C609E734A800EC74B6 /* retroBaseProj.xcconfig */,
+				5073E0C709E734A800EC74B6 /* retroBaseTarget.xcconfig */,
+			);
+			name = "Configuration Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC09905546B4700DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCA60320F4FD428006824DE /* Modules.h in Headers */,
+				BBCA60360F4FD428006824DE /* MemoryBitmap.h in Headers */,
+				BBCA60370F4FD428006824DE /* CommonAccess.h in Headers */,
+				BBCA60380F4FD428006824DE /* wruntime_error.h in Headers */,
+				BBCA603A0F4FD428006824DE /* Version.h in Headers */,
+				BBCA603B0F4FD428006824DE /* stdafx.h in Headers */,
+				BBCA603F0F4FD428006824DE /* ResourceVersion.h in Headers */,
+				BBCA60400F4FD428006824DE /* resource.h in Headers */,
+				BBCA60410F4FD428006824DE /* PacketCollection.h in Headers */,
+				BBCA60430F4FD428006824DE /* Packer.h in Headers */,
+				BBCA60440F4FD428006824DE /* MyString.h in Headers */,
+				BBCA60460F4FD428006824DE /* MyLanguage.h in Headers */,
+				BBCA60470F4FD428006824DE /* Midispec.h in Headers */,
+				BBCA60480F4FD428006824DE /* MIDIPlayer.h in Headers */,
+				BBCA60490F4FD428006824DE /* MIDIFile.h in Headers */,
+				BBCA604D0F4FD428006824DE /* Endian.h in Headers */,
+				BBCA60510F4FD428006824DE /* BitStream.h in Headers */,
+				BBCA60520F4FD429006824DE /* Basics.h in Headers */,
+				BBCA60530F4FD429006824DE /* Integer.h in Headers */,
+				BBCA60540F4FD429006824DE /* FIDProperty.h in Headers */,
+				BBCA60550F4FD429006824DE /* CompressedIO.h in Headers */,
+				BBCA60590F4FD429006824DE /* MIDIFileWriter.h in Headers */,
+				BBCA605A0F4FD429006824DE /* MobileContent.h in Headers */,
+				BBCA605D0F4FD429006824DE /* Adpcm.h in Headers */,
+				BBCA605E0F4FD429006824DE /* Platform.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC09C05546B4700DB518D /* retroBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "retroBase" */;
+			buildPhases = (
+				D2AAC09905546B4700DB518D /* Headers */,
+				D2AAC09B05546B4700DB518D /* Frameworks */,
+				D2AAC09A05546B4700DB518D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = retroBase;
+			productName = libretroBase;
+			productReference = D2AAC09D05546B4700DB518D /* libretroBase.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB916408733D950010E9CD /* Build configuration list for PBXProject "retroBase" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* retroBase */;
+			productRefGroup = 034768DDFF38A45A11DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC09C05546B4700DB518D /* retroBase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC09A05546B4700DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCA60330F4FD428006824DE /* Basics.cpp in Sources */,
+				BBCA60340F4FD428006824DE /* Packer.cpp in Sources */,
+				BBCA60350F4FD428006824DE /* MIDIFileWriter.cpp in Sources */,
+				BBCA60390F4FD428006824DE /* wruntime_error.cpp in Sources */,
+				BBCA603C0F4FD428006824DE /* stdafx.cpp in Sources */,
+				BBCA60420F4FD428006824DE /* PacketCollection.cpp in Sources */,
+				BBCA60450F4FD428006824DE /* MyString.cpp in Sources */,
+				BBCA604A0F4FD428006824DE /* MemoryBitmap.cpp in Sources */,
+				BBCA604B0F4FD428006824DE /* BitStream.cpp in Sources */,
+				BBCA604C0F4FD428006824DE /* FIDProperty.cpp in Sources */,
+				BBCA604E0F4FD428006824DE /* Endian.cpp in Sources */,
+				BBCA604F0F4FD428006824DE /* CommonAccess.cpp in Sources */,
+				BBCA60500F4FD428006824DE /* Adpcm.cpp in Sources */,
+				BBCA60560F4FD429006824DE /* MIDIFile.cpp in Sources */,
+				BBCA60570F4FD429006824DE /* Modules.cpp in Sources */,
+				BBCA60580F4FD429006824DE /* MobileContent.cpp in Sources */,
+				BBCA605B0F4FD429006824DE /* CompressedIO.cpp in Sources */,
+				BBCA605C0F4FD429006824DE /* MobileProperty.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB916108733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* retroBaseTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = retroBase_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				LD_DYLIB_INSTALL_NAME = "$(DSTROOT)$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
+				OTHER_CFLAGS = "";
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		1DEB916208733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* retroBaseTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = retroBase_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		1DEB916508733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /tmp/code.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-dANSI=1";
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB916608733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* retroBaseProj.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-dANSI=1";
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "retroBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916108733D950010E9CD /* Debug */,
+				1DEB916208733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB916408733D950010E9CD /* Build configuration list for PBXProject "retroBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916508733D950010E9CD /* Debug */,
+				1DEB916608733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

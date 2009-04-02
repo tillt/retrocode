@@ -1,0 +1,9 @@
+#!/bin/bash
+cp ../code/*.cpp ../code/*.h code/
+cp ../fid/*.cpp ../fid/*.h fid/
+mkdir include
+cp ../include/*.h include/
+for ee in $(ls -1 | grep retro); do
+  cp ../$ee/*.cpp ../$ee/*.h $ee
+done
+autoreconf -vfi

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+for ee in $(ls -1 | grep retro); do
+  rm -f $ee/*.o $ee/*.lo $ee/Makefile.in $ee/*.loT $ee/Makefile
+  rm -Rf $ee/.deps $ee/.libs
+done
+
+rm -f code/*.o code/*.lo code/Makefile.in code/*.loT code/Makefile
+rm -Rf code/.deps code/.libs
+
+rm -f fid/*.o fid/*.lo fid/Makefile.in fid/*.loT fid/Makefile
+rm -Rf fid/.deps fid/.libs
+
+rm -Rf Makefile Makefile.in configure autom4te.cache config.h config.h.in
+rm -f aclocal.m4 config.log config.sub config.guess config.status
+rm -f libtool ltmain.sh install-sh missing depcomp stamp-h1

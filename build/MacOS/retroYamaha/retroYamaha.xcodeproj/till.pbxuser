@@ -1,0 +1,190 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeTarget = D2AAC09C05546B4700DB518D /* retroYamaha */;
+		addToTargets = (
+			D2AAC09C05546B4700DB518D /* retroYamaha */,
+		);
+		codeSenseManager = BBA0C41B0F50501A00184CE2 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					1363,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1473,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1433,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 258069131;
+			PBXWorkspaceStateSaveDate = 258069131;
+		};
+		perUserProjectItems = {
+			BBA0C6100F50526600184CE2 /* PBXTextBookmark */ = BBA0C6100F50526600184CE2 /* PBXTextBookmark */;
+			BBA0C6360F50537E00184CE2 /* PBXTextBookmark */ = BBA0C6360F50537E00184CE2 /* PBXTextBookmark */;
+			BBA0C6390F50537E00184CE2 /* PBXTextBookmark */ = BBA0C6390F50537E00184CE2 /* PBXTextBookmark */;
+			BBA0C6410F5054B200184CE2 /* PBXTextBookmark */ = BBA0C6410F5054B200184CE2 /* PBXTextBookmark */;
+			BBA0C6450F5054B200184CE2 /* PBXTextBookmark */ = BBA0C6450F5054B200184CE2 /* PBXTextBookmark */;
+			BBBF06450F61D2B5004A6CF2 /* PBXTextBookmark */ = BBBF06450F61D2B5004A6CF2 /* PBXTextBookmark */;
+			BBBFFFA40F61A46F004A6CF2 /* PBXTextBookmark */ = BBBFFFA40F61A46F004A6CF2 /* PBXTextBookmark */;
+		};
+		sourceControlManager = BBA0C41A0F50501A00184CE2 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	5073E0C609E734A800EC74B6 /* retroYamahaProj.xcconfig */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 253}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 197}";
+		};
+	};
+	5073E0C709E734A800EC74B6 /* retroYamahaTarget.xcconfig */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1651, 710}}";
+			sepNavSelRange = "{376, 0}";
+			sepNavVisRange = "{0, 376}";
+		};
+	};
+	BBA0C41A0F50501A00184CE2 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	BBA0C41B0F50501A00184CE2 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	BBA0C5EF0F50524E00184CE2 /* retroYamaha.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 1036}}";
+			sepNavSelRange = "{305, 0}";
+			sepNavVisRange = "{0, 488}";
+		};
+	};
+	BBA0C6100F50526600184CE2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5073E0C609E734A800EC74B6 /* retroYamahaProj.xcconfig */;
+		name = "retroYamahaProj.xcconfig: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 197;
+		vrLoc = 0;
+	};
+	BBA0C6360F50537E00184CE2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBA0C5EF0F50524E00184CE2 /* retroYamaha.cpp */;
+		name = "retroYamaha.cpp: 10";
+		rLen = 0;
+		rLoc = 305;
+		rType = 0;
+		vrLen = 488;
+		vrLoc = 0;
+	};
+	BBA0C6390F50537E00184CE2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBA0C5EF0F50524E00184CE2 /* retroYamaha.cpp */;
+		name = "retroYamaha.cpp: 10";
+		rLen = 0;
+		rLoc = 305;
+		rType = 0;
+		vrLen = 488;
+		vrLoc = 0;
+	};
+	BBA0C6410F5054B200184CE2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5073E0C609E734A800EC74B6 /* retroYamahaProj.xcconfig */;
+		name = "retroYamahaProj.xcconfig: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 197;
+		vrLoc = 0;
+	};
+	BBA0C6450F5054B200184CE2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5073E0C709E734A800EC74B6 /* retroYamahaTarget.xcconfig */;
+		name = "retroYamahaTarget.xcconfig: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 376;
+		vrLoc = 0;
+	};
+	BBBF06450F61D2B5004A6CF2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5073E0C709E734A800EC74B6 /* retroYamahaTarget.xcconfig */;
+		name = "retroYamahaTarget.xcconfig: 12";
+		rLen = 0;
+		rLoc = 376;
+		rType = 0;
+		vrLen = 376;
+		vrLoc = 0;
+	};
+	BBBFFFA40F61A46F004A6CF2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5073E0C709E734A800EC74B6 /* retroYamahaTarget.xcconfig */;
+		name = "retroYamahaTarget.xcconfig: 12";
+		rLen = 0;
+		rLoc = 376;
+		rType = 0;
+		vrLen = 376;
+		vrLoc = 0;
+	};
+	D2AAC09C05546B4700DB518D /* retroYamaha */ = {
+		activeExec = 0;
+	};
+}

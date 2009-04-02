@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBBF04550F61C9F9004A6CF2 /* libretroBase.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBF04540F61C9F9004A6CF2 /* libretroBase.dylib */; };
+		BBBF04710F61CA2F004A6CF2 /* BMPFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF04560F61CA2F004A6CF2 /* BMPFile.cpp */; };
+		BBBF04720F61CA2F004A6CF2 /* BMPFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF04570F61CA2F004A6CF2 /* BMPFile.h */; };
+		BBBF04730F61CA2F004A6CF2 /* BMPProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF04580F61CA2F004A6CF2 /* BMPProperty.cpp */; };
+		BBBF04740F61CA2F004A6CF2 /* BMPProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF04590F61CA2F004A6CF2 /* BMPProperty.h */; };
+		BBBF04750F61CA2F004A6CF2 /* GIFFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF045A0F61CA2F004A6CF2 /* GIFFile.cpp */; };
+		BBBF04760F61CA2F004A6CF2 /* GIFFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF045B0F61CA2F004A6CF2 /* GIFFile.h */; };
+		BBBF04770F61CA2F004A6CF2 /* GIFProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF045C0F61CA2F004A6CF2 /* GIFProperty.cpp */; };
+		BBBF04780F61CA2F004A6CF2 /* GIFProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF045D0F61CA2F004A6CF2 /* GIFProperty.h */; };
+		BBBF04790F61CA2F004A6CF2 /* JPGFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF045E0F61CA2F004A6CF2 /* JPGFile.cpp */; };
+		BBBF047A0F61CA2F004A6CF2 /* JPGFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF045F0F61CA2F004A6CF2 /* JPGFile.h */; };
+		BBBF047B0F61CA2F004A6CF2 /* JPGProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF04600F61CA2F004A6CF2 /* JPGProperty.cpp */; };
+		BBBF047C0F61CA2F004A6CF2 /* JPGProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF04610F61CA2F004A6CF2 /* JPGProperty.h */; };
+		BBBF047D0F61CA2F004A6CF2 /* MBMFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF04620F61CA2F004A6CF2 /* MBMFile.cpp */; };
+		BBBF047E0F61CA2F004A6CF2 /* MBMFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF04630F61CA2F004A6CF2 /* MBMFile.h */; };
+		BBBF047F0F61CA2F004A6CF2 /* MBMProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF04640F61CA2F004A6CF2 /* MBMProperty.cpp */; };
+		BBBF04800F61CA2F004A6CF2 /* MBMProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF04650F61CA2F004A6CF2 /* MBMProperty.h */; };
+		BBBF04810F61CA2F004A6CF2 /* PNGFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF04660F61CA2F004A6CF2 /* PNGFile.cpp */; };
+		BBBF04820F61CA2F004A6CF2 /* PNGFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF04670F61CA2F004A6CF2 /* PNGFile.h */; };
+		BBBF04830F61CA2F004A6CF2 /* PngMemoryBitmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF04680F61CA2F004A6CF2 /* PngMemoryBitmap.cpp */; };
+		BBBF04840F61CA2F004A6CF2 /* PngMemoryBitmap.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF04690F61CA2F004A6CF2 /* PngMemoryBitmap.h */; };
+		BBBF04850F61CA2F004A6CF2 /* PNGProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF046A0F61CA2F004A6CF2 /* PNGProperty.cpp */; };
+		BBBF04860F61CA2F004A6CF2 /* PNGProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF046B0F61CA2F004A6CF2 /* PNGProperty.h */; };
+		BBBF04870F61CA2F004A6CF2 /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF046C0F61CA2F004A6CF2 /* resource.h */; };
+		BBBF04880F61CA2F004A6CF2 /* retroGraphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF046D0F61CA2F004A6CF2 /* retroGraphics.cpp */; };
+		BBBF04890F61CA2F004A6CF2 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBBF046E0F61CA2F004A6CF2 /* stdafx.cpp */; };
+		BBBF048A0F61CA2F004A6CF2 /* stdafx.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF046F0F61CA2F004A6CF2 /* stdafx.h */; };
+		BBBF048B0F61CA2F004A6CF2 /* Version.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF04700F61CA2F004A6CF2 /* Version.h */; };
+		BBBF04AC0F61CAFE004A6CF2 /* libjpeg.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBF04AB0F61CAFE004A6CF2 /* libjpeg.dylib */; };
+		BBBF04AF0F61CB62004A6CF2 /* libpng.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBF04AE0F61CB62004A6CF2 /* libpng.dylib */; };
+		BBBF04B80F61CC1C004A6CF2 /* libgif.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBF04B70F61CC1C004A6CF2 /* libgif.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32BAE0B70371A74B00C91783 /* retroGraphics_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = retroGraphics_Prefix.pch; sourceTree = "<group>"; };
+		5073E0C609E734A800EC74B6 /* retroGraphicsProj.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = retroGraphicsProj.xcconfig; sourceTree = "<group>"; };
+		5073E0C709E734A800EC74B6 /* retroGraphicsTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = retroGraphicsTarget.xcconfig; sourceTree = "<group>"; };
+		50B2938909F016FC00694E55 /* retroGraphicsPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = retroGraphicsPriv.h; sourceTree = "<group>"; };
+		BBBF04540F61C9F9004A6CF2 /* libretroBase.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libretroBase.dylib; path = ../retroBase/build/Release/libretroBase.dylib; sourceTree = SOURCE_ROOT; };
+		BBBF04560F61CA2F004A6CF2 /* BMPFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BMPFile.cpp; path = ../../../retroGraphics/BMPFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF04570F61CA2F004A6CF2 /* BMPFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMPFile.h; path = ../../../retroGraphics/BMPFile.h; sourceTree = SOURCE_ROOT; };
+		BBBF04580F61CA2F004A6CF2 /* BMPProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BMPProperty.cpp; path = ../../../retroGraphics/BMPProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF04590F61CA2F004A6CF2 /* BMPProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMPProperty.h; path = ../../../retroGraphics/BMPProperty.h; sourceTree = SOURCE_ROOT; };
+		BBBF045A0F61CA2F004A6CF2 /* GIFFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GIFFile.cpp; path = ../../../retroGraphics/GIFFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF045B0F61CA2F004A6CF2 /* GIFFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GIFFile.h; path = ../../../retroGraphics/GIFFile.h; sourceTree = SOURCE_ROOT; };
+		BBBF045C0F61CA2F004A6CF2 /* GIFProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GIFProperty.cpp; path = ../../../retroGraphics/GIFProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF045D0F61CA2F004A6CF2 /* GIFProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GIFProperty.h; path = ../../../retroGraphics/GIFProperty.h; sourceTree = SOURCE_ROOT; };
+		BBBF045E0F61CA2F004A6CF2 /* JPGFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JPGFile.cpp; path = ../../../retroGraphics/JPGFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF045F0F61CA2F004A6CF2 /* JPGFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPGFile.h; path = ../../../retroGraphics/JPGFile.h; sourceTree = SOURCE_ROOT; };
+		BBBF04600F61CA2F004A6CF2 /* JPGProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JPGProperty.cpp; path = ../../../retroGraphics/JPGProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF04610F61CA2F004A6CF2 /* JPGProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPGProperty.h; path = ../../../retroGraphics/JPGProperty.h; sourceTree = SOURCE_ROOT; };
+		BBBF04620F61CA2F004A6CF2 /* MBMFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MBMFile.cpp; path = ../../../retroGraphics/MBMFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF04630F61CA2F004A6CF2 /* MBMFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBMFile.h; path = ../../../retroGraphics/MBMFile.h; sourceTree = SOURCE_ROOT; };
+		BBBF04640F61CA2F004A6CF2 /* MBMProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MBMProperty.cpp; path = ../../../retroGraphics/MBMProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF04650F61CA2F004A6CF2 /* MBMProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBMProperty.h; path = ../../../retroGraphics/MBMProperty.h; sourceTree = SOURCE_ROOT; };
+		BBBF04660F61CA2F004A6CF2 /* PNGFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PNGFile.cpp; path = ../../../retroGraphics/PNGFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF04670F61CA2F004A6CF2 /* PNGFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PNGFile.h; path = ../../../retroGraphics/PNGFile.h; sourceTree = SOURCE_ROOT; };
+		BBBF04680F61CA2F004A6CF2 /* PngMemoryBitmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PngMemoryBitmap.cpp; path = ../../../retroGraphics/PngMemoryBitmap.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF04690F61CA2F004A6CF2 /* PngMemoryBitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PngMemoryBitmap.h; path = ../../../retroGraphics/PngMemoryBitmap.h; sourceTree = SOURCE_ROOT; };
+		BBBF046A0F61CA2F004A6CF2 /* PNGProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PNGProperty.cpp; path = ../../../retroGraphics/PNGProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF046B0F61CA2F004A6CF2 /* PNGProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PNGProperty.h; path = ../../../retroGraphics/PNGProperty.h; sourceTree = SOURCE_ROOT; };
+		BBBF046C0F61CA2F004A6CF2 /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = resource.h; path = ../../../retroGraphics/resource.h; sourceTree = SOURCE_ROOT; };
+		BBBF046D0F61CA2F004A6CF2 /* retroGraphics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = retroGraphics.cpp; path = ../../../retroGraphics/retroGraphics.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF046E0F61CA2F004A6CF2 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stdafx.cpp; path = ../../../retroGraphics/stdafx.cpp; sourceTree = SOURCE_ROOT; };
+		BBBF046F0F61CA2F004A6CF2 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stdafx.h; path = ../../../retroGraphics/stdafx.h; sourceTree = SOURCE_ROOT; };
+		BBBF04700F61CA2F004A6CF2 /* Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Version.h; path = ../../../retroGraphics/Version.h; sourceTree = SOURCE_ROOT; };
+		BBBF04AB0F61CAFE004A6CF2 /* libjpeg.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libjpeg.dylib; path = /sw/lib/libjpeg.dylib; sourceTree = "<absolute>"; };
+		BBBF04AE0F61CB62004A6CF2 /* libpng.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpng.dylib; path = /opt/local/lib/libpng.dylib; sourceTree = "<absolute>"; };
+		BBBF04B70F61CC1C004A6CF2 /* libgif.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgif.dylib; path = /usr/local/lib/libgif.dylib; sourceTree = "<absolute>"; };
+		D2AAC09D05546B4700DB518D /* libretroGraphics.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libretroGraphics.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC09B05546B4700DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBF04550F61C9F9004A6CF2 /* libretroBase.dylib in Frameworks */,
+				BBBF04AC0F61CAFE004A6CF2 /* libjpeg.dylib in Frameworks */,
+				BBBF04AF0F61CB62004A6CF2 /* libpng.dylib in Frameworks */,
+				BBBF04B80F61CC1C004A6CF2 /* libgif.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DDFF38A45A11DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC09D05546B4700DB518D /* libretroGraphics.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* retroGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0CA09E734BC00EC74B6 /* Configuration Files */,
+				08FB77ACFE841707C02AAC07 /* Source */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DDFF38A45A11DB9C8B /* Products */,
+			);
+			name = retroGraphics;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF04B70F61CC1C004A6CF2 /* libgif.dylib */,
+				BBBF04AE0F61CB62004A6CF2 /* libpng.dylib */,
+				BBBF04AB0F61CAFE004A6CF2 /* libjpeg.dylib */,
+				BBBF04540F61C9F9004A6CF2 /* libretroBase.dylib */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77ACFE841707C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF04560F61CA2F004A6CF2 /* BMPFile.cpp */,
+				BBBF04570F61CA2F004A6CF2 /* BMPFile.h */,
+				BBBF04580F61CA2F004A6CF2 /* BMPProperty.cpp */,
+				BBBF04590F61CA2F004A6CF2 /* BMPProperty.h */,
+				BBBF045A0F61CA2F004A6CF2 /* GIFFile.cpp */,
+				BBBF045B0F61CA2F004A6CF2 /* GIFFile.h */,
+				BBBF045C0F61CA2F004A6CF2 /* GIFProperty.cpp */,
+				BBBF045D0F61CA2F004A6CF2 /* GIFProperty.h */,
+				BBBF045E0F61CA2F004A6CF2 /* JPGFile.cpp */,
+				BBBF045F0F61CA2F004A6CF2 /* JPGFile.h */,
+				BBBF04600F61CA2F004A6CF2 /* JPGProperty.cpp */,
+				BBBF04610F61CA2F004A6CF2 /* JPGProperty.h */,
+				BBBF04620F61CA2F004A6CF2 /* MBMFile.cpp */,
+				BBBF04630F61CA2F004A6CF2 /* MBMFile.h */,
+				BBBF04640F61CA2F004A6CF2 /* MBMProperty.cpp */,
+				BBBF04650F61CA2F004A6CF2 /* MBMProperty.h */,
+				BBBF04660F61CA2F004A6CF2 /* PNGFile.cpp */,
+				BBBF04670F61CA2F004A6CF2 /* PNGFile.h */,
+				BBBF04680F61CA2F004A6CF2 /* PngMemoryBitmap.cpp */,
+				BBBF04690F61CA2F004A6CF2 /* PngMemoryBitmap.h */,
+				BBBF046A0F61CA2F004A6CF2 /* PNGProperty.cpp */,
+				BBBF046B0F61CA2F004A6CF2 /* PNGProperty.h */,
+				BBBF046C0F61CA2F004A6CF2 /* resource.h */,
+				BBBF046D0F61CA2F004A6CF2 /* retroGraphics.cpp */,
+				BBBF046E0F61CA2F004A6CF2 /* stdafx.cpp */,
+				BBBF046F0F61CA2F004A6CF2 /* stdafx.h */,
+				BBBF04700F61CA2F004A6CF2 /* Version.h */,
+				32BAE0B70371A74B00C91783 /* retroGraphics_Prefix.pch */,
+				50B2938909F016FC00694E55 /* retroGraphicsPriv.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		5073E0CA09E734BC00EC74B6 /* Configuration Files */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0C609E734A800EC74B6 /* retroGraphicsProj.xcconfig */,
+				5073E0C709E734A800EC74B6 /* retroGraphicsTarget.xcconfig */,
+			);
+			name = "Configuration Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC09905546B4700DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBF04720F61CA2F004A6CF2 /* BMPFile.h in Headers */,
+				BBBF04740F61CA2F004A6CF2 /* BMPProperty.h in Headers */,
+				BBBF04760F61CA2F004A6CF2 /* GIFFile.h in Headers */,
+				BBBF04780F61CA2F004A6CF2 /* GIFProperty.h in Headers */,
+				BBBF047A0F61CA2F004A6CF2 /* JPGFile.h in Headers */,
+				BBBF047C0F61CA2F004A6CF2 /* JPGProperty.h in Headers */,
+				BBBF047E0F61CA2F004A6CF2 /* MBMFile.h in Headers */,
+				BBBF04800F61CA2F004A6CF2 /* MBMProperty.h in Headers */,
+				BBBF04820F61CA2F004A6CF2 /* PNGFile.h in Headers */,
+				BBBF04840F61CA2F004A6CF2 /* PngMemoryBitmap.h in Headers */,
+				BBBF04860F61CA2F004A6CF2 /* PNGProperty.h in Headers */,
+				BBBF04870F61CA2F004A6CF2 /* resource.h in Headers */,
+				BBBF048A0F61CA2F004A6CF2 /* stdafx.h in Headers */,
+				BBBF048B0F61CA2F004A6CF2 /* Version.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC09C05546B4700DB518D /* retroGraphics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "retroGraphics" */;
+			buildPhases = (
+				D2AAC09905546B4700DB518D /* Headers */,
+				D2AAC09B05546B4700DB518D /* Frameworks */,
+				D2AAC09A05546B4700DB518D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = retroGraphics;
+			productName = libretroGraphics;
+			productReference = D2AAC09D05546B4700DB518D /* libretroGraphics.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB916408733D950010E9CD /* Build configuration list for PBXProject "retroGraphics" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* retroGraphics */;
+			productRefGroup = 034768DDFF38A45A11DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC09C05546B4700DB518D /* retroGraphics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC09A05546B4700DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBF04710F61CA2F004A6CF2 /* BMPFile.cpp in Sources */,
+				BBBF04730F61CA2F004A6CF2 /* BMPProperty.cpp in Sources */,
+				BBBF04750F61CA2F004A6CF2 /* GIFFile.cpp in Sources */,
+				BBBF04770F61CA2F004A6CF2 /* GIFProperty.cpp in Sources */,
+				BBBF04790F61CA2F004A6CF2 /* JPGFile.cpp in Sources */,
+				BBBF047B0F61CA2F004A6CF2 /* JPGProperty.cpp in Sources */,
+				BBBF047D0F61CA2F004A6CF2 /* MBMFile.cpp in Sources */,
+				BBBF047F0F61CA2F004A6CF2 /* MBMProperty.cpp in Sources */,
+				BBBF04810F61CA2F004A6CF2 /* PNGFile.cpp in Sources */,
+				BBBF04830F61CA2F004A6CF2 /* PngMemoryBitmap.cpp in Sources */,
+				BBBF04850F61CA2F004A6CF2 /* PNGProperty.cpp in Sources */,
+				BBBF04880F61CA2F004A6CF2 /* retroGraphics.cpp in Sources */,
+				BBBF04890F61CA2F004A6CF2 /* stdafx.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB916108733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* retroGraphicsTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = retroGraphics_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../retroBase/build/Release\"",
+					/sw/lib,
+					/opt/local/lib,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		1DEB916208733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* retroGraphicsTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = retroGraphics_Prefix.pch;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INSTALL_PATH = /usr/local/libExec/Retro/validators;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../retroBase/build/Release\"",
+					/sw/lib,
+					/opt/local/lib,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		1DEB916508733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* retroGraphicsProj.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB916608733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* retroGraphicsProj.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "retroGraphics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916108733D950010E9CD /* Debug */,
+				1DEB916208733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB916408733D950010E9CD /* Build configuration list for PBXProject "retroGraphics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916508733D950010E9CD /* Debug */,
+				1DEB916608733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

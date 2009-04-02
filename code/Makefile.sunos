@@ -1,0 +1,58 @@
+#CFLAGS=-c -O2 -DLANG_ENGLISH -DMMS_IO
+CFLAGS=-c -DLANG_ENGLISH -D_DEBUG -DMMS_IO -DRETROCODEC_LIB_PATH="\"codecs\""
+LFLAGS=-o
+CC=g++
+BIN=../bin/
+
+OUTFILE=retrocode
+MODULES=retroBase/retrobase.so retroWave/retrowave.so retroBeatnik/retrobeatnik.so retroYamaha/retroyamaha.so retroQualcomm/retroqualcomm.so retroPanasonic/retropanasonic.so retroMpeg/retrompeg.so
+
+INC=-I/usr/local/include -I/usr/include -IretroBeatnik -IretroQualcomm -IretroYamaha -IretroBase -IretroWave -IretroPanasonic -IretroMpeg -I../retroBase
+
+LIBS=-L/usr/local/lib -L/usr/lib -L../retroBase -lstdc++ -lretrobase
+
+OBJFILES=code.o ButterWorth.o ChannelConverter.o Filter.o Normalizer.o PeakLimiter.o RateConverter.o Crop.o Loop.o Fade.o EightToSixteenBit.o Ringback.o ExtNormalizer.o
+
+all:	$(MODULES) $(OUTFILE) 
+
+install: all
+	strip $(OUTFILE)
+	install $(OUTFILE) $(BIN)
+
+retroBase/retrobase.so:
+	 cd ../retroBase && $(MAKE) $(TARGET) $(MFLAGS) install
+	
+retroWave/retrowave.so:
+	cd ../retroWave && $(MAKE) $(TARGET) $(MFLAGS) install
+
+retroPanasonic/retropanasonic.so:
+	cd ../retroPanasonic && $(MAKE) $(TARGET) $(MFLAGS) install
+
+retroMpeg/retrompeg.so:
+	cd ../retroMpeg && $(MAKE) $(TARGET) $(MFLAGS) install
+
+retroBeatnik/retrobeatnik.so:
+	cd ../retroBeatnik && $(MAKE) $(MFLAGS) install
+
+retroYamaha/retroyamaha.so:
+	cd ../retroYamaha && $(MAKE) $(MFLAGS) install
+
+retroQualcomm/retroqualcomm.so:
+	cd ../retroQualcomm && $(MAKE) $(MFLAGS) install
+
+$(OUTFILE): $(OBJFILES)
+	$(CC) $(LFLAGS) $@ $(OBJFILES) $(LIBS) $(LDFLAGS)
+	
+.cpp.o: 
+	$(CC) $(CFLAGS) $(INC) $<
+
+clean: 
+	rm *.o -f 
+	rm $(OUTFILE) -f
+	cd ../retroBase && $(MAKE) $(MFLAGS) clean
+	cd ../retroWave && $(MAKE) $(MFLAGS) clean
+	cd ../retroMpeg && $(MAKE) $(MFLAGS) clean
+	cd ../retroBeatnik && $(MAKE) $(MFLAGS) clean
+	cd ../retroYamaha && $(MAKE) $(MFLAGS) clean
+	cd ../retroQualcomm && $(MAKE) $(MFLAGS) clean
+	cd ../retroPanasonic && $(MAKE) $(MFLAGS) clean

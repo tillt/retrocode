@@ -1,0 +1,9 @@
+#ifndef RETROBEATNIK_MAJOR_VERSION
+#define RETROBEATNIK_MAJOR_VERSION      1      /* Major version number */
+#define RETROBEATNIK_MINOR_VERSION      9      /* Minor version number */
+#define RETROBEATNIK_TYPE_VERSION       0      /* 0 alpha, 1 beta, 2 release */
+#define RETROBEATNIK_PATCH_VERSION      1      /* Patch level */
+#define RETROBEATNIK_ALPHA_VERSION     (RETROBEATNIK_TYPE_VERSION==0)
+#define RETROBEATNIK_BETA_VERSION      (RETROBEATNIK_TYPE_VERSION==1)
+#define RETROBEATNIK_RELEASE_VERSION   (RETROBEATNIK_TYPE_VERSION==2)
+#endif

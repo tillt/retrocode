@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBFE432B0F50F2870057C027 /* WMAFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE43050F50F2870057C027 /* WMAFile.h */; };
+		BBFE432C0F50F2870057C027 /* WMAFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE43060F50F2870057C027 /* WMAFile.cpp */; };
+		BBFE432D0F50F2870057C027 /* Version.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE43070F50F2870057C027 /* Version.h */; };
+		BBFE432E0F50F2870057C027 /* SWFProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE43080F50F2870057C027 /* SWFProperty.h */; };
+		BBFE432F0F50F2870057C027 /* SWFProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE43090F50F2870057C027 /* SWFProperty.cpp */; };
+		BBFE43300F50F2870057C027 /* SWFFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE430A0F50F2870057C027 /* SWFFile.h */; };
+		BBFE43310F50F2870057C027 /* SWFFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE430B0F50F2870057C027 /* SWFFile.cpp */; };
+		BBFE43320F50F2870057C027 /* AACProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE430C0F50F2870057C027 /* AACProperty.h */; };
+		BBFE43330F50F2870057C027 /* AACProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE430D0F50F2870057C027 /* AACProperty.cpp */; };
+		BBFE43340F50F2870057C027 /* BitStream.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE430E0F50F2870057C027 /* BitStream.h */; };
+		BBFE43350F50F2870057C027 /* BitStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE430F0F50F2870057C027 /* BitStream.cpp */; };
+		BBFE43360F50F2870057C027 /* MP4File.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE43100F50F2870057C027 /* MP4File.h */; };
+		BBFE43370F50F2870057C027 /* MP4File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE43110F50F2870057C027 /* MP4File.cpp */; };
+		BBFE43380F50F2870057C027 /* Mp4Export.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE43120F50F2870057C027 /* Mp4Export.h */; };
+		BBFE43390F50F2870057C027 /* MP3Property.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE43130F50F2870057C027 /* MP3Property.h */; };
+		BBFE433A0F50F2870057C027 /* MP3Property.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE43140F50F2870057C027 /* MP3Property.cpp */; };
+		BBFE433B0F50F2870057C027 /* MP3File.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE43150F50F2870057C027 /* MP3File.h */; };
+		BBFE433C0F50F2870057C027 /* MP3File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE43160F50F2870057C027 /* MP3File.cpp */; };
+		BBFE433D0F50F2870057C027 /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE43170F50F2870057C027 /* resource.h */; };
+		BBFE433E0F50F2870057C027 /* RAFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE43180F50F2870057C027 /* RAFile.h */; };
+		BBFE433F0F50F2870057C027 /* RAFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE43190F50F2870057C027 /* RAFile.cpp */; };
+		BBFE43400F50F2870057C027 /* OGGFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE431A0F50F2870057C027 /* OGGFile.h */; };
+		BBFE43410F50F2870057C027 /* OGGFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE431B0F50F2870057C027 /* OGGFile.cpp */; };
+		BBFE43420F50F2870057C027 /* FFMPEGFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE431C0F50F2870057C027 /* FFMPEGFile.cpp */; };
+		BBFE43430F50F2870057C027 /* AMRFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE431D0F50F2870057C027 /* AMRFile.h */; };
+		BBFE43440F50F2870057C027 /* AMRFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE431E0F50F2870057C027 /* AMRFile.cpp */; };
+		BBFE43450F50F2870057C027 /* stdafx.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE431F0F50F2870057C027 /* stdafx.h */; };
+		BBFE43460F50F2870057C027 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE43200F50F2870057C027 /* stdafx.cpp */; };
+		BBFE43470F50F2870057C027 /* FFMPEGProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE43210F50F2870057C027 /* FFMPEGProperty.h */; };
+		BBFE43480F50F2870057C027 /* AMRProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE43220F50F2870057C027 /* AMRProperty.h */; };
+		BBFE43490F50F2870057C027 /* AMRProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE43230F50F2870057C027 /* AMRProperty.cpp */; };
+		BBFE434A0F50F2870057C027 /* AACFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE43240F50F2870057C027 /* AACFile.cpp */; };
+		BBFE434B0F50F2870057C027 /* retroMpeg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE43250F50F2870057C027 /* retroMpeg.cpp */; };
+		BBFE434C0F50F2870057C027 /* MP4Property.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE43260F50F2870057C027 /* MP4Property.h */; };
+		BBFE434D0F50F2870057C027 /* MP4Property.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE43270F50F2870057C027 /* MP4Property.cpp */; };
+		BBFE434E0F50F2870057C027 /* AACFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE43280F50F2870057C027 /* AACFile.h */; };
+		BBFE434F0F50F2870057C027 /* FFMPEGProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE43290F50F2870057C027 /* FFMPEGProperty.cpp */; };
+		BBFE43500F50F2870057C027 /* FFMPEGFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE432A0F50F2870057C027 /* FFMPEGFile.h */; };
+		BBFE43560F50F3190057C027 /* libretroBase.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFE43550F50F3190057C027 /* libretroBase.dylib */; };
+		BBFE43760F50F47F0057C027 /* libmad.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFE43750F50F47F0057C027 /* libmad.dylib */; };
+		BBFE43780F50F4CA0057C027 /* libfaad.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFE43770F50F4CA0057C027 /* libfaad.dylib */; };
+		BBFE437A0F50F4DC0057C027 /* libfaac.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFE43790F50F4DC0057C027 /* libfaac.dylib */; };
+		BBFE437C0F50F4F00057C027 /* libmp3lame.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFE437B0F50F4F00057C027 /* libmp3lame.dylib */; };
+		BBFE437E0F50F5210057C027 /* libavcodec.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFE437D0F50F5210057C027 /* libavcodec.dylib */; };
+		BBFE43800F50F52F0057C027 /* libavformat.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFE437F0F50F52F0057C027 /* libavformat.dylib */; };
+		BBFE43C70F50F5670057C027 /* libavutil.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFE43C60F50F5670057C027 /* libavutil.dylib */; };
+		BBFE43CC0F50F58D0057C027 /* libid3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFE43CB0F50F58D0057C027 /* libid3.dylib */; };
+		BBFE43CE0F50F5A50057C027 /* libismacryp.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFE43CD0F50F5A50057C027 /* libismacryp.dylib */; };
+		BBFE43D00F50F5C20057C027 /* libmp4ff.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFE43CF0F50F5C20057C027 /* libmp4ff.a */; };
+		BBFE43D50F50F5FC0057C027 /* libamrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFE43D40F50F5FC0057C027 /* libamrnb.a */; };
+		BBFE43D70F50F6050057C027 /* libamrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFE43D60F50F6050057C027 /* libamrwb.a */; };
+		BBFE43DC0F50F62E0057C027 /* libmp4v2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFE43DB0F50F62E0057C027 /* libmp4v2.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32BAE0B70371A74B00C91783 /* retroMpeg_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = retroMpeg_Prefix.pch; sourceTree = "<group>"; };
+		5073E0C609E734A800EC74B6 /* retroMpegProj.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = retroMpegProj.xcconfig; sourceTree = "<group>"; };
+		5073E0C709E734A800EC74B6 /* retroMpegTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = retroMpegTarget.xcconfig; sourceTree = "<group>"; };
+		BBFE43050F50F2870057C027 /* WMAFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMAFile.h; path = ../../../retroMpeg/WMAFile.h; sourceTree = SOURCE_ROOT; };
+		BBFE43060F50F2870057C027 /* WMAFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WMAFile.cpp; path = ../../../retroMpeg/WMAFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE43070F50F2870057C027 /* Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Version.h; path = ../../../retroMpeg/Version.h; sourceTree = SOURCE_ROOT; };
+		BBFE43080F50F2870057C027 /* SWFProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWFProperty.h; path = ../../../retroMpeg/SWFProperty.h; sourceTree = SOURCE_ROOT; };
+		BBFE43090F50F2870057C027 /* SWFProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SWFProperty.cpp; path = ../../../retroMpeg/SWFProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE430A0F50F2870057C027 /* SWFFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWFFile.h; path = ../../../retroMpeg/SWFFile.h; sourceTree = SOURCE_ROOT; };
+		BBFE430B0F50F2870057C027 /* SWFFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SWFFile.cpp; path = ../../../retroMpeg/SWFFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE430C0F50F2870057C027 /* AACProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AACProperty.h; path = ../../../retroMpeg/AACProperty.h; sourceTree = SOURCE_ROOT; };
+		BBFE430D0F50F2870057C027 /* AACProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AACProperty.cpp; path = ../../../retroMpeg/AACProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE430E0F50F2870057C027 /* BitStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BitStream.h; path = ../../../retroMpeg/BitStream.h; sourceTree = SOURCE_ROOT; };
+		BBFE430F0F50F2870057C027 /* BitStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BitStream.cpp; path = ../../../retroMpeg/BitStream.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE43100F50F2870057C027 /* MP4File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MP4File.h; path = ../../../retroMpeg/MP4File.h; sourceTree = SOURCE_ROOT; };
+		BBFE43110F50F2870057C027 /* MP4File.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MP4File.cpp; path = ../../../retroMpeg/MP4File.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE43120F50F2870057C027 /* Mp4Export.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mp4Export.h; path = ../../../retroMpeg/Mp4Export.h; sourceTree = SOURCE_ROOT; };
+		BBFE43130F50F2870057C027 /* MP3Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MP3Property.h; path = ../../../retroMpeg/MP3Property.h; sourceTree = SOURCE_ROOT; };
+		BBFE43140F50F2870057C027 /* MP3Property.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MP3Property.cpp; path = ../../../retroMpeg/MP3Property.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE43150F50F2870057C027 /* MP3File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MP3File.h; path = ../../../retroMpeg/MP3File.h; sourceTree = SOURCE_ROOT; };
+		BBFE43160F50F2870057C027 /* MP3File.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MP3File.cpp; path = ../../../retroMpeg/MP3File.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE43170F50F2870057C027 /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = resource.h; path = ../../../retroMpeg/resource.h; sourceTree = SOURCE_ROOT; };
+		BBFE43180F50F2870057C027 /* RAFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RAFile.h; path = ../../../retroMpeg/RAFile.h; sourceTree = SOURCE_ROOT; };
+		BBFE43190F50F2870057C027 /* RAFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RAFile.cpp; path = ../../../retroMpeg/RAFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE431A0F50F2870057C027 /* OGGFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OGGFile.h; path = ../../../retroMpeg/OGGFile.h; sourceTree = SOURCE_ROOT; };
+		BBFE431B0F50F2870057C027 /* OGGFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OGGFile.cpp; path = ../../../retroMpeg/OGGFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE431C0F50F2870057C027 /* FFMPEGFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FFMPEGFile.cpp; path = ../../../retroMpeg/FFMPEGFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE431D0F50F2870057C027 /* AMRFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMRFile.h; path = ../../../retroMpeg/AMRFile.h; sourceTree = SOURCE_ROOT; };
+		BBFE431E0F50F2870057C027 /* AMRFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AMRFile.cpp; path = ../../../retroMpeg/AMRFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE431F0F50F2870057C027 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stdafx.h; path = ../../../retroMpeg/stdafx.h; sourceTree = SOURCE_ROOT; };
+		BBFE43200F50F2870057C027 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stdafx.cpp; path = ../../../retroMpeg/stdafx.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE43210F50F2870057C027 /* FFMPEGProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FFMPEGProperty.h; path = ../../../retroMpeg/FFMPEGProperty.h; sourceTree = SOURCE_ROOT; };
+		BBFE43220F50F2870057C027 /* AMRProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMRProperty.h; path = ../../../retroMpeg/AMRProperty.h; sourceTree = SOURCE_ROOT; };
+		BBFE43230F50F2870057C027 /* AMRProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AMRProperty.cpp; path = ../../../retroMpeg/AMRProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE43240F50F2870057C027 /* AACFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AACFile.cpp; path = ../../../retroMpeg/AACFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE43250F50F2870057C027 /* retroMpeg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = retroMpeg.cpp; path = ../../../retroMpeg/retroMpeg.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE43260F50F2870057C027 /* MP4Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MP4Property.h; path = ../../../retroMpeg/MP4Property.h; sourceTree = SOURCE_ROOT; };
+		BBFE43270F50F2870057C027 /* MP4Property.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MP4Property.cpp; path = ../../../retroMpeg/MP4Property.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE43280F50F2870057C027 /* AACFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AACFile.h; path = ../../../retroMpeg/AACFile.h; sourceTree = SOURCE_ROOT; };
+		BBFE43290F50F2870057C027 /* FFMPEGProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FFMPEGProperty.cpp; path = ../../../retroMpeg/FFMPEGProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE432A0F50F2870057C027 /* FFMPEGFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FFMPEGFile.h; path = ../../../retroMpeg/FFMPEGFile.h; sourceTree = SOURCE_ROOT; };
+		BBFE43550F50F3190057C027 /* libretroBase.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libretroBase.dylib; path = ../retroBase/build/Release/libretroBase.dylib; sourceTree = SOURCE_ROOT; };
+		BBFE43750F50F47F0057C027 /* libmad.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmad.dylib; path = /usr/local/lib/libmad.dylib; sourceTree = "<absolute>"; };
+		BBFE43770F50F4CA0057C027 /* libfaad.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfaad.dylib; path = /usr/local/lib/libfaad.dylib; sourceTree = "<absolute>"; };
+		BBFE43790F50F4DC0057C027 /* libfaac.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfaac.dylib; path = /usr/local/lib/libfaac.dylib; sourceTree = "<absolute>"; };
+		BBFE437B0F50F4F00057C027 /* libmp3lame.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmp3lame.dylib; path = /usr/local/lib/libmp3lame.dylib; sourceTree = "<absolute>"; };
+		BBFE437D0F50F5210057C027 /* libavcodec.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavcodec.dylib; path = /usr/local/lib/libavcodec.dylib; sourceTree = "<absolute>"; };
+		BBFE437F0F50F52F0057C027 /* libavformat.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavformat.dylib; path = /usr/local/lib/libavformat.dylib; sourceTree = "<absolute>"; };
+		BBFE43C60F50F5670057C027 /* libavutil.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavutil.dylib; path = /usr/local/lib/libavutil.dylib; sourceTree = "<absolute>"; };
+		BBFE43CB0F50F58D0057C027 /* libid3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libid3.dylib; path = /usr/local/lib/libid3.dylib; sourceTree = "<absolute>"; };
+		BBFE43CD0F50F5A50057C027 /* libismacryp.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libismacryp.dylib; path = /usr/local/lib/libismacryp.dylib; sourceTree = "<absolute>"; };
+		BBFE43CF0F50F5C20057C027 /* libmp4ff.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmp4ff.a; path = /usr/local/lib/libmp4ff.a; sourceTree = "<absolute>"; };
+		BBFE43D40F50F5FC0057C027 /* libamrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libamrnb.a; path = /usr/local/lib/libamrnb.a; sourceTree = "<absolute>"; };
+		BBFE43D60F50F6050057C027 /* libamrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libamrwb.a; path = /usr/local/lib/libamrwb.a; sourceTree = "<absolute>"; };
+		BBFE43DB0F50F62E0057C027 /* libmp4v2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmp4v2.dylib; path = /usr/local/lib/libmp4v2.dylib; sourceTree = "<absolute>"; };
+		D2AAC09D05546B4700DB518D /* libretroMpeg.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libretroMpeg.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC09B05546B4700DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFE43560F50F3190057C027 /* libretroBase.dylib in Frameworks */,
+				BBFE43760F50F47F0057C027 /* libmad.dylib in Frameworks */,
+				BBFE43780F50F4CA0057C027 /* libfaad.dylib in Frameworks */,
+				BBFE437A0F50F4DC0057C027 /* libfaac.dylib in Frameworks */,
+				BBFE437C0F50F4F00057C027 /* libmp3lame.dylib in Frameworks */,
+				BBFE437E0F50F5210057C027 /* libavcodec.dylib in Frameworks */,
+				BBFE43800F50F52F0057C027 /* libavformat.dylib in Frameworks */,
+				BBFE43C70F50F5670057C027 /* libavutil.dylib in Frameworks */,
+				BBFE43CC0F50F58D0057C027 /* libid3.dylib in Frameworks */,
+				BBFE43CE0F50F5A50057C027 /* libismacryp.dylib in Frameworks */,
+				BBFE43D00F50F5C20057C027 /* libmp4ff.a in Frameworks */,
+				BBFE43D50F50F5FC0057C027 /* libamrnb.a in Frameworks */,
+				BBFE43D70F50F6050057C027 /* libamrwb.a in Frameworks */,
+				BBFE43DC0F50F62E0057C027 /* libmp4v2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DDFF38A45A11DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC09D05546B4700DB518D /* libretroMpeg.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* retroMpeg */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0CA09E734BC00EC74B6 /* Configuration Files */,
+				08FB77ACFE841707C02AAC07 /* Source */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DDFF38A45A11DB9C8B /* Products */,
+			);
+			name = retroMpeg;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				BBFE43550F50F3190057C027 /* libretroBase.dylib */,
+				BBFE43DB0F50F62E0057C027 /* libmp4v2.dylib */,
+				BBFE43D60F50F6050057C027 /* libamrwb.a */,
+				BBFE43D40F50F5FC0057C027 /* libamrnb.a */,
+				BBFE43CF0F50F5C20057C027 /* libmp4ff.a */,
+				BBFE43CD0F50F5A50057C027 /* libismacryp.dylib */,
+				BBFE43CB0F50F58D0057C027 /* libid3.dylib */,
+				BBFE43C60F50F5670057C027 /* libavutil.dylib */,
+				BBFE437F0F50F52F0057C027 /* libavformat.dylib */,
+				BBFE437D0F50F5210057C027 /* libavcodec.dylib */,
+				BBFE437B0F50F4F00057C027 /* libmp3lame.dylib */,
+				BBFE43790F50F4DC0057C027 /* libfaac.dylib */,
+				BBFE43770F50F4CA0057C027 /* libfaad.dylib */,
+				BBFE43750F50F47F0057C027 /* libmad.dylib */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77ACFE841707C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BBFE43050F50F2870057C027 /* WMAFile.h */,
+				BBFE43060F50F2870057C027 /* WMAFile.cpp */,
+				BBFE43070F50F2870057C027 /* Version.h */,
+				BBFE43080F50F2870057C027 /* SWFProperty.h */,
+				BBFE43090F50F2870057C027 /* SWFProperty.cpp */,
+				BBFE430A0F50F2870057C027 /* SWFFile.h */,
+				BBFE430B0F50F2870057C027 /* SWFFile.cpp */,
+				BBFE430C0F50F2870057C027 /* AACProperty.h */,
+				BBFE430D0F50F2870057C027 /* AACProperty.cpp */,
+				BBFE430E0F50F2870057C027 /* BitStream.h */,
+				BBFE430F0F50F2870057C027 /* BitStream.cpp */,
+				BBFE43100F50F2870057C027 /* MP4File.h */,
+				BBFE43110F50F2870057C027 /* MP4File.cpp */,
+				BBFE43120F50F2870057C027 /* Mp4Export.h */,
+				BBFE43130F50F2870057C027 /* MP3Property.h */,
+				BBFE43140F50F2870057C027 /* MP3Property.cpp */,
+				BBFE43150F50F2870057C027 /* MP3File.h */,
+				BBFE43160F50F2870057C027 /* MP3File.cpp */,
+				BBFE43170F50F2870057C027 /* resource.h */,
+				BBFE43180F50F2870057C027 /* RAFile.h */,
+				BBFE43190F50F2870057C027 /* RAFile.cpp */,
+				BBFE431A0F50F2870057C027 /* OGGFile.h */,
+				BBFE431B0F50F2870057C027 /* OGGFile.cpp */,
+				BBFE431C0F50F2870057C027 /* FFMPEGFile.cpp */,
+				BBFE431D0F50F2870057C027 /* AMRFile.h */,
+				BBFE431E0F50F2870057C027 /* AMRFile.cpp */,
+				BBFE431F0F50F2870057C027 /* stdafx.h */,
+				BBFE43200F50F2870057C027 /* stdafx.cpp */,
+				BBFE43210F50F2870057C027 /* FFMPEGProperty.h */,
+				BBFE43220F50F2870057C027 /* AMRProperty.h */,
+				BBFE43230F50F2870057C027 /* AMRProperty.cpp */,
+				BBFE43240F50F2870057C027 /* AACFile.cpp */,
+				BBFE43250F50F2870057C027 /* retroMpeg.cpp */,
+				BBFE43260F50F2870057C027 /* MP4Property.h */,
+				BBFE43270F50F2870057C027 /* MP4Property.cpp */,
+				BBFE43280F50F2870057C027 /* AACFile.h */,
+				BBFE43290F50F2870057C027 /* FFMPEGProperty.cpp */,
+				BBFE432A0F50F2870057C027 /* FFMPEGFile.h */,
+				32BAE0B70371A74B00C91783 /* retroMpeg_Prefix.pch */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		5073E0CA09E734BC00EC74B6 /* Configuration Files */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0C609E734A800EC74B6 /* retroMpegProj.xcconfig */,
+				5073E0C709E734A800EC74B6 /* retroMpegTarget.xcconfig */,
+			);
+			name = "Configuration Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC09905546B4700DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFE432B0F50F2870057C027 /* WMAFile.h in Headers */,
+				BBFE432D0F50F2870057C027 /* Version.h in Headers */,
+				BBFE432E0F50F2870057C027 /* SWFProperty.h in Headers */,
+				BBFE43300F50F2870057C027 /* SWFFile.h in Headers */,
+				BBFE43320F50F2870057C027 /* AACProperty.h in Headers */,
+				BBFE43340F50F2870057C027 /* BitStream.h in Headers */,
+				BBFE43360F50F2870057C027 /* MP4File.h in Headers */,
+				BBFE43380F50F2870057C027 /* Mp4Export.h in Headers */,
+				BBFE43390F50F2870057C027 /* MP3Property.h in Headers */,
+				BBFE433B0F50F2870057C027 /* MP3File.h in Headers */,
+				BBFE433D0F50F2870057C027 /* resource.h in Headers */,
+				BBFE433E0F50F2870057C027 /* RAFile.h in Headers */,
+				BBFE43400F50F2870057C027 /* OGGFile.h in Headers */,
+				BBFE43430F50F2870057C027 /* AMRFile.h in Headers */,
+				BBFE43450F50F2870057C027 /* stdafx.h in Headers */,
+				BBFE43470F50F2870057C027 /* FFMPEGProperty.h in Headers */,
+				BBFE43480F50F2870057C027 /* AMRProperty.h in Headers */,
+				BBFE434C0F50F2870057C027 /* MP4Property.h in Headers */,
+				BBFE434E0F50F2870057C027 /* AACFile.h in Headers */,
+				BBFE43500F50F2870057C027 /* FFMPEGFile.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC09C05546B4700DB518D /* retroMpeg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "retroMpeg" */;
+			buildPhases = (
+				D2AAC09905546B4700DB518D /* Headers */,
+				D2AAC09B05546B4700DB518D /* Frameworks */,
+				D2AAC09A05546B4700DB518D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = retroMpeg;
+			productName = libretroMpeg;
+			productReference = D2AAC09D05546B4700DB518D /* libretroMpeg.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB916408733D950010E9CD /* Build configuration list for PBXProject "retroMpeg" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* retroMpeg */;
+			productRefGroup = 034768DDFF38A45A11DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC09C05546B4700DB518D /* retroMpeg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC09A05546B4700DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFE432C0F50F2870057C027 /* WMAFile.cpp in Sources */,
+				BBFE432F0F50F2870057C027 /* SWFProperty.cpp in Sources */,
+				BBFE43310F50F2870057C027 /* SWFFile.cpp in Sources */,
+				BBFE43330F50F2870057C027 /* AACProperty.cpp in Sources */,
+				BBFE43350F50F2870057C027 /* BitStream.cpp in Sources */,
+				BBFE43370F50F2870057C027 /* MP4File.cpp in Sources */,
+				BBFE433A0F50F2870057C027 /* MP3Property.cpp in Sources */,
+				BBFE433C0F50F2870057C027 /* MP3File.cpp in Sources */,
+				BBFE433F0F50F2870057C027 /* RAFile.cpp in Sources */,
+				BBFE43410F50F2870057C027 /* OGGFile.cpp in Sources */,
+				BBFE43420F50F2870057C027 /* FFMPEGFile.cpp in Sources */,
+				BBFE43440F50F2870057C027 /* AMRFile.cpp in Sources */,
+				BBFE43460F50F2870057C027 /* stdafx.cpp in Sources */,
+				BBFE43490F50F2870057C027 /* AMRProperty.cpp in Sources */,
+				BBFE434A0F50F2870057C027 /* AACFile.cpp in Sources */,
+				BBFE434B0F50F2870057C027 /* retroMpeg.cpp in Sources */,
+				BBFE434D0F50F2870057C027 /* MP4Property.cpp in Sources */,
+				BBFE434F0F50F2870057C027 /* FFMPEGProperty.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB916108733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* retroMpegTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /tmp/code.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = retroMpeg_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INSTALL_PATH = /usr/local/libexec/Retro/codecs;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../retroBase/build/Debug\"",
+				);
+				OTHER_CFLAGS = "-DUSEAMR_FLOAT";
+			};
+			name = Debug;
+		};
+		1DEB916208733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* retroMpegTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = retroMpeg_Prefix.pch;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INSTALL_PATH = /usr/local/libexec/Retro/codecs;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../retroBase/build/Debug\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DUSEAMR_FLOAT";
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		1DEB916508733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* retroMpegProj.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB916608733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* retroMpegProj.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "retroMpeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916108733D950010E9CD /* Debug */,
+				1DEB916208733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB916408733D950010E9CD /* Build configuration list for PBXProject "retroMpeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916508733D950010E9CD /* Debug */,
+				1DEB916608733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

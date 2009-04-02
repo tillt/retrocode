@@ -1,0 +1,274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBFE3D130F50D48D0057C027 /* Version.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3D0A0F50D48D0057C027 /* Version.h */; };
+		BBFE3D140F50D48D0057C027 /* stdafx.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3D0B0F50D48D0057C027 /* stdafx.h */; };
+		BBFE3D150F50D48D0057C027 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3D0C0F50D48D0057C027 /* stdafx.cpp */; };
+		BBFE3D160F50D48D0057C027 /* retroG711.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3D0D0F50D48D0057C027 /* retroG711.cpp */; };
+		BBFE3D170F50D48D0057C027 /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3D0E0F50D48D0057C027 /* resource.h */; };
+		BBFE3D180F50D48D0057C027 /* G711Property.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3D0F0F50D48D0057C027 /* G711Property.cpp */; };
+		BBFE3D190F50D48D0057C027 /* G711.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3D100F50D48D0057C027 /* G711.h */; };
+		BBFE3D1A0F50D48D0057C027 /* G711.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3D110F50D48D0057C027 /* G711.cpp */; };
+		BBFE3D1B0F50D48D0057C027 /* G711Property.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3D120F50D48D0057C027 /* G711Property.h */; };
+		BBFE3D1E0F50D4EC0057C027 /* libretroBase.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFE3D1D0F50D4EC0057C027 /* libretroBase.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32BAE0B70371A74B00C91783 /* retroG711_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = retroG711_Prefix.pch; sourceTree = "<group>"; };
+		5073E0C609E734A800EC74B6 /* retroG711Proj.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = retroG711Proj.xcconfig; sourceTree = "<group>"; };
+		5073E0C709E734A800EC74B6 /* retroG711Target.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = retroG711Target.xcconfig; sourceTree = "<group>"; };
+		BBFE3D0A0F50D48D0057C027 /* Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Version.h; path = ../../../retroG711/Version.h; sourceTree = SOURCE_ROOT; };
+		BBFE3D0B0F50D48D0057C027 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stdafx.h; path = ../../../retroG711/stdafx.h; sourceTree = SOURCE_ROOT; };
+		BBFE3D0C0F50D48D0057C027 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stdafx.cpp; path = ../../../retroG711/stdafx.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3D0D0F50D48D0057C027 /* retroG711.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = retroG711.cpp; path = ../../../retroG711/retroG711.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3D0E0F50D48D0057C027 /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = resource.h; path = ../../../retroG711/resource.h; sourceTree = SOURCE_ROOT; };
+		BBFE3D0F0F50D48D0057C027 /* G711Property.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = G711Property.cpp; path = ../../../retroG711/G711Property.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3D100F50D48D0057C027 /* G711.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = G711.h; path = ../../../retroG711/G711.h; sourceTree = SOURCE_ROOT; };
+		BBFE3D110F50D48D0057C027 /* G711.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = G711.cpp; path = ../../../retroG711/G711.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3D120F50D48D0057C027 /* G711Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = G711Property.h; path = ../../../retroG711/G711Property.h; sourceTree = SOURCE_ROOT; };
+		BBFE3D1D0F50D4EC0057C027 /* libretroBase.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libretroBase.dylib; path = ../retroBase/build/Debug/libretroBase.dylib; sourceTree = SOURCE_ROOT; };
+		D2AAC09D05546B4700DB518D /* libretroG711.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libretroG711.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC09B05546B4700DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFE3D1E0F50D4EC0057C027 /* libretroBase.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DDFF38A45A11DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC09D05546B4700DB518D /* libretroG711.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* retroG711 */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0CA09E734BC00EC74B6 /* Configuration Files */,
+				08FB77ACFE841707C02AAC07 /* Source */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DDFF38A45A11DB9C8B /* Products */,
+			);
+			name = retroG711;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				BBFE3D1D0F50D4EC0057C027 /* libretroBase.dylib */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77ACFE841707C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BBFE3D0A0F50D48D0057C027 /* Version.h */,
+				BBFE3D0B0F50D48D0057C027 /* stdafx.h */,
+				BBFE3D0C0F50D48D0057C027 /* stdafx.cpp */,
+				BBFE3D0D0F50D48D0057C027 /* retroG711.cpp */,
+				BBFE3D0E0F50D48D0057C027 /* resource.h */,
+				BBFE3D0F0F50D48D0057C027 /* G711Property.cpp */,
+				BBFE3D100F50D48D0057C027 /* G711.h */,
+				BBFE3D110F50D48D0057C027 /* G711.cpp */,
+				BBFE3D120F50D48D0057C027 /* G711Property.h */,
+				32BAE0B70371A74B00C91783 /* retroG711_Prefix.pch */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		5073E0CA09E734BC00EC74B6 /* Configuration Files */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0C609E734A800EC74B6 /* retroG711Proj.xcconfig */,
+				5073E0C709E734A800EC74B6 /* retroG711Target.xcconfig */,
+			);
+			name = "Configuration Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC09905546B4700DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFE3D130F50D48D0057C027 /* Version.h in Headers */,
+				BBFE3D140F50D48D0057C027 /* stdafx.h in Headers */,
+				BBFE3D170F50D48D0057C027 /* resource.h in Headers */,
+				BBFE3D190F50D48D0057C027 /* G711.h in Headers */,
+				BBFE3D1B0F50D48D0057C027 /* G711Property.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC09C05546B4700DB518D /* retroG711 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "retroG711" */;
+			buildPhases = (
+				D2AAC09905546B4700DB518D /* Headers */,
+				D2AAC09B05546B4700DB518D /* Frameworks */,
+				D2AAC09A05546B4700DB518D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = retroG711;
+			productName = libretroG711;
+			productReference = D2AAC09D05546B4700DB518D /* libretroG711.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB916408733D950010E9CD /* Build configuration list for PBXProject "retroG711" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* retroG711 */;
+			productRefGroup = 034768DDFF38A45A11DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC09C05546B4700DB518D /* retroG711 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC09A05546B4700DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFE3D150F50D48D0057C027 /* stdafx.cpp in Sources */,
+				BBFE3D160F50D48D0057C027 /* retroG711.cpp in Sources */,
+				BBFE3D180F50D48D0057C027 /* G711Property.cpp in Sources */,
+				BBFE3D1A0F50D48D0057C027 /* G711.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB916108733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* retroG711Target.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /tmp/code.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = retroG711_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				INSTALL_PATH = /usr/local/libexec/Retro/codecs;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../retroBase/build/Debug\"",
+				);
+			};
+			name = Debug;
+		};
+		1DEB916208733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* retroG711Target.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = retroG711_Prefix.pch;
+				INSTALL_PATH = /usr/local/libexec/Retro/codecs;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../retroBase/build/Debug\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		1DEB916508733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* retroG711Proj.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB916608733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* retroG711Proj.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "retroG711" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916108733D950010E9CD /* Debug */,
+				1DEB916208733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB916408733D950010E9CD /* Build configuration list for PBXProject "retroG711" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916508733D950010E9CD /* Debug */,
+				1DEB916608733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

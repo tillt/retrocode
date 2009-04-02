@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBA0C5630F50509600184CE2 /* libretroBase.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA0C5620F50509600184CE2 /* libretroBase.dylib */; };
+		BBA0C5F00F50524E00184CE2 /* SMAFDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA0C5D90F50524E00184CE2 /* SMAFDecoder.h */; };
+		BBA0C5F10F50524E00184CE2 /* SMAFDecoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBA0C5DA0F50524E00184CE2 /* SMAFDecoder.cpp */; };
+		BBA0C5F20F50524E00184CE2 /* SMAFSample.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA0C5DB0F50524E00184CE2 /* SMAFSample.h */; };
+		BBA0C5F30F50524E00184CE2 /* SMAFSample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBA0C5DC0F50524E00184CE2 /* SMAFSample.cpp */; };
+		BBA0C5F40F50524E00184CE2 /* Version.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA0C5DD0F50524E00184CE2 /* Version.h */; };
+		BBA0C5F50F50524E00184CE2 /* SMAFAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA0C5DE0F50524E00184CE2 /* SMAFAudio.h */; };
+		BBA0C5F60F50524E00184CE2 /* SMAFAudio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBA0C5DF0F50524E00184CE2 /* SMAFAudio.cpp */; };
+		BBA0C5F70F50524E00184CE2 /* SMAFGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA0C5E00F50524E00184CE2 /* SMAFGraph.h */; };
+		BBA0C5F80F50524E00184CE2 /* SMAFGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBA0C5E10F50524E00184CE2 /* SMAFGraph.cpp */; };
+		BBA0C5F90F50524E00184CE2 /* SMAFEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA0C5E20F50524E00184CE2 /* SMAFEvent.h */; };
+		BBA0C5FA0F50524E00184CE2 /* SMAFEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBA0C5E30F50524E00184CE2 /* SMAFEvent.cpp */; };
+		BBA0C5FB0F50524E00184CE2 /* stdafx.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA0C5E40F50524E00184CE2 /* stdafx.h */; };
+		BBA0C5FC0F50524E00184CE2 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBA0C5E50F50524E00184CE2 /* stdafx.cpp */; };
+		BBA0C5FD0F50524E00184CE2 /* SMAFTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA0C5E60F50524E00184CE2 /* SMAFTrack.h */; };
+		BBA0C5FE0F50524E00184CE2 /* SMAFTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBA0C5E70F50524E00184CE2 /* SMAFTrack.cpp */; };
+		BBA0C5FF0F50524E00184CE2 /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA0C5E80F50524E00184CE2 /* resource.h */; };
+		BBA0C6000F50524E00184CE2 /* SMAFConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA0C5E90F50524E00184CE2 /* SMAFConverter.h */; };
+		BBA0C6010F50524E00184CE2 /* SMAFConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBA0C5EA0F50524E00184CE2 /* SMAFConverter.cpp */; };
+		BBA0C6020F50524E00184CE2 /* SMAFFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA0C5EB0F50524E00184CE2 /* SMAFFile.h */; };
+		BBA0C6030F50524E00184CE2 /* SMAFFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBA0C5EC0F50524E00184CE2 /* SMAFFile.cpp */; };
+		BBA0C6040F50524E00184CE2 /* SMAFProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA0C5ED0F50524E00184CE2 /* SMAFProperty.h */; };
+		BBA0C6050F50524E00184CE2 /* SMAFProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBA0C5EE0F50524E00184CE2 /* SMAFProperty.cpp */; };
+		BBA0C6060F50524E00184CE2 /* retroYamaha.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBA0C5EF0F50524E00184CE2 /* retroYamaha.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32BAE0B70371A74B00C91783 /* retroYamaha_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = retroYamaha_Prefix.pch; sourceTree = "<group>"; };
+		5073E0C609E734A800EC74B6 /* retroYamahaProj.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = retroYamahaProj.xcconfig; sourceTree = "<group>"; };
+		5073E0C709E734A800EC74B6 /* retroYamahaTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = retroYamahaTarget.xcconfig; sourceTree = "<group>"; };
+		BBA0C5620F50509600184CE2 /* libretroBase.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libretroBase.dylib; path = ../retroBase/build/Release/libretroBase.dylib; sourceTree = SOURCE_ROOT; };
+		BBA0C5D90F50524E00184CE2 /* SMAFDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAFDecoder.h; path = ../../../retroYamaha/SMAFDecoder.h; sourceTree = SOURCE_ROOT; };
+		BBA0C5DA0F50524E00184CE2 /* SMAFDecoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SMAFDecoder.cpp; path = ../../../retroYamaha/SMAFDecoder.cpp; sourceTree = SOURCE_ROOT; };
+		BBA0C5DB0F50524E00184CE2 /* SMAFSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAFSample.h; path = ../../../retroYamaha/SMAFSample.h; sourceTree = SOURCE_ROOT; };
+		BBA0C5DC0F50524E00184CE2 /* SMAFSample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SMAFSample.cpp; path = ../../../retroYamaha/SMAFSample.cpp; sourceTree = SOURCE_ROOT; };
+		BBA0C5DD0F50524E00184CE2 /* Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Version.h; path = ../../../retroYamaha/Version.h; sourceTree = SOURCE_ROOT; };
+		BBA0C5DE0F50524E00184CE2 /* SMAFAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAFAudio.h; path = ../../../retroYamaha/SMAFAudio.h; sourceTree = SOURCE_ROOT; };
+		BBA0C5DF0F50524E00184CE2 /* SMAFAudio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SMAFAudio.cpp; path = ../../../retroYamaha/SMAFAudio.cpp; sourceTree = SOURCE_ROOT; };
+		BBA0C5E00F50524E00184CE2 /* SMAFGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAFGraph.h; path = ../../../retroYamaha/SMAFGraph.h; sourceTree = SOURCE_ROOT; };
+		BBA0C5E10F50524E00184CE2 /* SMAFGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SMAFGraph.cpp; path = ../../../retroYamaha/SMAFGraph.cpp; sourceTree = SOURCE_ROOT; };
+		BBA0C5E20F50524E00184CE2 /* SMAFEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAFEvent.h; path = ../../../retroYamaha/SMAFEvent.h; sourceTree = SOURCE_ROOT; };
+		BBA0C5E30F50524E00184CE2 /* SMAFEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SMAFEvent.cpp; path = ../../../retroYamaha/SMAFEvent.cpp; sourceTree = SOURCE_ROOT; };
+		BBA0C5E40F50524E00184CE2 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stdafx.h; path = ../../../retroYamaha/stdafx.h; sourceTree = SOURCE_ROOT; };
+		BBA0C5E50F50524E00184CE2 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stdafx.cpp; path = ../../../retroYamaha/stdafx.cpp; sourceTree = SOURCE_ROOT; };
+		BBA0C5E60F50524E00184CE2 /* SMAFTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAFTrack.h; path = ../../../retroYamaha/SMAFTrack.h; sourceTree = SOURCE_ROOT; };
+		BBA0C5E70F50524E00184CE2 /* SMAFTrack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SMAFTrack.cpp; path = ../../../retroYamaha/SMAFTrack.cpp; sourceTree = SOURCE_ROOT; };
+		BBA0C5E80F50524E00184CE2 /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = resource.h; path = ../../../retroYamaha/resource.h; sourceTree = SOURCE_ROOT; };
+		BBA0C5E90F50524E00184CE2 /* SMAFConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAFConverter.h; path = ../../../retroYamaha/SMAFConverter.h; sourceTree = SOURCE_ROOT; };
+		BBA0C5EA0F50524E00184CE2 /* SMAFConverter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SMAFConverter.cpp; path = ../../../retroYamaha/SMAFConverter.cpp; sourceTree = SOURCE_ROOT; };
+		BBA0C5EB0F50524E00184CE2 /* SMAFFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAFFile.h; path = ../../../retroYamaha/SMAFFile.h; sourceTree = SOURCE_ROOT; };
+		BBA0C5EC0F50524E00184CE2 /* SMAFFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SMAFFile.cpp; path = ../../../retroYamaha/SMAFFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBA0C5ED0F50524E00184CE2 /* SMAFProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAFProperty.h; path = ../../../retroYamaha/SMAFProperty.h; sourceTree = SOURCE_ROOT; };
+		BBA0C5EE0F50524E00184CE2 /* SMAFProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SMAFProperty.cpp; path = ../../../retroYamaha/SMAFProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBA0C5EF0F50524E00184CE2 /* retroYamaha.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = retroYamaha.cpp; path = ../../../retroYamaha/retroYamaha.cpp; sourceTree = SOURCE_ROOT; };
+		D2AAC09D05546B4700DB518D /* libretroYamaha.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libretroYamaha.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC09B05546B4700DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA0C5630F50509600184CE2 /* libretroBase.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DDFF38A45A11DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC09D05546B4700DB518D /* libretroYamaha.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* retroYamaha */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0CA09E734BC00EC74B6 /* Configuration Files */,
+				08FB77ACFE841707C02AAC07 /* Source */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DDFF38A45A11DB9C8B /* Products */,
+			);
+			name = retroYamaha;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				BBA0C5620F50509600184CE2 /* libretroBase.dylib */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77ACFE841707C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BBA0C5D90F50524E00184CE2 /* SMAFDecoder.h */,
+				BBA0C5DA0F50524E00184CE2 /* SMAFDecoder.cpp */,
+				BBA0C5DB0F50524E00184CE2 /* SMAFSample.h */,
+				BBA0C5DC0F50524E00184CE2 /* SMAFSample.cpp */,
+				BBA0C5DD0F50524E00184CE2 /* Version.h */,
+				BBA0C5DE0F50524E00184CE2 /* SMAFAudio.h */,
+				BBA0C5DF0F50524E00184CE2 /* SMAFAudio.cpp */,
+				BBA0C5E00F50524E00184CE2 /* SMAFGraph.h */,
+				BBA0C5E10F50524E00184CE2 /* SMAFGraph.cpp */,
+				BBA0C5E20F50524E00184CE2 /* SMAFEvent.h */,
+				BBA0C5E30F50524E00184CE2 /* SMAFEvent.cpp */,
+				BBA0C5E40F50524E00184CE2 /* stdafx.h */,
+				BBA0C5E50F50524E00184CE2 /* stdafx.cpp */,
+				BBA0C5E60F50524E00184CE2 /* SMAFTrack.h */,
+				BBA0C5E70F50524E00184CE2 /* SMAFTrack.cpp */,
+				BBA0C5E80F50524E00184CE2 /* resource.h */,
+				BBA0C5E90F50524E00184CE2 /* SMAFConverter.h */,
+				BBA0C5EA0F50524E00184CE2 /* SMAFConverter.cpp */,
+				BBA0C5EB0F50524E00184CE2 /* SMAFFile.h */,
+				BBA0C5EC0F50524E00184CE2 /* SMAFFile.cpp */,
+				BBA0C5ED0F50524E00184CE2 /* SMAFProperty.h */,
+				BBA0C5EE0F50524E00184CE2 /* SMAFProperty.cpp */,
+				BBA0C5EF0F50524E00184CE2 /* retroYamaha.cpp */,
+				32BAE0B70371A74B00C91783 /* retroYamaha_Prefix.pch */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		5073E0CA09E734BC00EC74B6 /* Configuration Files */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0C609E734A800EC74B6 /* retroYamahaProj.xcconfig */,
+				5073E0C709E734A800EC74B6 /* retroYamahaTarget.xcconfig */,
+			);
+			name = "Configuration Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC09905546B4700DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA0C5F00F50524E00184CE2 /* SMAFDecoder.h in Headers */,
+				BBA0C5F20F50524E00184CE2 /* SMAFSample.h in Headers */,
+				BBA0C5F40F50524E00184CE2 /* Version.h in Headers */,
+				BBA0C5F50F50524E00184CE2 /* SMAFAudio.h in Headers */,
+				BBA0C5F70F50524E00184CE2 /* SMAFGraph.h in Headers */,
+				BBA0C5F90F50524E00184CE2 /* SMAFEvent.h in Headers */,
+				BBA0C5FB0F50524E00184CE2 /* stdafx.h in Headers */,
+				BBA0C5FD0F50524E00184CE2 /* SMAFTrack.h in Headers */,
+				BBA0C5FF0F50524E00184CE2 /* resource.h in Headers */,
+				BBA0C6000F50524E00184CE2 /* SMAFConverter.h in Headers */,
+				BBA0C6020F50524E00184CE2 /* SMAFFile.h in Headers */,
+				BBA0C6040F50524E00184CE2 /* SMAFProperty.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC09C05546B4700DB518D /* retroYamaha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "retroYamaha" */;
+			buildPhases = (
+				D2AAC09905546B4700DB518D /* Headers */,
+				D2AAC09B05546B4700DB518D /* Frameworks */,
+				D2AAC09A05546B4700DB518D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = retroYamaha;
+			productName = libretroYamaha;
+			productReference = D2AAC09D05546B4700DB518D /* libretroYamaha.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB916408733D950010E9CD /* Build configuration list for PBXProject "retroYamaha" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* retroYamaha */;
+			productRefGroup = 034768DDFF38A45A11DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC09C05546B4700DB518D /* retroYamaha */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC09A05546B4700DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA0C5F10F50524E00184CE2 /* SMAFDecoder.cpp in Sources */,
+				BBA0C5F30F50524E00184CE2 /* SMAFSample.cpp in Sources */,
+				BBA0C5F60F50524E00184CE2 /* SMAFAudio.cpp in Sources */,
+				BBA0C5F80F50524E00184CE2 /* SMAFGraph.cpp in Sources */,
+				BBA0C5FA0F50524E00184CE2 /* SMAFEvent.cpp in Sources */,
+				BBA0C5FC0F50524E00184CE2 /* stdafx.cpp in Sources */,
+				BBA0C5FE0F50524E00184CE2 /* SMAFTrack.cpp in Sources */,
+				BBA0C6010F50524E00184CE2 /* SMAFConverter.cpp in Sources */,
+				BBA0C6030F50524E00184CE2 /* SMAFFile.cpp in Sources */,
+				BBA0C6050F50524E00184CE2 /* SMAFProperty.cpp in Sources */,
+				BBA0C6060F50524E00184CE2 /* retroYamaha.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB916108733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* retroYamahaTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /tmp/code.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = retroYamaha_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				INSTALL_PATH = /usr/local/libexec/Retro/codecs;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../retroBase/build/Debug\"",
+				);
+			};
+			name = Debug;
+		};
+		1DEB916208733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* retroYamahaTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = retroYamaha_Prefix.pch;
+				INSTALL_PATH = /usr/local/libexec/Retro/codecs;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../retroBase/build/Debug\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		1DEB916508733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* retroYamahaProj.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /usr/local/libexec/Retro/codecs;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB916608733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* retroYamahaProj.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /usr/local/libexec/Retro/codecs;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "retroYamaha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916108733D950010E9CD /* Debug */,
+				1DEB916208733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB916408733D950010E9CD /* Build configuration list for PBXProject "retroYamaha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916508733D950010E9CD /* Debug */,
+				1DEB916608733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

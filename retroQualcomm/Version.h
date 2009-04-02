@@ -1,0 +1,9 @@
+#ifndef RETROQUALCOMM_MAJOR_VERSION
+#define RETROQUALCOMM_MAJOR_VERSION      2      /* Major version number */
+#define RETROQUALCOMM_MINOR_VERSION      1      /* Minor version number */
+#define RETROQUALCOMM_TYPE_VERSION       0      /* 0 alpha, 1 beta, 2 release */
+#define RETROQUALCOMM_PATCH_VERSION      1      /* Patch level */
+#define RETROQUALCOMM_ALPHA_VERSION     (RETROQUALCOMM_TYPE_VERSION==0)
+#define RETROQUALCOMM_BETA_VERSION      (RETROQUALCOMM_TYPE_VERSION==1)
+#define RETROQUALCOMM_RELEASE_VERSION   (RETROQUALCOMM_TYPE_VERSION==2)
+#endif

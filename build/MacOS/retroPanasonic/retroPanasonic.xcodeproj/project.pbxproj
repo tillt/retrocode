@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBFE3E190F50D6210057C027 /* VOXProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3E090F50D6210057C027 /* VOXProperty.h */; };
+		BBFE3E1A0F50D6210057C027 /* VOXProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3E0A0F50D6210057C027 /* VOXProperty.cpp */; };
+		BBFE3E1B0F50D6210057C027 /* VOXFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3E0B0F50D6210057C027 /* VOXFile.h */; };
+		BBFE3E1C0F50D6210057C027 /* VOXFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3E0C0F50D6210057C027 /* VOXFile.cpp */; };
+		BBFE3E1D0F50D6210057C027 /* Version.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3E0D0F50D6210057C027 /* Version.h */; };
+		BBFE3E1E0F50D6210057C027 /* stdafx.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3E0E0F50D6210057C027 /* stdafx.h */; };
+		BBFE3E1F0F50D6210057C027 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3E0F0F50D6210057C027 /* stdafx.cpp */; };
+		BBFE3E200F50D6210057C027 /* retroPanasonic.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3E100F50D6210057C027 /* retroPanasonic.h */; };
+		BBFE3E210F50D6210057C027 /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3E110F50D6210057C027 /* resource.h */; };
+		BBFE3E220F50D6210057C027 /* MFMFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3E120F50D6210057C027 /* MFMFile.cpp */; };
+		BBFE3E230F50D6210057C027 /* MFMSample.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3E130F50D6210057C027 /* MFMSample.h */; };
+		BBFE3E240F50D6210057C027 /* MFMSample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3E140F50D6210057C027 /* MFMSample.cpp */; };
+		BBFE3E250F50D6210057C027 /* MFMProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3E150F50D6210057C027 /* MFMProperty.h */; };
+		BBFE3E260F50D6210057C027 /* MFMProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3E160F50D6210057C027 /* MFMProperty.cpp */; };
+		BBFE3E270F50D6210057C027 /* MFMFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE3E170F50D6210057C027 /* MFMFile.h */; };
+		BBFE3E280F50D6210057C027 /* retroPanasonic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFE3E180F50D6210057C027 /* retroPanasonic.cpp */; };
+		BBFE3E2B0F50D6420057C027 /* libretroBase.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFE3E2A0F50D6420057C027 /* libretroBase.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32BAE0B70371A74B00C91783 /* retroPanasonic_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = retroPanasonic_Prefix.pch; sourceTree = "<group>"; };
+		5073E0C609E734A800EC74B6 /* retroPanasonicProj.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = retroPanasonicProj.xcconfig; sourceTree = "<group>"; };
+		5073E0C709E734A800EC74B6 /* retroPanasonicTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = retroPanasonicTarget.xcconfig; sourceTree = "<group>"; };
+		BBFE3E090F50D6210057C027 /* VOXProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VOXProperty.h; path = ../../../retroPanasonic/VOXProperty.h; sourceTree = SOURCE_ROOT; };
+		BBFE3E0A0F50D6210057C027 /* VOXProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VOXProperty.cpp; path = ../../../retroPanasonic/VOXProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3E0B0F50D6210057C027 /* VOXFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VOXFile.h; path = ../../../retroPanasonic/VOXFile.h; sourceTree = SOURCE_ROOT; };
+		BBFE3E0C0F50D6210057C027 /* VOXFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VOXFile.cpp; path = ../../../retroPanasonic/VOXFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3E0D0F50D6210057C027 /* Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Version.h; path = ../../../retroPanasonic/Version.h; sourceTree = SOURCE_ROOT; };
+		BBFE3E0E0F50D6210057C027 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stdafx.h; path = ../../../retroPanasonic/stdafx.h; sourceTree = SOURCE_ROOT; };
+		BBFE3E0F0F50D6210057C027 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stdafx.cpp; path = ../../../retroPanasonic/stdafx.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3E100F50D6210057C027 /* retroPanasonic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = retroPanasonic.h; path = ../../../retroPanasonic/retroPanasonic.h; sourceTree = SOURCE_ROOT; };
+		BBFE3E110F50D6210057C027 /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = resource.h; path = ../../../retroPanasonic/resource.h; sourceTree = SOURCE_ROOT; };
+		BBFE3E120F50D6210057C027 /* MFMFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MFMFile.cpp; path = ../../../retroPanasonic/MFMFile.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3E130F50D6210057C027 /* MFMSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFMSample.h; path = ../../../retroPanasonic/MFMSample.h; sourceTree = SOURCE_ROOT; };
+		BBFE3E140F50D6210057C027 /* MFMSample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MFMSample.cpp; path = ../../../retroPanasonic/MFMSample.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3E150F50D6210057C027 /* MFMProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFMProperty.h; path = ../../../retroPanasonic/MFMProperty.h; sourceTree = SOURCE_ROOT; };
+		BBFE3E160F50D6210057C027 /* MFMProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MFMProperty.cpp; path = ../../../retroPanasonic/MFMProperty.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3E170F50D6210057C027 /* MFMFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFMFile.h; path = ../../../retroPanasonic/MFMFile.h; sourceTree = SOURCE_ROOT; };
+		BBFE3E180F50D6210057C027 /* retroPanasonic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = retroPanasonic.cpp; path = ../../../retroPanasonic/retroPanasonic.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE3E2A0F50D6420057C027 /* libretroBase.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libretroBase.dylib; path = ../retroBase/build/Debug/libretroBase.dylib; sourceTree = SOURCE_ROOT; };
+		D2AAC09D05546B4700DB518D /* libretroPanasonic.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libretroPanasonic.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC09B05546B4700DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFE3E2B0F50D6420057C027 /* libretroBase.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DDFF38A45A11DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC09D05546B4700DB518D /* libretroPanasonic.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* retroPanasonic */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0CA09E734BC00EC74B6 /* Configuration Files */,
+				08FB77ACFE841707C02AAC07 /* Source */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DDFF38A45A11DB9C8B /* Products */,
+			);
+			name = retroPanasonic;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				BBFE3E2A0F50D6420057C027 /* libretroBase.dylib */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77ACFE841707C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BBFE3E090F50D6210057C027 /* VOXProperty.h */,
+				BBFE3E0A0F50D6210057C027 /* VOXProperty.cpp */,
+				BBFE3E0B0F50D6210057C027 /* VOXFile.h */,
+				BBFE3E0C0F50D6210057C027 /* VOXFile.cpp */,
+				BBFE3E0D0F50D6210057C027 /* Version.h */,
+				BBFE3E0E0F50D6210057C027 /* stdafx.h */,
+				BBFE3E0F0F50D6210057C027 /* stdafx.cpp */,
+				BBFE3E100F50D6210057C027 /* retroPanasonic.h */,
+				BBFE3E110F50D6210057C027 /* resource.h */,
+				BBFE3E120F50D6210057C027 /* MFMFile.cpp */,
+				BBFE3E130F50D6210057C027 /* MFMSample.h */,
+				BBFE3E140F50D6210057C027 /* MFMSample.cpp */,
+				BBFE3E150F50D6210057C027 /* MFMProperty.h */,
+				BBFE3E160F50D6210057C027 /* MFMProperty.cpp */,
+				BBFE3E170F50D6210057C027 /* MFMFile.h */,
+				BBFE3E180F50D6210057C027 /* retroPanasonic.cpp */,
+				32BAE0B70371A74B00C91783 /* retroPanasonic_Prefix.pch */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		5073E0CA09E734BC00EC74B6 /* Configuration Files */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0C609E734A800EC74B6 /* retroPanasonicProj.xcconfig */,
+				5073E0C709E734A800EC74B6 /* retroPanasonicTarget.xcconfig */,
+			);
+			name = "Configuration Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC09905546B4700DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFE3E190F50D6210057C027 /* VOXProperty.h in Headers */,
+				BBFE3E1B0F50D6210057C027 /* VOXFile.h in Headers */,
+				BBFE3E1D0F50D6210057C027 /* Version.h in Headers */,
+				BBFE3E1E0F50D6210057C027 /* stdafx.h in Headers */,
+				BBFE3E200F50D6210057C027 /* retroPanasonic.h in Headers */,
+				BBFE3E210F50D6210057C027 /* resource.h in Headers */,
+				BBFE3E230F50D6210057C027 /* MFMSample.h in Headers */,
+				BBFE3E250F50D6210057C027 /* MFMProperty.h in Headers */,
+				BBFE3E270F50D6210057C027 /* MFMFile.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC09C05546B4700DB518D /* retroPanasonic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "retroPanasonic" */;
+			buildPhases = (
+				D2AAC09905546B4700DB518D /* Headers */,
+				D2AAC09B05546B4700DB518D /* Frameworks */,
+				D2AAC09A05546B4700DB518D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = retroPanasonic;
+			productName = libretroPanasonic;
+			productReference = D2AAC09D05546B4700DB518D /* libretroPanasonic.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB916408733D950010E9CD /* Build configuration list for PBXProject "retroPanasonic" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* retroPanasonic */;
+			productRefGroup = 034768DDFF38A45A11DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC09C05546B4700DB518D /* retroPanasonic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC09A05546B4700DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFE3E1A0F50D6210057C027 /* VOXProperty.cpp in Sources */,
+				BBFE3E1C0F50D6210057C027 /* VOXFile.cpp in Sources */,
+				BBFE3E1F0F50D6210057C027 /* stdafx.cpp in Sources */,
+				BBFE3E220F50D6210057C027 /* MFMFile.cpp in Sources */,
+				BBFE3E240F50D6210057C027 /* MFMSample.cpp in Sources */,
+				BBFE3E260F50D6210057C027 /* MFMProperty.cpp in Sources */,
+				BBFE3E280F50D6210057C027 /* retroPanasonic.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB916108733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* retroPanasonicTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /tmp/code.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = retroPanasonic_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				INSTALL_PATH = /usr/local/libexec/Retro/codecs;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../retroBase/build/Debug\"",
+				);
+			};
+			name = Debug;
+		};
+		1DEB916208733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* retroPanasonicTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = retroPanasonic_Prefix.pch;
+				INSTALL_PATH = /usr/local/libexec/Retro/codecs;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../retroBase/build/Debug\"",
+				);
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		1DEB916508733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* retroPanasonicProj.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB916608733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* retroPanasonicProj.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "retroPanasonic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916108733D950010E9CD /* Debug */,
+				1DEB916208733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB916408733D950010E9CD /* Build configuration list for PBXProject "retroPanasonic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916508733D950010E9CD /* Debug */,
+				1DEB916608733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

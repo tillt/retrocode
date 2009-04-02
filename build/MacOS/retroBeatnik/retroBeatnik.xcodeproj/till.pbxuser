@@ -1,0 +1,220 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeTarget = D2AAC09C05546B4700DB518D /* retroBeatnik */;
+		addToTargets = (
+			D2AAC09C05546B4700DB518D /* retroBeatnik */,
+		);
+		codeSenseManager = BBFE39C70F50CC180057C027 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					1363,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1473,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1433,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 258060998;
+			PBXWorkspaceStateSaveDate = 258060998;
+		};
+		perUserProjectItems = {
+			BBBF06130F61D20D004A6CF2 /* PBXTextBookmark */ = BBBF06130F61D20D004A6CF2 /* PBXTextBookmark */;
+			BBBFFFAE0F61A4B7004A6CF2 /* PBXTextBookmark */ = BBBFFFAE0F61A4B7004A6CF2 /* PBXTextBookmark */;
+			BBFE39FD0F50CCDF0057C027 /* PBXTextBookmark */ = BBFE39FD0F50CCDF0057C027 /* PBXTextBookmark */;
+			BBFE39FE0F50CCDF0057C027 /* PBXTextBookmark */ = BBFE39FE0F50CCDF0057C027 /* PBXTextBookmark */;
+			BBFE3A010F50CCDF0057C027 /* PBXTextBookmark */ = BBFE3A010F50CCDF0057C027 /* PBXTextBookmark */;
+			BBFE3A020F50CCDF0057C027 /* PBXTextBookmark */ = BBFE3A020F50CCDF0057C027 /* PBXTextBookmark */;
+			BBFE3A030F50CCDF0057C027 /* PBXTextBookmark */ = BBFE3A030F50CCDF0057C027 /* PBXTextBookmark */;
+			BBFE3A170F50CD230057C027 /* PBXTextBookmark */ = BBFE3A170F50CD230057C027 /* PBXTextBookmark */;
+			BBFE3A1B0F50CD230057C027 /* PBXTextBookmark */ = BBFE3A1B0F50CD230057C027 /* PBXTextBookmark */;
+		};
+		sourceControlManager = BBFE39C60F50CC180057C027 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32BAE0B70371A74B00C91783 /* retroBeatnik_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1651, 868}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 126}";
+		};
+	};
+	BBBF06130F61D20D004A6CF2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBFE39D60F50CC480057C027 /* RMFFile.cpp */;
+		name = "RMFFile.cpp: 36";
+		rLen = 0;
+		rLoc = 1200;
+		rType = 0;
+		vrLen = 2061;
+		vrLoc = 1377;
+	};
+	BBBFFFAE0F61A4B7004A6CF2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBFE39D60F50CC480057C027 /* RMFFile.cpp */;
+		name = "RMFFile.cpp: 569";
+		rLen = 0;
+		rLoc = 16079;
+		rType = 0;
+		vrLen = 1847;
+		vrLoc = 158;
+	};
+	BBFE39C60F50CC180057C027 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	BBFE39C70F50CC180057C027 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	BBFE39D40F50CC480057C027 /* RMFBasics.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1651, 2352}}";
+			sepNavSelRange = "{897, 13}";
+			sepNavVisRange = "{0, 1870}";
+		};
+	};
+	BBFE39D60F50CC480057C027 /* RMFFile.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1651, 14420}}";
+			sepNavSelRange = "{1200, 0}";
+			sepNavVisRange = "{1377, 2061}";
+			sepNavWindowFrame = "{{15, 86}, {750, 1087}}";
+		};
+	};
+	BBFE39FD0F50CCDF0057C027 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32BAE0B70371A74B00C91783 /* retroBeatnik_Prefix.pch */;
+		name = "retroBeatnik_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 126;
+		vrLoc = 0;
+	};
+	BBFE39FE0F50CCDF0057C027 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBFE39D40F50CC480057C027 /* RMFBasics.cpp */;
+		name = "RMFBasics.cpp: 27";
+		rLen = 13;
+		rLoc = 897;
+		rType = 0;
+		vrLen = 1784;
+		vrLoc = 0;
+	};
+	BBFE3A010F50CCDF0057C027 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32BAE0B70371A74B00C91783 /* retroBeatnik_Prefix.pch */;
+		name = "retroBeatnik_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 126;
+		vrLoc = 0;
+	};
+	BBFE3A020F50CCDF0057C027 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBFE39D40F50CC480057C027 /* RMFBasics.cpp */;
+		name = "RMFBasics.cpp: 27";
+		rLen = 13;
+		rLoc = 897;
+		rType = 0;
+		vrLen = 1784;
+		vrLoc = 0;
+	};
+	BBFE3A030F50CCDF0057C027 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBFE39D60F50CC480057C027 /* RMFFile.cpp */;
+		name = "RMFFile.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1928;
+		vrLoc = 0;
+	};
+	BBFE3A120F50CD190057C027 /* backward_warning.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = backward_warning.h;
+		path = "/Developer/SDKs/MacOSX10.5.sdk/usr/include/c++/4.0.0/backward/backward_warning.h";
+		sourceTree = "<absolute>";
+	};
+	BBFE3A170F50CD230057C027 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBFE3A120F50CD190057C027 /* backward_warning.h */;
+		name = "backward_warning.h: 32";
+		rLen = 76;
+		rLoc = 1475;
+		rType = 0;
+		vrLen = 1853;
+		vrLoc = 0;
+	};
+	BBFE3A1B0F50CD230057C027 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBFE3A120F50CD190057C027 /* backward_warning.h */;
+		name = "backward_warning.h: 32";
+		rLen = 76;
+		rLoc = 1475;
+		rType = 0;
+		vrLen = 1853;
+		vrLoc = 0;
+	};
+	D2AAC09C05546B4700DB518D /* retroBeatnik */ = {
+		activeExec = 0;
+	};
+}

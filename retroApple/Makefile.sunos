@@ -1,0 +1,26 @@
+CFLAGS=-c -DLANG_ENGLISH -fPIC -D_DEBUG -Wall -Wcast-align
+LFLAGS=-shared -o
+CC=g++
+BIN=../code/codecs/
+OUTFILE=libretroapple.so.1
+
+INC=-I/usr/local/include -I/usr/include -I../retroBase
+LIBS=-L/usr/local/lib -L/usr/lib -L../retroBase -lretrobase -lstdc++
+
+OBJFILES=AIFFile.o AIFProperty.o retroApple.o
+
+all:	$(OUTFILE)
+
+install:	all 
+	strip $(OUTFILE)
+	cp $(OUTFILE) $(BIN)
+
+$(OUTFILE): $(OBJFILES)
+	$(CC) $(LFLAGS) $@ $(OBJFILES) $(LIBS)
+	
+.cpp.o:
+	$(CC) $(CFLAGS) $(INC) $<
+
+clean:
+	rm *.o -f
+	rm $(OUTFILE) -f

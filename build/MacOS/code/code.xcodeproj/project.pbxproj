@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F6A0486A84900D96B5E /* code.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* code.1 */; };
+		BBA0C2650F4FD6C200184CE2 /* libretroBase.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA0C2640F4FD6C200184CE2 /* libretroBase.dylib */; };
+		BBCA5FE50F4FD2D8006824DE /* RateConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA5FC20F4FD2D8006824DE /* RateConverter.cpp */; };
+		BBCA5FE60F4FD2D8006824DE /* code.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA5FC30F4FD2D8006824DE /* code.cpp */; };
+		BBCA5FE70F4FD2D8006824DE /* Fade.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA5FC40F4FD2D8006824DE /* Fade.cpp */; };
+		BBCA5FE80F4FD2D8006824DE /* Loop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA5FC50F4FD2D8006824DE /* Loop.cpp */; };
+		BBCA5FE90F4FD2D8006824DE /* ExtNormalizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA5FC60F4FD2D8006824DE /* ExtNormalizer.cpp */; };
+		BBCA5FEA0F4FD2D8006824DE /* Crop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA5FC70F4FD2D8006824DE /* Crop.cpp */; };
+		BBCA5FEB0F4FD2D8006824DE /* Ringback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA5FC80F4FD2D8006824DE /* Ringback.cpp */; };
+		BBCA5FEC0F4FD2D8006824DE /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA5FCA0F4FD2D8006824DE /* stdafx.cpp */; };
+		BBCA5FED0F4FD2D8006824DE /* Process.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA5FCF0F4FD2D8006824DE /* Process.cpp */; };
+		BBCA5FEE0F4FD2D8006824DE /* PeakLimiter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA5FD10F4FD2D8006824DE /* PeakLimiter.cpp */; };
+		BBCA5FEF0F4FD2D8006824DE /* Normalizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA5FD30F4FD2D8006824DE /* Normalizer.cpp */; };
+		BBCA5FF10F4FD2D8006824DE /* Filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA5FD80F4FD2D8006824DE /* Filter.cpp */; };
+		BBCA5FF20F4FD2D8006824DE /* ChannelConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA5FDD0F4FD2D8006824DE /* ChannelConverter.cpp */; };
+		BBCA5FF30F4FD2D8006824DE /* ButterWorth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA5FDF0F4FD2D8006824DE /* ButterWorth.cpp */; };
+		BBCA5FF40F4FD2D8006824DE /* EightToSixteenBit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBCA5FE40F4FD2D8006824DE /* EightToSixteenBit.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBA0C2450F4FD4AA00184CE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBA0C23E0F4FD4AA00184CE2 /* retroBase.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC09D05546B4700DB518D;
+			remoteInfo = retroBase;
+		};
+		BBFE38710F50ACBF0057C027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBFE386A0F50ACBF0057C027 /* retroYamaha.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC09D05546B4700DB518D;
+			remoteInfo = retroYamaha;
+		};
+		BBFE3B180F50CEBD0057C027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBFE3B110F50CEBD0057C027 /* retroBeatnik.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC09D05546B4700DB518D;
+			remoteInfo = retroBeatnik;
+		};
+		BBFE3CFC0F50D4420057C027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBFE3CF50F50D4420057C027 /* retroApple.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC09D05546B4700DB518D;
+			remoteInfo = retroApple;
+		};
+		BBFE3DE50F50D54D0057C027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBFE3DE10F50D54D0057C027 /* retroG711.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC09D05546B4700DB518D;
+			remoteInfo = retroG711;
+		};
+		BBFE3E460F50D6D30057C027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBFE3E3F0F50D6D30057C027 /* retroPanasonic.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC09D05546B4700DB518D;
+			remoteInfo = retroPanasonic;
+		};
+		BBFE3F900F50DA610057C027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBFE3F8C0F50DA610057C027 /* retroWave.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC09D05546B4700DB518D;
+			remoteInfo = retroWave;
+		};
+		BBFE40CF0F50F15B0057C027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBFE40CB0F50F15B0057C027 /* retroQualcomm.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC09D05546B4700DB518D;
+			remoteInfo = retroQualcomm;
+		};
+		BBFE446F0F50F6C50057C027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBFE44680F50F6C50057C027 /* retroMpeg.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC09D05546B4700DB518D;
+			remoteInfo = retroMpeg;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/local/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F6A0486A84900D96B5E /* code.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8DD76F6C0486A84900D96B5E /* code */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = code; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA0C23E0F4FD4AA00184CE2 /* retroBase.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = retroBase.xcodeproj; path = ../retroBase/retroBase.xcodeproj; sourceTree = SOURCE_ROOT; };
+		BBA0C2640F4FD6C200184CE2 /* libretroBase.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libretroBase.dylib; path = ../retroBase/build/Release/libretroBase.dylib; sourceTree = SOURCE_ROOT; };
+		BBCA5FC20F4FD2D8006824DE /* RateConverter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RateConverter.cpp; path = ../../../code/RateConverter.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA5FC30F4FD2D8006824DE /* code.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = code.cpp; path = ../../../code/code.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA5FC40F4FD2D8006824DE /* Fade.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Fade.cpp; path = ../../../code/Fade.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA5FC50F4FD2D8006824DE /* Loop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Loop.cpp; path = ../../../code/Loop.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA5FC60F4FD2D8006824DE /* ExtNormalizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ExtNormalizer.cpp; path = ../../../code/ExtNormalizer.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA5FC70F4FD2D8006824DE /* Crop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Crop.cpp; path = ../../../code/Crop.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA5FC80F4FD2D8006824DE /* Ringback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Ringback.cpp; path = ../../../code/Ringback.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA5FC90F4FD2D8006824DE /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stdafx.h; path = ../../../code/stdafx.h; sourceTree = SOURCE_ROOT; };
+		BBCA5FCA0F4FD2D8006824DE /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stdafx.cpp; path = ../../../code/stdafx.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA5FCB0F4FD2D8006824DE /* Ringback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ringback.h; path = ../../../code/Ringback.h; sourceTree = SOURCE_ROOT; };
+		BBCA5FCC0F4FD2D8006824DE /* Resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Resource.h; path = ../../../code/Resource.h; sourceTree = SOURCE_ROOT; };
+		BBCA5FCD0F4FD2D8006824DE /* RateConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RateConverter.h; path = ../../../code/RateConverter.h; sourceTree = SOURCE_ROOT; };
+		BBCA5FCE0F4FD2D8006824DE /* Process.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Process.h; path = ../../../code/Process.h; sourceTree = SOURCE_ROOT; };
+		BBCA5FCF0F4FD2D8006824DE /* Process.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Process.cpp; path = ../../../code/Process.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA5FD00F4FD2D8006824DE /* PeakLimiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PeakLimiter.h; path = ../../../code/PeakLimiter.h; sourceTree = SOURCE_ROOT; };
+		BBCA5FD10F4FD2D8006824DE /* PeakLimiter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PeakLimiter.cpp; path = ../../../code/PeakLimiter.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA5FD20F4FD2D8006824DE /* Normalizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Normalizer.h; path = ../../../code/Normalizer.h; sourceTree = SOURCE_ROOT; };
+		BBCA5FD30F4FD2D8006824DE /* Normalizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Normalizer.cpp; path = ../../../code/Normalizer.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA5FD40F4FD2D8006824DE /* MyLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyLanguage.h; path = ../../../code/MyLanguage.h; sourceTree = SOURCE_ROOT; };
+		BBCA5FD50F4FD2D8006824DE /* Loop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Loop.h; path = ../../../code/Loop.h; sourceTree = SOURCE_ROOT; };
+		BBCA5FD70F4FD2D8006824DE /* Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter.h; path = ../../../code/Filter.h; sourceTree = SOURCE_ROOT; };
+		BBCA5FD80F4FD2D8006824DE /* Filter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Filter.cpp; path = ../../../code/Filter.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA5FD90F4FD2D8006824DE /* Fade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fade.h; path = ../../../code/Fade.h; sourceTree = SOURCE_ROOT; };
+		BBCA5FDA0F4FD2D8006824DE /* ExtNormalizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExtNormalizer.h; path = ../../../code/ExtNormalizer.h; sourceTree = SOURCE_ROOT; };
+		BBCA5FDB0F4FD2D8006824DE /* Crop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Crop.h; path = ../../../code/Crop.h; sourceTree = SOURCE_ROOT; };
+		BBCA5FDC0F4FD2D8006824DE /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Config.h; path = ../../../code/Config.h; sourceTree = SOURCE_ROOT; };
+		BBCA5FDD0F4FD2D8006824DE /* ChannelConverter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ChannelConverter.cpp; path = ../../../code/ChannelConverter.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA5FDE0F4FD2D8006824DE /* ButterWorth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ButterWorth.h; path = ../../../code/ButterWorth.h; sourceTree = SOURCE_ROOT; };
+		BBCA5FDF0F4FD2D8006824DE /* ButterWorth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ButterWorth.cpp; path = ../../../code/ButterWorth.cpp; sourceTree = SOURCE_ROOT; };
+		BBCA5FE00F4FD2D8006824DE /* code.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = code.h; path = ../../../code/code.h; sourceTree = SOURCE_ROOT; };
+		BBCA5FE10F4FD2D8006824DE /* CLIParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLIParameters.h; path = ../../../code/CLIParameters.h; sourceTree = SOURCE_ROOT; };
+		BBCA5FE20F4FD2D8006824DE /* ChannelConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChannelConverter.h; path = ../../../code/ChannelConverter.h; sourceTree = SOURCE_ROOT; };
+		BBCA5FE30F4FD2D8006824DE /* EightToSixteenBit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EightToSixteenBit.h; path = ../../../code/EightToSixteenBit.h; sourceTree = SOURCE_ROOT; };
+		BBCA5FE40F4FD2D8006824DE /* EightToSixteenBit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EightToSixteenBit.cpp; path = ../../../code/EightToSixteenBit.cpp; sourceTree = SOURCE_ROOT; };
+		BBFE386A0F50ACBF0057C027 /* retroYamaha.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = retroYamaha.xcodeproj; path = ../retroYamaha/retroYamaha.xcodeproj; sourceTree = SOURCE_ROOT; };
+		BBFE3B110F50CEBD0057C027 /* retroBeatnik.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = retroBeatnik.xcodeproj; path = ../retroBeatnik/retroBeatnik.xcodeproj; sourceTree = SOURCE_ROOT; };
+		BBFE3CF50F50D4420057C027 /* retroApple.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = retroApple.xcodeproj; path = ../retroApple/retroApple.xcodeproj; sourceTree = SOURCE_ROOT; };
+		BBFE3DE10F50D54D0057C027 /* retroG711.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = retroG711.xcodeproj; path = ../retroG711/retroG711.xcodeproj; sourceTree = SOURCE_ROOT; };
+		BBFE3E3F0F50D6D30057C027 /* retroPanasonic.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = retroPanasonic.xcodeproj; path = ../retroPanasonic/retroPanasonic.xcodeproj; sourceTree = SOURCE_ROOT; };
+		BBFE3F8C0F50DA610057C027 /* retroWave.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = retroWave.xcodeproj; path = ../retroWave/retroWave.xcodeproj; sourceTree = SOURCE_ROOT; };
+		BBFE40CB0F50F15B0057C027 /* retroQualcomm.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = retroQualcomm.xcodeproj; path = ../retroQualcomm/retroQualcomm.xcodeproj; sourceTree = SOURCE_ROOT; };
+		BBFE44680F50F6C50057C027 /* retroMpeg.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = retroMpeg.xcodeproj; path = ../retroMpeg/retroMpeg.xcodeproj; sourceTree = SOURCE_ROOT; };
+		C6859E8B029090EE04C91782 /* code.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = code.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA0C2650F4FD6C200184CE2 /* libretroBase.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* code */ = {
+			isa = PBXGroup;
+			children = (
+				BBFE3DEA0F50D5650057C027 /* Codecs */,
+				BBA0C2640F4FD6C200184CE2 /* libretroBase.dylib */,
+				BBA0C23E0F4FD4AA00184CE2 /* retroBase.xcodeproj */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = code;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BBCA5FC20F4FD2D8006824DE /* RateConverter.cpp */,
+				BBCA5FC30F4FD2D8006824DE /* code.cpp */,
+				BBCA5FC40F4FD2D8006824DE /* Fade.cpp */,
+				BBCA5FC50F4FD2D8006824DE /* Loop.cpp */,
+				BBCA5FC60F4FD2D8006824DE /* ExtNormalizer.cpp */,
+				BBCA5FC70F4FD2D8006824DE /* Crop.cpp */,
+				BBCA5FC80F4FD2D8006824DE /* Ringback.cpp */,
+				BBCA5FC90F4FD2D8006824DE /* stdafx.h */,
+				BBCA5FCA0F4FD2D8006824DE /* stdafx.cpp */,
+				BBCA5FCB0F4FD2D8006824DE /* Ringback.h */,
+				BBCA5FCC0F4FD2D8006824DE /* Resource.h */,
+				BBCA5FCD0F4FD2D8006824DE /* RateConverter.h */,
+				BBCA5FCE0F4FD2D8006824DE /* Process.h */,
+				BBCA5FCF0F4FD2D8006824DE /* Process.cpp */,
+				BBCA5FD00F4FD2D8006824DE /* PeakLimiter.h */,
+				BBCA5FD10F4FD2D8006824DE /* PeakLimiter.cpp */,
+				BBCA5FD20F4FD2D8006824DE /* Normalizer.h */,
+				BBCA5FD30F4FD2D8006824DE /* Normalizer.cpp */,
+				BBCA5FD40F4FD2D8006824DE /* MyLanguage.h */,
+				BBCA5FD50F4FD2D8006824DE /* Loop.h */,
+				BBCA5FD70F4FD2D8006824DE /* Filter.h */,
+				BBCA5FD80F4FD2D8006824DE /* Filter.cpp */,
+				BBCA5FD90F4FD2D8006824DE /* Fade.h */,
+				BBCA5FDA0F4FD2D8006824DE /* ExtNormalizer.h */,
+				BBCA5FDB0F4FD2D8006824DE /* Crop.h */,
+				BBCA5FDC0F4FD2D8006824DE /* Config.h */,
+				BBCA5FDD0F4FD2D8006824DE /* ChannelConverter.cpp */,
+				BBCA5FDE0F4FD2D8006824DE /* ButterWorth.h */,
+				BBCA5FDF0F4FD2D8006824DE /* ButterWorth.cpp */,
+				BBCA5FE00F4FD2D8006824DE /* code.h */,
+				BBCA5FE10F4FD2D8006824DE /* CLIParameters.h */,
+				BBCA5FE20F4FD2D8006824DE /* ChannelConverter.h */,
+				BBCA5FE30F4FD2D8006824DE /* EightToSixteenBit.h */,
+				BBCA5FE40F4FD2D8006824DE /* EightToSixteenBit.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* code */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBA0C23F0F4FD4AA00184CE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBA0C2460F4FD4AA00184CE2 /* libretroBase.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBFE386B0F50ACBF0057C027 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBFE38720F50ACBF0057C027 /* libretroYamaha.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBFE3B120F50CEBD0057C027 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBFE3B190F50CEBD0057C027 /* libretroBeatnik.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBFE3CF60F50D4420057C027 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBFE3CFD0F50D4420057C027 /* libretroApple.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBFE3DE20F50D54D0057C027 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBFE3DE60F50D54D0057C027 /* libretroG711.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBFE3DEA0F50D5650057C027 /* Codecs */ = {
+			isa = PBXGroup;
+			children = (
+				BBFE44680F50F6C50057C027 /* retroMpeg.xcodeproj */,
+				BBFE40CB0F50F15B0057C027 /* retroQualcomm.xcodeproj */,
+				BBFE3F8C0F50DA610057C027 /* retroWave.xcodeproj */,
+				BBFE3E3F0F50D6D30057C027 /* retroPanasonic.xcodeproj */,
+				BBFE386A0F50ACBF0057C027 /* retroYamaha.xcodeproj */,
+				BBFE3B110F50CEBD0057C027 /* retroBeatnik.xcodeproj */,
+				BBFE3CF50F50D4420057C027 /* retroApple.xcodeproj */,
+				BBFE3DE10F50D54D0057C027 /* retroG711.xcodeproj */,
+			);
+			name = Codecs;
+			sourceTree = "<group>";
+		};
+		BBFE3E400F50D6D30057C027 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBFE3E470F50D6D30057C027 /* libretroPanasonic.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBFE3F8D0F50DA610057C027 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBFE3F910F50DA610057C027 /* libretroWave.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBFE40CC0F50F15B0057C027 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBFE40D00F50F15B0057C027 /* libretroQualcomm.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBFE44690F50F6C50057C027 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBFE44700F50F6C50057C027 /* libretroMpeg.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* code.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* code */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "code" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = code;
+			productInstallPath = "$(HOME)/bin";
+			productName = code;
+			productReference = 8DD76F6C0486A84900D96B5E /* code */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "code" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* code */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BBFE3CF60F50D4420057C027 /* Products */;
+					ProjectRef = BBFE3CF50F50D4420057C027 /* retroApple.xcodeproj */;
+				},
+				{
+					ProductGroup = BBA0C23F0F4FD4AA00184CE2 /* Products */;
+					ProjectRef = BBA0C23E0F4FD4AA00184CE2 /* retroBase.xcodeproj */;
+				},
+				{
+					ProductGroup = BBFE3B120F50CEBD0057C027 /* Products */;
+					ProjectRef = BBFE3B110F50CEBD0057C027 /* retroBeatnik.xcodeproj */;
+				},
+				{
+					ProductGroup = BBFE3DE20F50D54D0057C027 /* Products */;
+					ProjectRef = BBFE3DE10F50D54D0057C027 /* retroG711.xcodeproj */;
+				},
+				{
+					ProductGroup = BBFE44690F50F6C50057C027 /* Products */;
+					ProjectRef = BBFE44680F50F6C50057C027 /* retroMpeg.xcodeproj */;
+				},
+				{
+					ProductGroup = BBFE3E400F50D6D30057C027 /* Products */;
+					ProjectRef = BBFE3E3F0F50D6D30057C027 /* retroPanasonic.xcodeproj */;
+				},
+				{
+					ProductGroup = BBFE40CC0F50F15B0057C027 /* Products */;
+					ProjectRef = BBFE40CB0F50F15B0057C027 /* retroQualcomm.xcodeproj */;
+				},
+				{
+					ProductGroup = BBFE3F8D0F50DA610057C027 /* Products */;
+					ProjectRef = BBFE3F8C0F50DA610057C027 /* retroWave.xcodeproj */;
+				},
+				{
+					ProductGroup = BBFE386B0F50ACBF0057C027 /* Products */;
+					ProjectRef = BBFE386A0F50ACBF0057C027 /* retroYamaha.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* code */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		BBA0C2460F4FD4AA00184CE2 /* libretroBase.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libretroBase.dylib;
+			remoteRef = BBA0C2450F4FD4AA00184CE2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BBFE38720F50ACBF0057C027 /* libretroYamaha.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libretroYamaha.dylib;
+			remoteRef = BBFE38710F50ACBF0057C027 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BBFE3B190F50CEBD0057C027 /* libretroBeatnik.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libretroBeatnik.dylib;
+			remoteRef = BBFE3B180F50CEBD0057C027 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BBFE3CFD0F50D4420057C027 /* libretroApple.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libretroApple.dylib;
+			remoteRef = BBFE3CFC0F50D4420057C027 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BBFE3DE60F50D54D0057C027 /* libretroG711.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libretroG711.dylib;
+			remoteRef = BBFE3DE50F50D54D0057C027 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BBFE3E470F50D6D30057C027 /* libretroPanasonic.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libretroPanasonic.dylib;
+			remoteRef = BBFE3E460F50D6D30057C027 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BBFE3F910F50DA610057C027 /* libretroWave.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libretroWave.dylib;
+			remoteRef = BBFE3F900F50DA610057C027 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BBFE40D00F50F15B0057C027 /* libretroQualcomm.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libretroQualcomm.dylib;
+			remoteRef = BBFE40CF0F50F15B0057C027 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BBFE44700F50F6C50057C027 /* libretroMpeg.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libretroMpeg.dylib;
+			remoteRef = BBFE446F0F50F6C50057C027 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCA5FE50F4FD2D8006824DE /* RateConverter.cpp in Sources */,
+				BBCA5FE60F4FD2D8006824DE /* code.cpp in Sources */,
+				BBCA5FE70F4FD2D8006824DE /* Fade.cpp in Sources */,
+				BBCA5FE80F4FD2D8006824DE /* Loop.cpp in Sources */,
+				BBCA5FE90F4FD2D8006824DE /* ExtNormalizer.cpp in Sources */,
+				BBCA5FEA0F4FD2D8006824DE /* Crop.cpp in Sources */,
+				BBCA5FEB0F4FD2D8006824DE /* Ringback.cpp in Sources */,
+				BBCA5FEC0F4FD2D8006824DE /* stdafx.cpp in Sources */,
+				BBCA5FED0F4FD2D8006824DE /* Process.cpp in Sources */,
+				BBCA5FEE0F4FD2D8006824DE /* PeakLimiter.cpp in Sources */,
+				BBCA5FEF0F4FD2D8006824DE /* Normalizer.cpp in Sources */,
+				BBCA5FF10F4FD2D8006824DE /* Filter.cpp in Sources */,
+				BBCA5FF20F4FD2D8006824DE /* ChannelConverter.cpp in Sources */,
+				BBCA5FF30F4FD2D8006824DE /* ButterWorth.cpp in Sources */,
+				BBCA5FF40F4FD2D8006824DE /* EightToSixteenBit.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/code.dst/usr/local;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				INSTALL_PATH = /bin;
+				LD_RUNPATH_SEARCH_PATHS = "$(DSTROOT)/usr/local/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../retroBase/build/Debug\"",
+				);
+				OTHER_CFLAGS = "-DRETROCODEC_LIB_PATH=\\\"$(DSTROOT)/usr/local/libexec/Retro/codecs\\\"";
+				PRODUCT_NAME = code;
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /usr/local;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../retroBase/build/Debug\"",
+				);
+				OTHER_CFLAGS = "-DRETROCODEC_LIB_PATH=\\\"$(DSTROOT)/libexec/Retro/codecs\\\"";
+				PRODUCT_NAME = code;
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = "$(DSTROOT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /usr/local/bin;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DCODEC_LIB_PATH=\"$(DSTROOT)/usr/local/libexec/Retro/codecs\"";
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /usr/local;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /bin;
+				OTHER_CFLAGS = "-DRETROCODEC_LIB_PATH=\"$(DSTROOT)/libexec/Retro/codecs\"";
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "code" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "code" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
